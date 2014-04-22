@@ -1,0 +1,8696 @@
+﻿1
+00:01:00,060 --> 00:01:01,930
+DJANGO
+
+2
+00:01:01,965 --> 00:01:04,300
+DJANGO DESENCADENADO
+
+3
+00:03:40,500 --> 00:03:44,340
+Dos años antes de la Guerra Civil...
+
+4
+00:03:45,780 --> 00:03:49,333
+...en algún lugar de Texas.
+
+5
+00:04:18,832 --> 00:04:21,595
+¿Quién está deambulando
+en la oscuridad?
+
+6
+00:04:22,221 --> 00:04:25,806
+¡Diga qué quiere
+o prepárese para una bienvenida!
+
+7
+00:04:26,233 --> 00:04:30,605
+Cálmense caballeros,
+no tengo malas intenciones.
+
+8
+00:04:31,488 --> 00:04:35,173
+Soy simplemente
+un hombre cansado viajando.
+
+9
+00:04:37,541 --> 00:04:39,327
+Buenas y frías noches, caballeros...
+
+10
+00:04:39,408 --> 00:04:41,977
+...estoy buscando
+un par de traficantes de esclavos...
+
+11
+00:04:41,985 --> 00:04:43,736
+...que llevan el nombre
+de los hermanos Speck.
+
+12
+00:04:43,923 --> 00:04:45,610
+¿Tal vez podrían ser ustedes?
+
+13
+00:04:46,723 --> 00:04:48,166
+¿Quién quiere saberlo?
+
+14
+00:04:48,237 --> 00:04:49,716
+Bueno, yo.
+
+15
+00:04:49,754 --> 00:04:52,634
+Soy el Dr. King Schultz.
+Este es mi caballo, Fritz.
+
+16
+00:04:53,451 --> 00:04:55,251
+¿Qué clase de Doctor?
+
+17
+00:04:55,685 --> 00:04:56,698
+Dentista.
+
+18
+00:04:56,957 --> 00:04:58,487
+Ahora,
+¿son ustedes los hermanos Speck...
+
+19
+00:04:58,496 --> 00:05:01,299
+...que compraron esos hombres en
+una subasta de esclavos en Greenville?
+
+20
+00:05:01,302 --> 00:05:02,302
+¿Y qué?
+
+21
+00:05:02,303 --> 00:05:04,335
+Entonces quisiera
+parlamentar con ustedes.
+
+22
+00:05:04,337 --> 00:05:05,426
+Hable en inglés.
+
+23
+00:05:05,620 --> 00:05:07,430
+Lo siento.
+
+24
+00:05:07,759 --> 00:05:10,031
+Por favor, discúlpenme,
+este es mi segundo idioma.
+
+25
+00:05:10,156 --> 00:05:13,653
+Dentro de su inventario,
+me han informado...
+
+26
+00:05:13,662 --> 00:05:15,706
+...que hay un ejemplar
+que estoy interesado en adquirir.
+
+27
+00:05:16,136 --> 00:05:18,180
+¡Hola, pobres diablos!
+
+28
+00:05:18,818 --> 00:05:24,818
+¿Entre ustedes hay alguien que fue
+habitante de la Plantación Carrucan?
+
+29
+00:05:25,815 --> 00:05:28,815
+Yo soy de la Plantación Carrucan.
+
+30
+00:05:29,557 --> 00:05:31,322
+¿Quién dijo eso?
+
+31
+00:06:18,227 --> 00:06:19,998
+¿Cuál es tu nombre?
+
+32
+00:06:23,951 --> 00:06:25,511
+Django.
+
+33
+00:06:26,004 --> 00:06:28,704
+Eres exactamente
+a quien estoy buscando.
+
+34
+00:06:30,426 --> 00:06:32,720
+¿Conoces a los hermanos Brittle?
+
+35
+00:06:36,575 --> 00:06:38,184
+¿Quiénes son?
+
+36
+00:06:39,645 --> 00:06:41,736
+Big John...
+
+37
+00:06:42,159 --> 00:06:44,025
+...Ellis...
+
+38
+00:06:44,719 --> 00:06:48,630
+...y Roger, que a veces
+lo llaman Little Rush.
+
+39
+00:06:50,006 --> 00:06:52,269
+Eran capataces
+en la Plantación Carrucan.
+
+40
+00:06:52,477 --> 00:06:53,597
+Ya no lo son.
+
+41
+00:06:56,857 --> 00:06:57,977
+Dime...
+
+42
+00:06:58,425 --> 00:07:02,392
+...si los llegaras a ver de nuevo,
+¿los reconocerías?
+
+43
+00:07:02,471 --> 00:07:03,591
+¡Oiga!
+
+44
+00:07:04,254 --> 00:07:05,590
+Deje de hablarle así.
+
+45
+00:07:05,894 --> 00:07:06,935
+¿Cómo?
+
+46
+00:07:07,083 --> 00:07:08,169
+¡Así!
+
+47
+00:07:08,311 --> 00:07:11,113
+Mi buen hombre, sólo estoy
+tratando de cerciorarme--
+
+48
+00:07:11,136 --> 00:07:12,777
+Hable inglés, maldita sea.
+
+49
+00:07:12,903 --> 00:07:15,182
+Cálmense todos...
+
+50
+00:07:15,196 --> 00:07:19,204
+...sólo soy un simple cliente
+tratando de hacer una transacción.
+
+51
+00:07:19,251 --> 00:07:21,076
+No me interesa.
+No está a la venta.
+
+52
+00:07:21,108 --> 00:07:22,139
+¡Ahora, váyase!
+
+53
+00:07:22,191 --> 00:07:25,561
+No sea ridículo,
+claro que están en venta.
+
+54
+00:07:25,734 --> 00:07:27,294
+Lárguese.
+
+55
+00:07:27,575 --> 00:07:32,782
+Mi buen amigo, ¿podría simplemente
+dejar a un lado ese gesto dramático...
+
+56
+00:07:32,783 --> 00:07:36,728
+...o me está apuntando con su arma
+con verdaderas intenciones de matarme?
+
+57
+00:07:37,530 --> 00:07:39,930
+Última advertencia, pantaloncitos.
+
+58
+00:07:40,796 --> 00:07:42,825
+Muy bien.
+
+59
+00:08:12,202 --> 00:08:14,514
+Lamento haberle
+disparado a su caballo...
+
+60
+00:08:14,533 --> 00:08:16,655
+...pero no quería
+que hiciera algo precipitado...
+
+61
+00:08:16,670 --> 00:08:19,229
+...antes de que tuviera
+un momento para recapacitar.
+
+62
+00:08:19,626 --> 00:08:22,319
+¡Maldito hijo de perra!
+
+63
+00:08:22,569 --> 00:08:24,616
+¡Le disparó a Roscoe!
+
+64
+00:08:25,816 --> 00:08:27,011
+¡Y mató a Ace!
+
+65
+00:08:27,144 --> 00:08:30,274
+Le disparé a su hermano
+después de que amenazara con dispararme.
+
+66
+00:08:30,290 --> 00:08:32,336
+Y creo que tengo...
+
+67
+00:08:32,348 --> 00:08:33,490
+...uno, dos, tres, cuatro...
+
+68
+00:08:33,491 --> 00:08:36,591
+...cinco testigos,
+que pueden dar fe de ese hecho.
+
+69
+00:08:36,657 --> 00:08:38,462
+¡Me rompió la pierna, maldita sea!
+
+70
+00:08:38,540 --> 00:08:42,326
+Sin dudas. Ahora, si pudiera
+dejar de gritar por un minuto...
+
+71
+00:08:42,342 --> 00:08:45,406
+...me gustaría terminar
+mi averiguación con el joven Django.
+
+72
+00:08:49,685 --> 00:08:51,651
+¡Cielos, maldito sea!
+
+73
+00:08:51,667 --> 00:08:53,260
+Como decía...
+
+74
+00:08:53,286 --> 00:08:57,127
+...si los llegaras a ver de nuevo,
+¿podrías reconocerlos?
+
+75
+00:08:57,725 --> 00:08:58,925
+Si.
+
+76
+00:08:59,466 --> 00:09:01,940
+¡Esclavo vendido!
+Entonces, Sr. Speck...
+
+77
+00:09:02,144 --> 00:09:04,948
+...¿en cuánto vende al joven Django?
+
+78
+00:09:10,268 --> 00:09:12,668
+Esto es bastante denigrante.
+
+79
+00:09:18,489 --> 00:09:20,622
+¿Podrías sostener esto un momento?
+
+80
+00:09:22,457 --> 00:09:25,411
+Gracias.
+Django, sube a ese caballo.
+
+81
+00:09:26,221 --> 00:09:32,211
+Y si fuera tú, agarraría el abrigo
+que deja el difunto Sr. Speck.
+
+82
+00:09:45,997 --> 00:09:49,731
+Negro, no te atrevas a tocar
+el abrigo de mi hermano.
+
+83
+00:10:01,431 --> 00:10:03,366
+¡Maldita sea!
+
+84
+00:10:07,547 --> 00:10:10,490
+110...
+
+85
+00:10:11,267 --> 00:10:14,835
+...25...
+
+86
+00:10:15,765 --> 00:10:17,085
+...por el joven Django.
+
+87
+00:10:17,169 --> 00:10:21,997
+Y como no lo necesitará más, me gustaría
+comprar el jamelgo de su hermano.
+
+88
+00:10:22,582 --> 00:10:27,446
+Además, Sr. Speck, como soy desconfiado
+necesitaré un comprobante.
+
+89
+00:10:27,592 --> 00:10:28,941
+¿Tiene uno?
+
+90
+00:10:29,683 --> 00:10:31,792
+¡Vete al infierno, dentista!
+
+91
+00:10:32,954 --> 00:10:34,194
+No lo creo.
+
+92
+00:10:34,795 --> 00:10:36,425
+No se preocupe.
+
+93
+00:10:36,563 --> 00:10:38,074
+Vine preparado.
+
+94
+00:10:42,848 --> 00:10:44,248
+Gracias.
+
+95
+00:10:44,377 --> 00:10:48,406
+Esto servirá perfectamente
+como un comprobante de venta.
+
+96
+00:11:05,415 --> 00:11:08,420
+Ahora en cuanto a ustedes,
+pobres diablos...
+
+97
+00:11:09,366 --> 00:11:14,184
+...como yo lo veo, en lo que respecta
+a qué harán a continuación...
+
+98
+00:11:14,269 --> 00:11:17,329
+...tienen dos opciones.
+
+99
+00:11:17,413 --> 00:11:22,629
+Una: una vez que me retire,
+pueden ayudar al Sr. Speck...
+
+100
+00:11:22,646 --> 00:11:24,530
+...y llevarlo al pueblo más cercano.
+
+101
+00:11:24,613 --> 00:11:28,277
+Que está al menos
+a unos 60 kilómetros de donde vienen.
+
+102
+00:11:28,425 --> 00:11:30,243
+O dos:
+
+103
+00:11:30,486 --> 00:11:32,601
+...pueden desatarse ustedes mismos...
+
+104
+00:11:32,811 --> 00:11:37,152
+...tomar el rifle, asesinarlo,
+enterrar a ambos muy profundo...
+
+105
+00:11:37,207 --> 00:11:40,567
+...y luego mudarse
+a una ciudad más liberal de este país.
+
+106
+00:11:41,485 --> 00:11:42,825
+Es su elección.
+
+107
+00:11:42,899 --> 00:11:47,679
+Y en caso que haya algún aficionado
+a la astronomía entre ustedes...
+
+108
+00:11:47,694 --> 00:11:50,366
+...la estrella del norte es esa.
+
+109
+00:12:09,931 --> 00:12:13,811
+Esperen un minuto, amigos,
+hablemos de esto.
+
+110
+00:12:17,531 --> 00:12:20,997
+Hay que ser razonables
+en una situación como esta.
+
+111
+00:12:22,240 --> 00:12:25,774
+¡No soy un mal tipo,
+sólo hago mi trabajo!
+
+112
+00:12:25,821 --> 00:12:29,231
+Blueberry,
+¿no te di mi última manzana?
+
+113
+00:12:29,683 --> 00:12:34,654
+Escúchenme, muchachos, llévenme
+a Little Duck en El Paso y los liberaré.
+
+114
+00:12:34,801 --> 00:12:36,621
+No. No, por favor.
+
+115
+00:13:24,013 --> 00:13:28,032
+Muy bien,
+tomarás dos de estas en la noche...
+
+116
+00:13:28,045 --> 00:13:30,015
+...y luego en la mañana--
+
+117
+00:13:32,016 --> 00:13:33,460
+¿Es un negro a caballo?
+
+118
+00:13:59,489 --> 00:14:01,451
+¿Por qué todos se quedan mirándonos?
+
+119
+00:14:01,569 --> 00:14:04,569
+Nunca habían visto
+a un negro a caballo antes.
+
+120
+00:14:27,365 --> 00:14:29,278
+¡Buenos días, tabernero!
+
+121
+00:14:30,946 --> 00:14:33,090
+Dos cervezas
+para dos viajeros agotados.
+
+122
+00:14:33,512 --> 00:14:35,385
+Es un poco temprano aún.
+
+123
+00:14:35,442 --> 00:14:37,619
+No abriremos hasta dentro de una hora.
+
+124
+00:14:38,073 --> 00:14:40,023
+Para entonces,
+estaremos sirviendo el desayuno.
+
+125
+00:14:43,248 --> 00:14:45,113
+¿Qué demonios crees que hace, amigo?
+
+126
+00:14:45,487 --> 00:14:47,471
+¡Saca a ese negro de aquí!
+
+127
+00:14:52,037 --> 00:14:54,262
+<i>¡Ayuda! ¡Ayuda!</i>
+
+128
+00:14:54,264 --> 00:14:55,280
+¡Tabernero!
+
+129
+00:14:55,285 --> 00:14:58,853
+Recuerde buscar al Comisario,
+no al Alguacil.
+
+130
+00:15:00,706 --> 00:15:02,106
+Al fin.
+
+131
+00:15:03,397 --> 00:15:06,397
+Ahora debemos ser
+nuestro propio camarero.
+
+132
+00:15:08,610 --> 00:15:10,010
+Siéntate, hijo.
+
+133
+00:15:19,932 --> 00:15:22,332
+¿Qué clase de dentista eres?
+
+134
+00:15:23,940 --> 00:15:28,126
+A pesar de tener esa carreta,
+no he practicado en cinco años.
+
+135
+00:15:32,787 --> 00:15:35,747
+En estos días,
+tengo una nueva profesión.
+
+136
+00:15:38,342 --> 00:15:40,441
+Cazarrecompensas.
+
+137
+00:15:46,380 --> 00:15:49,719
+- ¿Sabes lo que es?
+- No.
+
+138
+00:15:49,810 --> 00:15:50,930
+Bueno...
+
+139
+00:15:52,646 --> 00:15:56,675
+Así como la esclavitud
+intercambia humanos por efectivo...
+
+140
+00:15:56,939 --> 00:15:59,038
+...un cazarrecompensas
+lo hace con cadáveres.
+
+141
+00:16:05,668 --> 00:16:06,788
+Salud.
+
+142
+00:16:15,397 --> 00:16:17,961
+El Estado ofrece una recompensa
+por la cabeza de un hombre...
+
+143
+00:16:18,070 --> 00:16:21,302
+...yo lo persigo, lo encuentro
+y lo mato...
+
+144
+00:16:21,363 --> 00:16:25,642
+...luego de haberlo matado,
+llevo el cuerpo a las autoridades...
+
+145
+00:16:25,682 --> 00:16:27,860
+...y a veces
+es más fácil decirlo que hacerlo...
+
+146
+00:16:27,959 --> 00:16:30,769
+...les muestro el cadáver,
+para probar, efectivamente...
+
+147
+00:16:30,784 --> 00:16:35,391
+...que en verdad lo he matado,
+por lo cual me pagan la recompensa.
+
+148
+00:16:35,836 --> 00:16:39,695
+Así, como la esclavitud,
+es un negocio de carne por efectivo.
+
+149
+00:16:40,922 --> 00:16:42,482
+¿Qué es una recompensa?
+
+150
+00:16:45,738 --> 00:16:47,538
+Es como un premio.
+
+151
+00:16:47,828 --> 00:16:50,828
+¿Matas gente y te dan un premio?
+
+152
+00:16:51,119 --> 00:16:52,919
+A cierta gente, sí.
+
+153
+00:16:53,082 --> 00:16:54,082
+¿Gente mala?
+
+154
+00:16:55,464 --> 00:16:57,331
+¡Mientras más malos sean,
+más grande será la recompensa!
+
+155
+00:16:58,518 --> 00:16:59,968
+Lo cual me trae a ti.
+
+156
+00:17:00,798 --> 00:17:04,030
+Y debo admitir que no sé qué hacer
+cuando se trata de ti.
+
+157
+00:17:05,452 --> 00:17:07,442
+Por un lado, desprecio la esclavitud.
+
+158
+00:17:07,788 --> 00:17:09,520
+Por el otro...
+
+159
+00:17:10,042 --> 00:17:13,844
+...necesito tu ayuda, y mejor
+si no estás en posición de rechazarlo.
+
+160
+00:17:15,251 --> 00:17:19,607
+Por ahora, haré que estas bobadas
+de la esclavitud funcionen para mí.
+
+161
+00:17:20,561 --> 00:17:23,472
+Aun así, habiendo dicho eso...
+
+162
+00:17:23,868 --> 00:17:25,868
+...me siento culpable.
+
+163
+00:17:26,847 --> 00:17:28,252
+Entonces...
+
+164
+00:17:28,565 --> 00:17:32,393
+...me gustaría
+que lleguemos a un acuerdo.
+
+165
+00:17:39,333 --> 00:17:41,846
+Estoy buscando a los Hermanos Brittle.
+
+166
+00:17:45,866 --> 00:17:49,621
+Sin embargo, llegando a este punto,
+estoy un poco en desventaja...
+
+167
+00:17:49,833 --> 00:17:52,049
+...debido a que
+no sé qué aspecto tienen.
+
+168
+00:17:53,734 --> 00:17:56,232
+Pero tú sí, ¿verdad?
+
+169
+00:17:56,765 --> 00:17:58,866
+Sé qué aspecto tienen, ¿de acuerdo?
+
+170
+00:17:59,008 --> 00:18:00,008
+Bien.
+
+171
+00:18:00,573 --> 00:18:01,905
+Este es mi trato.
+
+172
+00:18:02,851 --> 00:18:04,874
+Viajas conmigo
+hasta que los encontremos.
+
+173
+00:18:04,908 --> 00:18:05,952
+¿Adónde vamos?
+
+174
+00:18:06,505 --> 00:18:10,210
+Sé que al menos dos de ellos fueron
+vistos en Gatlinburg, pero no sé dónde.
+
+175
+00:18:11,244 --> 00:18:15,921
+Visitaremos todos los sembrados allí,
+hasta que los encontremos.
+
+176
+00:18:16,086 --> 00:18:17,591
+Y cuando lo hagamos...
+
+177
+00:18:18,273 --> 00:18:20,833
+...¡tú los señalas y yo los mato!
+
+178
+00:18:22,260 --> 00:18:25,713
+Si lo haces, te doy la libertad...
+
+179
+00:18:25,816 --> 00:18:30,080
+...25 dólares por cada hermano Brittle,
+son 75 dólares...
+
+180
+00:18:30,104 --> 00:18:34,281
+...y, como si fuera a propósito,
+aquí viene el alguacil.
+
+181
+00:18:41,374 --> 00:18:44,819
+De acuerdo, chicos,
+se terminó la diversión.
+
+182
+00:18:45,873 --> 00:18:47,699
+Salgan.
+
+183
+00:18:50,401 --> 00:18:54,258
+Bueno, amigos, con calma.
+
+184
+00:18:55,063 --> 00:18:56,883
+Cada quien atienda lo suyo.
+
+185
+00:18:57,998 --> 00:19:00,054
+Los chistosos se irán pronto.
+
+186
+00:19:02,029 --> 00:19:03,034
+Ahora...
+
+187
+00:19:03,383 --> 00:19:07,302
+...¿por qué vienen a mi pueblo
+a ocasionar problemas...
+
+188
+00:19:07,578 --> 00:19:10,724
+...y asustar a esta buena gente?
+
+189
+00:19:12,209 --> 00:19:14,847
+¿No tienen nada mejor que hacer...
+
+190
+00:19:14,969 --> 00:19:18,495
+...que venir al pueblo de Bill Sharp...
+
+191
+00:19:18,496 --> 00:19:21,236
+...y mostrar sus traseros?
+
+192
+00:19:29,401 --> 00:19:31,297
+¿Qué le hicieron a nuestro comisario?
+
+193
+00:19:44,369 --> 00:19:46,382
+Ahora sí
+puedes buscar al alguacil.
+
+194
+00:19:48,069 --> 00:19:50,265
+<i>¡Alguacil, alguacil!</i>
+
+195
+00:19:50,411 --> 00:19:51,740
+¿Esperamos adentro?
+
+196
+00:19:51,831 --> 00:19:53,019
+¿No podemos irnos?
+
+197
+00:19:53,066 --> 00:19:54,449
+Después de ti.
+
+198
+00:19:56,426 --> 00:20:00,658
+¡Muevan ese carro por la calle
+hasta la taberna!
+
+199
+00:20:01,006 --> 00:20:03,006
+Quiero seis hombres armados detrás.
+
+200
+00:20:04,079 --> 00:20:06,334
+Quiero dos hombres armados
+en este techo...
+
+201
+00:20:06,354 --> 00:20:07,994
+...y dos hombres en ese techo.
+
+202
+00:20:08,667 --> 00:20:11,055
+Todos los cañones
+apuntando a la puerta principal.
+
+203
+00:20:12,173 --> 00:20:14,998
+Alguien que saque al pobre Bill
+de la maldita calle.
+
+204
+00:20:15,938 --> 00:20:17,452
+¡Usted, el de la taberna!
+
+205
+00:20:18,627 --> 00:20:21,351
+¡Tenemos cientos de rifles
+apuntando a cada salida del edificio!
+
+206
+00:20:22,515 --> 00:20:25,137
+¡Tiene una oportunidad
+de salir vivo de esta!
+
+207
+00:20:26,393 --> 00:20:29,163
+Usted y el negro, salgan ahora mismo
+con las manos sobre la cabeza...
+
+208
+00:20:29,164 --> 00:20:30,347
+...¡y digo ahora mismo!
+
+209
+00:20:32,266 --> 00:20:35,734
+¿Tengo el placer de dirigirme
+al Alguacil Federal?
+
+210
+00:20:36,125 --> 00:20:37,336
+Así es.
+
+211
+00:20:37,812 --> 00:20:39,856
+Soy el Alguacil Federal Gill Tatum.
+
+212
+00:20:40,229 --> 00:20:42,192
+Maravilloso, Alguacil.
+
+213
+00:20:42,927 --> 00:20:46,299
+Me he liberado de todas las armas...
+
+214
+00:20:46,880 --> 00:20:49,448
+...y, como acaba de ordenar...
+
+215
+00:20:49,722 --> 00:20:52,399
+...estoy listo para salir afuera...
+
+216
+00:20:52,509 --> 00:20:56,407
+...con mis manos sobre la cabeza.
+
+217
+00:20:57,797 --> 00:20:58,800
+Confío en que...
+
+218
+00:20:58,896 --> 00:21:03,818
+...como representante del sistema
+de justicia criminal de los EEUU...
+
+219
+00:21:03,881 --> 00:21:06,641
+...que no me dispararán en la calle...
+
+220
+00:21:07,076 --> 00:21:09,833
+...por usted o sus delegados...
+
+221
+00:21:09,943 --> 00:21:12,474
+...antes de ser juzgado en la corte.
+
+222
+00:21:13,054 --> 00:21:14,776
+¿Se refiere a como lo hizo
+con nuestro comisario?
+
+223
+00:21:15,179 --> 00:21:17,278
+¡Dispararle como un perro en la calle!
+
+224
+00:21:17,318 --> 00:21:19,675
+¡Sí, exactamente a eso me refiero!
+
+225
+00:21:19,754 --> 00:21:21,847
+¿Tengo su palabra como hombre de ley...
+
+226
+00:21:21,923 --> 00:21:25,058
+...que no me disparará
+como un perro en la calle?
+
+227
+00:21:28,670 --> 00:21:32,190
+Bueno, aunque todos
+disfrutaríamos de ver algo así...
+
+228
+00:21:32,191 --> 00:21:35,083
+...nadie va a reemplazar
+al verdugo en mi pueblo.
+
+229
+00:21:36,353 --> 00:21:38,753
+Me parece justo, alguacil,
+¡aquí vamos!
+
+230
+00:21:41,233 --> 00:21:43,333
+Están algo nerviosos allí afuera.
+
+231
+00:21:43,404 --> 00:21:47,292
+Así que no hagas movimientos bruscos
+y déjame hablar a mí.
+
+232
+00:21:48,527 --> 00:21:49,946
+Salgan.
+
+233
+00:21:57,119 --> 00:21:58,218
+¿Están desarmados?
+
+234
+00:21:58,233 --> 00:21:59,593
+Sí, así es.
+
+235
+00:22:00,702 --> 00:22:04,159
+Alguacil Tatum, ¿puedo explicarle
+a usted y a sus delegados...
+
+236
+00:22:04,160 --> 00:22:06,618
+...y, aparentemente,
+a todo el pueblo de Daughtrey...
+
+237
+00:22:06,625 --> 00:22:09,142
+...el incidente que acaba de ocurrir?
+
+238
+00:22:10,278 --> 00:22:11,278
+Continúe.
+
+239
+00:22:12,989 --> 00:22:15,167
+Soy el Dr. King Schultz...
+
+240
+00:22:15,178 --> 00:22:18,274
+...y al igual que usted, alguacil,
+soy un sirviente de la corte.
+
+241
+00:22:18,618 --> 00:22:20,418
+El hombre que yace en la tierra...
+
+242
+00:22:20,779 --> 00:22:24,225
+...que la buena gente de Daughtrey
+ha elegido como su comisario...
+
+243
+00:22:24,421 --> 00:22:26,341
+...que era conocido
+por el nombre de Bill Sharp...
+
+244
+00:22:26,373 --> 00:22:30,831
+...en realidad, es un bandido buscado
+por el nombre de Willard Peck...
+
+245
+00:22:30,958 --> 00:22:33,588
+...con un precio de 200 dólares
+por su cabeza.
+
+246
+00:22:33,784 --> 00:22:36,533
+Son 200 dólares, vivo o muerto.
+
+247
+00:22:36,991 --> 00:22:38,553
+¿De qué rayos habla?
+
+248
+00:22:38,998 --> 00:22:42,488
+Estoy consciente de que estas noticias
+tal vez sean desconcertantes.
+
+249
+00:22:42,781 --> 00:22:46,021
+Pero estoy dispuesto a apostar
+que este hombre fue electo alguacil...
+
+250
+00:22:46,214 --> 00:22:48,513
+...en el correr de los últimos dos años.
+
+251
+00:22:50,552 --> 00:22:52,917
+Lo sé porque hace tres años...
+
+252
+00:22:52,972 --> 00:22:57,868
+...estaba robando ganado de la compañía
+B.C. Corrigan en Lubbock, Texas.
+
+253
+00:22:58,181 --> 00:23:00,875
+Esta es una orden judicial...
+
+254
+00:23:01,018 --> 00:23:07,018
+...emitida por el juez de corte
+Henry Allen Laudermilk de Austin, Texas.
+
+255
+00:23:07,920 --> 00:23:09,433
+Le ruego que le telegrafíe.
+
+256
+00:23:09,614 --> 00:23:14,539
+Le confirmará quién soy yo y quién era
+su recién fallecido alguacil.
+
+257
+00:23:22,855 --> 00:23:24,355
+En otras palabras, alguacil...
+
+258
+00:23:24,926 --> 00:23:26,425
+...me debe 200 dólares.
+
+259
+00:23:35,631 --> 00:23:36,871
+Que el diablo me lleve.
+
+260
+00:24:05,016 --> 00:24:10,648
+Una vez terminado este turbio negocio
+serás un hombre libre.
+
+261
+00:24:10,828 --> 00:24:15,038
+Con un caballo
+y 75 dólares en el bolsillo.
+
+262
+00:24:17,099 --> 00:24:18,899
+¿Cuál es tu plan después de eso?
+
+263
+00:24:20,823 --> 00:24:22,328
+Hallar a mi esposa...
+
+264
+00:24:23,251 --> 00:24:24,672
+...y comprar su libertad.
+
+265
+00:24:26,857 --> 00:24:28,108
+¡Django!
+
+266
+00:24:29,198 --> 00:24:31,425
+No sabía que estabas casado.
+
+267
+00:24:32,502 --> 00:24:34,533
+¿Los esclavos creen en el matrimonio?
+
+268
+00:24:36,043 --> 00:24:37,493
+Mi esposa y yo sí.
+
+269
+00:24:38,439 --> 00:24:40,408
+Los hombres de Carrucan también,
+y fue por eso...
+
+270
+00:24:41,492 --> 00:24:42,647
+...que huimos.
+
+271
+00:24:43,950 --> 00:24:45,350
+Django.
+
+272
+00:24:46,150 --> 00:24:48,245
+Django, Django.
+
+273
+00:24:48,729 --> 00:24:50,863
+Tienes coraje, Django.
+
+274
+00:24:52,243 --> 00:24:53,789
+El chico tiene coraje.
+
+275
+00:24:56,032 --> 00:24:59,022
+No me sirven los negros con coraje.
+
+276
+00:25:00,866 --> 00:25:03,785
+Quiero que le pongas
+la marca de fugitivo, en la mejilla.
+
+277
+00:25:04,674 --> 00:25:06,674
+Y a la chica también.
+
+278
+00:25:07,624 --> 00:25:10,535
+Y quiero que los lleves
+al remate de Greenville...
+
+279
+00:25:10,919 --> 00:25:12,379
+...y los vendas.
+
+280
+00:25:13,044 --> 00:25:14,444
+A ambos.
+
+281
+00:25:15,300 --> 00:25:16,700
+Por separado.
+
+282
+00:25:19,587 --> 00:25:21,407
+Y a este...
+
+283
+00:25:23,390 --> 00:25:25,757
+...lo vendes barato.
+
+284
+00:25:28,030 --> 00:25:29,622
+¿En Greenville?
+
+285
+00:25:32,399 --> 00:25:35,107
+Debe haber alguna oficina de registros.
+
+286
+00:25:42,559 --> 00:25:44,094
+Sabes cuándo fue vendida...
+
+287
+00:25:46,170 --> 00:25:48,010
+...de dónde vino...
+
+288
+00:25:49,360 --> 00:25:51,035
+...y sabes su nombre.
+
+289
+00:25:51,851 --> 00:25:53,308
+¿Cómo se llama?
+
+290
+00:25:53,903 --> 00:25:55,015
+Broomhilda.
+
+291
+00:25:56,622 --> 00:25:57,622
+¿Cómo?
+
+292
+00:25:57,964 --> 00:25:59,524
+Broom... hilda.
+
+293
+00:26:00,337 --> 00:26:01,813
+¿Broomhilda?
+
+294
+00:26:04,345 --> 00:26:05,756
+¿Sus dueños eran alemanes?
+
+295
+00:26:06,101 --> 00:26:07,366
+Sí, ¿cómo lo sabe?
+
+296
+00:26:08,173 --> 00:26:11,345
+No nació en la plantación Carrucan.
+Su ama, que la crió, era alemana.
+
+297
+00:26:11,395 --> 00:26:12,540
+Von Shaft.
+
+298
+00:26:12,627 --> 00:26:13,987
+Incluso habla un poco de alemán.
+
+299
+00:26:14,496 --> 00:26:16,224
+¿Tu esposa?
+
+300
+00:26:16,532 --> 00:26:20,193
+Cuando era pequeña, su ama le enseñó
+para tener con quién hablar alemán.
+
+301
+00:26:21,777 --> 00:26:23,696
+A ver si entiendo.
+
+302
+00:26:24,557 --> 00:26:29,144
+¿Tu esposa esclava habla alemán
+y se llama Broomhilda Von Shaft?
+
+303
+00:26:29,259 --> 00:26:30,259
+Sí.
+
+304
+00:26:34,504 --> 00:26:36,199
+Me llaman Hildi.
+
+305
+00:26:53,834 --> 00:26:56,730
+Cuando lleguemos a estas plantaciones...
+
+306
+00:26:57,285 --> 00:26:59,636
+...haremos una representación.
+
+307
+00:27:00,830 --> 00:27:03,487
+Tú harás un personaje.
+
+308
+00:27:12,611 --> 00:27:13,611
+¿No?
+
+309
+00:27:20,930 --> 00:27:24,724
+Pero mientras estemos actuando,
+no debes salirte de tu personaje.
+
+310
+00:27:26,412 --> 00:27:27,909
+¿Entiendes?
+
+311
+00:27:28,496 --> 00:27:31,017
+Sí.
+No debo salirme del personaje.
+
+312
+00:27:33,538 --> 00:27:37,075
+Tu personaje será el de un valet.
+
+313
+00:27:37,974 --> 00:27:39,374
+¿Y eso qué es?
+
+314
+00:27:40,601 --> 00:27:42,701
+Es una forma elegante
+de decir sirviente.
+
+315
+00:27:43,116 --> 00:27:44,678
+Valet.
+
+316
+00:27:45,926 --> 00:27:50,150
+Y ahora, Django, debes elegir
+el disfraz de tu personaje.
+
+317
+00:27:52,620 --> 00:27:54,477
+¿Vas a dejarme elegir mi propia ropa?
+
+318
+00:27:54,665 --> 00:27:56,711
+¡Por supuesto!
+
+319
+00:28:29,928 --> 00:28:33,640
+Es contra la ley que los negros
+monten a caballo en este territorio.
+
+320
+00:28:33,907 --> 00:28:37,076
+Este es mi valet,
+y mi valet no camina.
+
+321
+00:28:37,290 --> 00:28:39,803
+Dije que nada de negros a caballo--
+
+322
+00:28:39,811 --> 00:28:44,226
+Su nombre es Django, es un hombre libre,
+y puede montar lo que quiera.
+
+323
+00:28:44,298 --> 00:28:47,866
+No en mi propiedad.
+Y no frente a mis negros.
+
+324
+00:28:48,497 --> 00:28:50,143
+Mi buen señor...
+
+325
+00:28:51,138 --> 00:28:53,178
+...creo que comenzamos con mal pie.
+
+326
+00:28:53,600 --> 00:28:55,949
+Permítame comenzar de nuevo.
+
+327
+00:28:56,223 --> 00:28:59,871
+Soy el doctor King Schultz,
+este es mi valet Django...
+
+328
+00:29:00,098 --> 00:29:02,670
+...y estos son nuestros caballos,
+Tony y Fritz.
+
+329
+00:29:06,385 --> 00:29:07,385
+Señor Bennett...
+
+330
+00:29:07,703 --> 00:29:12,367
+...me han contado que es usted
+un caballero y un hombre de negocios.
+
+331
+00:29:12,656 --> 00:29:15,653
+Y es por ello que hemos
+venido desde Texas...
+
+332
+00:29:15,669 --> 00:29:17,836
+...a Tennessee para
+parlamentar con usted.
+
+333
+00:29:19,064 --> 00:29:22,917
+Quiero comprar una de sus chicas negras.
+
+334
+00:29:24,722 --> 00:29:29,766
+¿Vinieron desde Texas a Tennessee
+para comprar una de mis chicas negras?
+
+335
+00:29:29,923 --> 00:29:31,873
+¿Sin pedir una cita, ni nada?
+
+336
+00:29:32,084 --> 00:29:33,686
+Me temo que sí.
+
+337
+00:29:34,153 --> 00:29:38,276
+¿Qué tal si le digo que no me agrada
+ni usted ni su negro elegante...
+
+338
+00:29:38,393 --> 00:29:40,359
+...y que no le vendería un cuerno?
+
+339
+00:29:41,103 --> 00:29:42,828
+¿Qué opina de eso?
+
+340
+00:29:46,146 --> 00:29:47,364
+Señor Bennett...
+
+341
+00:29:48,473 --> 00:29:51,669
+...si es usted el hombre de negocios
+que me han dicho que es...
+
+342
+00:29:51,839 --> 00:29:56,469
+...podría decirle cinco mil cosas
+que le harían cambiar de opinión.
+
+343
+00:30:00,973 --> 00:30:04,465
+¡Pues entre y sírvase
+algo fresco para beber!
+
+344
+00:30:18,885 --> 00:30:21,039
+Quizá,
+mientras hablamos de negocios...
+
+345
+00:30:21,046 --> 00:30:23,476
+...podría pedirle a una de sus
+hermosas criaturas negras...
+
+346
+00:30:23,483 --> 00:30:26,402
+...que le muestre a Django
+sus magníficas tierras.
+
+347
+00:30:26,541 --> 00:30:28,784
+¡Absolutamente! ¡Betina!
+
+348
+00:30:28,839 --> 00:30:29,855
+¿Sí, señor, Big Daddy?
+
+349
+00:30:29,875 --> 00:30:32,193
+¿Cómo es que se llama su sirviente?
+
+350
+00:30:32,469 --> 00:30:34,029
+- Django.
+- Django.
+
+351
+00:30:34,132 --> 00:30:36,707
+Betina, cariño,
+¿podrías llevar a Django...
+
+352
+00:30:36,715 --> 00:30:39,926
+...a dar una vuelta por la plantación
+y mostrarle todas las cosas bonitas?
+
+353
+00:30:40,067 --> 00:30:41,387
+Como usted diga, Big Daddy.
+
+354
+00:30:41,438 --> 00:30:42,558
+Señor Bennett...
+
+355
+00:30:42,982 --> 00:30:47,798
+...le recuerdo que Django es un hombre
+libre. No debe ser tratado como esclavo.
+
+356
+00:30:47,907 --> 00:30:51,532
+Dentro de los límites del buen gusto,
+debe ser tratado como si fuera yo.
+
+357
+00:30:51,880 --> 00:30:54,691
+- Entendido, Schultz. ¿Betina, cariño?
+- ¿Sí, señor?
+
+358
+00:30:54,757 --> 00:30:56,787
+Django no es un esclavo.
+
+359
+00:30:57,350 --> 00:30:59,724
+Django es un hombre libre. ¿Comprendes?
+
+360
+00:31:00,853 --> 00:31:03,376
+No puedes tratarle
+como a los demás negros de por aquí...
+
+361
+00:31:03,389 --> 00:31:06,207
+...porque no es como los demás
+negros de por aquí. ¿Comprendido?
+
+362
+00:31:06,398 --> 00:31:09,216
+¿Quiere que lo trate como a un blanco?
+
+363
+00:31:09,251 --> 00:31:10,251
+No.
+
+364
+00:31:10,953 --> 00:31:12,254
+Eso no es lo que dije.
+
+365
+00:31:12,495 --> 00:31:14,891
+Entonces no sé qué quiere,
+Big Daddy.
+
+366
+00:31:15,496 --> 00:31:17,704
+Sí, me doy cuenta.
+
+367
+00:31:20,216 --> 00:31:24,074
+¿Cuál es el nombre de ese pobre chico
+de la ciudad que trabaja con vidrio?
+
+368
+00:31:24,707 --> 00:31:26,666
+Su madre trabaja
+en el almacén de maderas.
+
+369
+00:31:27,007 --> 00:31:28,127
+Se refiere a Jerry.
+
+370
+00:31:28,220 --> 00:31:29,913
+¡Ese es el nombre del chico, Jerry!
+
+371
+00:31:29,998 --> 00:31:31,374
+Conoces a Jerry, ¿no cariño?
+
+372
+00:31:31,423 --> 00:31:32,686
+Sí, Big Daddy.
+
+373
+00:31:33,069 --> 00:31:34,561
+Bien, ahí está entonces.
+
+374
+00:31:34,833 --> 00:31:37,362
+Debes tratarlos
+como lo harías con Jerry.
+
+375
+00:31:44,471 --> 00:31:47,359
+La casa que acabamos de dejar,
+es la casa grande.
+
+376
+00:31:47,617 --> 00:31:50,417
+Big Daddy la llama así
+porque es grande.
+
+377
+00:31:51,576 --> 00:31:53,816
+La de ahí es la despensa.
+
+378
+00:31:53,996 --> 00:31:56,798
+Ahí es donde Big Daddy
+guarda la carne muerta.
+
+379
+00:31:57,687 --> 00:31:59,662
+Pobres pequeñas ardillas.
+
+380
+00:32:01,371 --> 00:32:03,771
+¿Qué es lo que haces para tu amo?
+
+381
+00:32:04,154 --> 00:32:05,840
+¿No le oíste decir
+que ya no soy un esclavo?
+
+382
+00:32:05,929 --> 00:32:07,105
+¿Así que realmente eres libre?
+
+383
+00:32:07,152 --> 00:32:08,352
+Sí. Soy libre.
+
+384
+00:32:08,469 --> 00:32:10,869
+¿Quieres decir
+que te vistes así porque quieres?
+
+385
+00:32:12,897 --> 00:32:14,074
+Betina, tengo que preguntarte algo.
+
+386
+00:32:14,230 --> 00:32:15,332
+¿Qué quieres?
+
+387
+00:32:15,353 --> 00:32:17,012
+Estoy buscando a tres hombres blancos.
+
+388
+00:32:17,329 --> 00:32:20,311
+Tres hermanos, capataces.
+De apellido Brittle. ¿Los conoces?
+
+389
+00:32:20,312 --> 00:32:21,312
+¿Los Brittle?
+
+390
+00:32:21,313 --> 00:32:23,676
+Sí, Brittle.
+John Brittle, Ellis Brittle...
+
+391
+00:32:24,100 --> 00:32:26,637
+...Roger Brittle.
+A veces lo llaman Little Raj.
+
+392
+00:32:26,950 --> 00:32:28,199
+No los conozco.
+
+393
+00:32:29,133 --> 00:32:30,795
+Podrían estar usando
+un nombre diferente.
+
+394
+00:32:31,029 --> 00:32:33,300
+Quizá habrían llegado a la plantación
+el año pasado.
+
+395
+00:32:33,538 --> 00:32:35,029
+¿Te refieres a los Shaffer?
+
+396
+00:32:35,207 --> 00:32:37,157
+Quizá. ¿Tres hermanos?
+
+397
+00:32:38,483 --> 00:32:40,392
+¿Están aquí?
+
+398
+00:32:40,618 --> 00:32:42,231
+¿Podrías señalarme a uno de ellos?
+
+399
+00:32:42,448 --> 00:32:44,836
+Bueno, uno de ellos está en ese campo.
+
+400
+00:32:58,744 --> 00:33:01,155
+Al viejo Carrucan
+no le va a gustar esto, ella... ella...
+
+401
+00:33:01,169 --> 00:33:03,159
+...ella trabaja en la casa, John,
+podrías destrozarle la piel...
+
+402
+00:33:03,166 --> 00:33:04,557
+...y vas a hacerlo,
+y ella no va a valer...
+
+403
+00:33:04,558 --> 00:33:06,080
+...ella no va a valer nada.
+
+404
+00:33:06,101 --> 00:33:07,309
+Ahora, como dice la biblia...
+
+405
+00:33:12,792 --> 00:33:15,016
+Mira, te lo dije,
+yo fui el que la mandó a hacer eso.
+
+406
+00:33:15,259 --> 00:33:16,469
+¿Estás listo?
+
+407
+00:33:16,553 --> 00:33:18,764
+Ella es la que huyó conmigo,
+y si alguien debería ser azotado...
+
+408
+00:33:18,780 --> 00:33:22,199
+...¡debería ser yo! Debo ser yo, John,
+¡he estado aquí más tiempo, me conoces!
+
+409
+00:33:22,207 --> 00:33:23,814
+¡Me conoces desde hace mucho!
+
+410
+00:33:33,250 --> 00:33:35,411
+¡Sabes que el maestro Carrucan
+no va a agradarle esto!
+
+411
+00:33:35,451 --> 00:33:37,271
+¡Ella es una esclava de la casa!
+
+412
+00:33:41,261 --> 00:33:44,696
+<i># Buscando libertad #</i>
+
+413
+00:33:45,290 --> 00:33:49,280
+<i># Buscando libertad #</i>
+
+414
+00:34:00,818 --> 00:34:01,938
+Por favor, por favor.
+
+415
+00:34:01,972 --> 00:34:04,594
+¿No es lo que querías?
+¿Qué no luche por los otros? ¡Por favor!
+
+416
+00:34:09,921 --> 00:34:11,921
+De rodillas, John.
+
+417
+00:34:11,947 --> 00:34:14,225
+Me gusta como ruegas, chico.
+
+418
+00:34:17,741 --> 00:34:19,716
+¿Es ese al que buscas?
+
+419
+00:34:21,892 --> 00:34:22,892
+Sí.
+
+420
+00:34:24,246 --> 00:34:25,525
+¿En dónde están los otros dos?
+
+421
+00:34:25,710 --> 00:34:29,321
+Están en el establo, castigando
+a la pequeña Jody por romper huevos.
+
+422
+00:34:29,680 --> 00:34:31,248
+¿Están azotando a Little Jody?
+
+423
+00:34:31,851 --> 00:34:33,651
+Muéstrame dónde es.
+
+424
+00:34:34,322 --> 00:34:37,176
+Vas hacia ese árbol
+y sigues ese camino.
+
+425
+00:34:42,276 --> 00:34:44,676
+Ve a buscar al hombre blanco
+con el que vine.
+
+426
+00:34:46,018 --> 00:34:48,331
+Vamos ya.
+¡Vamos niña!
+
+427
+00:34:48,796 --> 00:34:51,716
+¡Déjame prepararte!
+
+428
+00:34:51,778 --> 00:34:54,283
+Y el Señor dijo: el miedo...
+
+429
+00:34:55,524 --> 00:34:57,358
+...y el temor...
+
+430
+00:34:57,499 --> 00:34:59,903
+...estarán sobre toda bestia
+en la tierra.
+
+431
+00:35:01,098 --> 00:35:04,354
+¡Dame ese brazo!
+Mejor es que me des ese brazo...
+
+432
+00:35:04,363 --> 00:35:06,486
+...¡más te vale que me des ese brazo!
+
+433
+00:35:23,037 --> 00:35:24,566
+¡Ya está lista!
+
+434
+00:35:38,713 --> 00:35:43,093
+Y después de esto,
+veremos si rompes huevos otra vez.
+
+435
+00:35:46,268 --> 00:35:47,828
+¡John Brittle!
+
+436
+00:36:08,969 --> 00:36:10,529
+¿Me recuerdas?
+
+437
+00:36:22,613 --> 00:36:25,013
+¡Me gusta la forma en la que mueres,
+muchacho!
+
+438
+00:36:30,430 --> 00:36:33,032
+¡Maldito hijo de perra!
+
+439
+00:37:18,011 --> 00:37:19,594
+¿Quieren ver algo?
+
+440
+00:37:22,431 --> 00:37:23,551
+¡No!
+
+441
+00:37:34,861 --> 00:37:36,283
+¿Quiénes son ellos?
+
+442
+00:37:37,098 --> 00:37:39,720
+Ese es Big John,
+y ese es Little Raj.
+
+443
+00:37:40,223 --> 00:37:41,252
+¿Y dónde está Ellis?
+
+444
+00:37:41,813 --> 00:37:44,217
+Es el que huye a toda velocidad
+por ese campo.
+
+445
+00:37:49,155 --> 00:37:50,418
+- ¿Seguro que es él?
+- Sí.
+
+446
+00:37:50,735 --> 00:37:52,402
+- ¿Positivamente?
+- No lo sé.
+
+447
+00:37:52,793 --> 00:37:55,033
+- ¿No lo sabes positivamente?
+- No sé qué significa positivamente.
+
+448
+00:37:55,035 --> 00:37:56,073
+Significa si estás seguro.
+
+449
+00:37:56,099 --> 00:37:57,206
+- Sí.
+- ¿Sí, qué?
+
+450
+00:37:57,261 --> 00:37:58,822
+Sí, estoy seguro que es Ellis Brittle.
+
+451
+00:38:12,104 --> 00:38:13,924
+Positivamente está muerto.
+
+452
+00:38:18,894 --> 00:38:19,917
+¡Django!
+
+453
+00:38:21,694 --> 00:38:24,105
+Todo el mundo cálmese...
+
+454
+00:38:24,220 --> 00:38:26,496
+...queremos decir
+que nadie más saldrá herido.
+
+455
+00:38:26,553 --> 00:38:28,292
+¿Quiénes son estos dos payasos?
+
+456
+00:38:28,500 --> 00:38:31,271
+Soy el Dr. King Schultz,
+representante legal...
+
+457
+00:38:31,279 --> 00:38:34,675
+...del sistema de justicia criminal
+de los Estados Unidos de América...
+
+458
+00:38:34,683 --> 00:38:38,338
+...el hombre a mi izquierda
+es Django Freeman, mi delegado.
+
+459
+00:38:38,966 --> 00:38:41,030
+En mi bolsillo hay una orden...
+
+460
+00:38:41,045 --> 00:38:45,448
+...firmada por el juez de la corte Henry
+Allen Laudermilk de Austin, Texas...
+
+461
+00:38:45,573 --> 00:38:50,120
+...por el arresto y captura,
+vivos o muertos, de...
+
+462
+00:38:50,362 --> 00:38:54,599
+...John Brittle, Roger Brittle
+y Ellis Brittle.
+
+463
+00:38:54,805 --> 00:38:57,013
+Los conocían por el apellido Shaffer.
+
+464
+00:38:58,183 --> 00:39:02,214
+Conocidos como Shaffer, en verdad
+estos carniceros se apellidan Brittle.
+
+465
+00:39:02,531 --> 00:39:05,989
+Son hombres buscados.
+La ley los busca por asesinato.
+
+466
+00:39:06,051 --> 00:39:10,395
+Ahora reitero,
+la orden establece vivos o muertos...
+
+467
+00:39:10,442 --> 00:39:13,705
+...así que cuando el Sr. Freeman y yo
+ejecutamos a estos hombres...
+
+468
+00:39:13,822 --> 00:39:17,241
+...estábamos operando
+dentro de nuestros límites legales.
+
+469
+00:39:18,142 --> 00:39:19,772
+Me doy cuenta...
+
+470
+00:39:20,015 --> 00:39:22,768
+...los ánimos están caldeados...
+
+471
+00:39:22,911 --> 00:39:24,963
+...pero debo advertirles...
+
+472
+00:39:25,103 --> 00:39:28,336
+...que la pena por atacar
+a un oficial de la corte...
+
+473
+00:39:28,353 --> 00:39:30,389
+...en el cumplimiento de su deber, es...
+
+474
+00:39:30,901 --> 00:39:33,055
+...ser colgado hasta morir.
+
+475
+00:39:36,761 --> 00:39:41,266
+¿Podría retirar la orden de mi bolsillo
+para que así pueda examinarla?
+
+476
+00:39:43,391 --> 00:39:44,951
+Démela.
+
+477
+00:40:01,096 --> 00:40:02,421
+¿Satisfecho?
+
+478
+00:40:09,104 --> 00:40:10,904
+¿Podría devolvérmela, por favor?
+
+479
+00:40:16,710 --> 00:40:17,825
+Váyanse de mis tierras.
+
+480
+00:40:18,372 --> 00:40:19,492
+A toda prisa.
+
+481
+00:40:20,556 --> 00:40:23,655
+Carga los cuerpos tan rápido
+como puedas...
+
+482
+00:40:23,660 --> 00:40:25,328
+...y salgamos de aquí.
+
+483
+00:40:50,473 --> 00:40:51,593
+¡Sí!
+
+484
+00:40:52,258 --> 00:40:54,185
+Son ellos, hijos de puta.
+
+485
+00:41:50,529 --> 00:41:54,321
+A menos que ellos disparen primero,
+nadie les dispara.
+
+486
+00:41:55,374 --> 00:41:57,663
+Eso sería muy simple para esos idiotas.
+
+487
+00:41:57,893 --> 00:42:00,444
+Vamos a masacrar
+a ese amante de negros.
+
+488
+00:42:00,834 --> 00:42:05,316
+Y yo mismo, personalmente,
+voy a destripar a ese maldito negro.
+
+489
+00:42:09,650 --> 00:42:10,770
+¡Maldición!
+
+490
+00:42:12,195 --> 00:42:14,826
+No puedo ver una mierda con esta cosa.
+
+491
+00:42:15,565 --> 00:42:16,991
+¿Estamos listos o qué?
+
+492
+00:42:17,069 --> 00:42:20,090
+Esperen, estoy jodido
+con estos agujeros para los ojos.
+
+493
+00:42:21,357 --> 00:42:22,357
+Mierda.
+
+494
+00:42:22,836 --> 00:42:24,620
+Solo lo empeoré.
+
+495
+00:42:24,755 --> 00:42:26,755
+¿Quién hizo estas malditas mierdas?
+
+496
+00:42:26,840 --> 00:42:27,840
+La esposa de Willard.
+
+497
+00:42:27,850 --> 00:42:29,785
+Bueno,
+¡hagan sus propias malditas máscaras!
+
+498
+00:42:29,852 --> 00:42:33,701
+Miren, nadie dice
+que no apreciemos lo que hizo Jenny.
+
+499
+00:42:33,733 --> 00:42:36,264
+Bueno, si todo lo que hay que hacer
+es cortar unos agujeros en una bolsa...
+
+500
+00:42:36,439 --> 00:42:38,225
+...yo pude haberlos cortado
+mejor que esto.
+
+501
+00:42:38,305 --> 00:42:40,705
+¿Qué tal tú Robert?
+¿Puedes ver?
+
+502
+00:42:41,112 --> 00:42:42,523
+No muy bien.
+
+503
+00:42:42,703 --> 00:42:46,985
+Me refiero a que, si no muevo la cabeza,
+los puedo ver muy bien, más o menos.
+
+504
+00:42:47,079 --> 00:42:49,378
+Pero cuando empiezo a cabalgar,
+la máscara se mueve toda...
+
+505
+00:42:49,388 --> 00:42:50,951
+...y cabalgo a ciegas.
+
+506
+00:42:50,961 --> 00:42:52,177
+¡Mierda!
+
+507
+00:42:53,362 --> 00:42:55,216
+Acabo de empeorar la mía.
+
+508
+00:42:57,152 --> 00:42:58,782
+¿Alguien trajo una bolsa extra?
+
+509
+00:42:58,783 --> 00:43:01,952
+¡No, nadie trajo una bolsa extra!
+
+510
+00:43:02,152 --> 00:43:03,698
+Sólo estoy preguntando.
+
+511
+00:43:03,847 --> 00:43:05,696
+¿Tenemos que usarlas
+mientras cabalgamos?
+
+512
+00:43:05,812 --> 00:43:07,329
+¡Claro que sí, carajo!
+
+513
+00:43:07,386 --> 00:43:10,430
+Si no las usan mientras cabalgan,
+solo contradice el propósito.
+
+514
+00:43:10,446 --> 00:43:12,295
+¡Bueno, no puedo ver
+con esta maldita cosa!
+
+515
+00:43:12,387 --> 00:43:14,081
+¡No puedo respirar
+con esta maldita cosa!
+
+516
+00:43:14,091 --> 00:43:15,509
+¡Y no puedo cabalgar
+con esta maldita cosa!
+
+517
+00:43:15,519 --> 00:43:17,519
+¡Bueno, váyanse todos a la mierda!
+¡Me voy a casa!
+
+518
+00:43:18,075 --> 00:43:20,244
+He visto trabajar a mi esposa
+todo el día...
+
+519
+00:43:20,307 --> 00:43:22,550
+...preparando treinta bolsas
+para que estén listas para ustedes...
+
+520
+00:43:22,560 --> 00:43:24,180
+...hijos de puta desagradecidos...
+
+521
+00:43:24,190 --> 00:43:27,789
+...y todo lo que escucho son
+¡quejas, quejas y quejas!
+
+522
+00:43:28,000 --> 00:43:31,484
+A partir de ahora,
+no me pidan nada de nada.
+
+523
+00:43:32,552 --> 00:43:33,672
+Ahora, miren.
+
+524
+00:43:33,876 --> 00:43:35,557
+No olvidemos por qué estamos aquí.
+
+525
+00:43:35,635 --> 00:43:38,390
+Vamos a matar al negro
+que está detrás de esa colina.
+
+526
+00:43:38,898 --> 00:43:40,390
+Y vamos a darles una lección.
+
+527
+00:43:40,424 --> 00:43:41,719
+Bien, estoy confundido.
+
+528
+00:43:41,837 --> 00:43:43,541
+¿Usamos las máscaras o no?
+
+529
+00:43:44,518 --> 00:43:49,476
+Yo creo, todos creemos,
+que las bolsas fueron una buena idea.
+
+530
+00:43:49,504 --> 00:43:50,507
+- Sí.
+- Sí.
+
+531
+00:43:50,547 --> 00:43:54,583
+Pero, sin acusar a nadie,
+podrían haberlas hecho mejor.
+
+532
+00:43:55,756 --> 00:43:58,831
+Así que,
+¿qué tal si no las usamos esta vez...
+
+533
+00:43:59,473 --> 00:44:02,210
+...pero para la próxima,
+hacemos bien las bolsas...
+
+534
+00:44:02,220 --> 00:44:05,805
+...y vamos con las vestiduras completas?
+
+535
+00:44:05,810 --> 00:44:06,810
+Me voy a quitar mi bolsa.
+
+536
+00:44:06,820 --> 00:44:07,958
+¡Esperen un minuto!
+
+537
+00:44:08,333 --> 00:44:09,802
+Yo no dije que no usaran las bolsas.
+
+538
+00:44:10,348 --> 00:44:12,148
+Pero nadie puede ver.
+
+539
+00:44:12,656 --> 00:44:13,656
+¿Y?
+
+540
+00:44:13,732 --> 00:44:15,864
+Que sería bueno poder ver.
+
+541
+00:44:16,064 --> 00:44:18,341
+¡Maldita sea!
+¡Esto es una redada!
+
+542
+00:44:18,646 --> 00:44:21,542
+Yo no puedo ver,
+ustedes no pueden ver, ¿y qué?
+
+543
+00:44:21,873 --> 00:44:24,112
+¡Lo único que importa es
+que el maldito caballo pueda ver!
+
+544
+00:44:24,544 --> 00:44:25,592
+¡Eso es una redada!
+
+545
+00:44:29,792 --> 00:44:30,912
+¡Dónde está la mierda esa!
+
+546
+00:44:31,958 --> 00:44:33,078
+¡Ahí está!
+
+547
+00:44:33,096 --> 00:44:35,690
+Saquen a ese negro
+de abajo de la carreta.
+
+548
+00:44:36,161 --> 00:44:38,244
+¡Y saquen a ese amante de negros
+de adentro de la carreta!
+
+549
+00:44:38,399 --> 00:44:39,541
+¡El negro no está aquí abajo!
+
+550
+00:44:39,596 --> 00:44:40,716
+- Se fueron.
+- ¿Qué?
+
+551
+00:44:40,773 --> 00:44:42,484
+- ¡Nos engañaron!
+- Entonces, ¿dónde están?
+
+552
+00:44:43,196 --> 00:44:44,196
+Adiós con ustedes.
+
+553
+00:44:51,894 --> 00:44:53,694
+Tiro perfecto.
+
+554
+00:44:56,276 --> 00:44:57,396
+¡Míralos cómo corren!
+
+555
+00:45:02,531 --> 00:45:04,263
+Los cobardes tienden a hacer eso.
+
+556
+00:45:12,665 --> 00:45:15,754
+¡Maldita sea!
+
+557
+00:45:18,617 --> 00:45:19,810
+¿Te importaría?
+
+558
+00:45:27,031 --> 00:45:28,812
+¡No puedo ver una mierda con esta cosa!
+
+559
+00:45:29,640 --> 00:45:30,669
+Se está alejando.
+
+560
+00:45:30,719 --> 00:45:31,719
+Lo tengo.
+
+561
+00:45:33,729 --> 00:45:35,317
+Big Daddy se está yendo.
+
+562
+00:45:35,364 --> 00:45:36,924
+Lo tengo.
+
+563
+00:45:51,941 --> 00:45:53,016
+Le di.
+
+564
+00:45:59,006 --> 00:46:00,605
+¡El chico tiene talento natural!
+
+565
+00:46:11,681 --> 00:46:14,681
+¿Cómo sabías que el primer amo
+de Broomhilda era Alemán?
+
+566
+00:46:15,619 --> 00:46:17,148
+Broomhilda es un nombre Alemán.
+
+567
+00:46:17,773 --> 00:46:20,390
+Si ellos le dieron su nombre,
+es lógico pensar que serían alemanes.
+
+568
+00:46:20,888 --> 00:46:23,081
+¿Muchas chicas se llaman Broomhilda
+de donde tú vienes?
+
+569
+00:46:23,768 --> 00:46:26,761
+Broomhilda es el nombre
+de un personaje...
+
+570
+00:46:26,911 --> 00:46:30,377
+...en la más popular
+de todas las leyendas Alemanas.
+
+571
+00:46:31,073 --> 00:46:33,023
+¿Hay una historia sobre Broomhilda?
+
+572
+00:46:33,169 --> 00:46:34,328
+Sí, la hay.
+
+573
+00:46:40,982 --> 00:46:42,263
+¿La sabes?
+
+574
+00:46:42,410 --> 00:46:44,185
+Todo alemán conoce esa historia.
+
+575
+00:46:50,794 --> 00:46:52,686
+¿Te gustaría que te la contara?
+
+576
+00:46:53,822 --> 00:46:55,064
+¡Bueno!
+
+577
+00:46:55,849 --> 00:46:59,479
+Broomhilda era una princesa.
+
+578
+00:47:01,370 --> 00:47:06,156
+Era la hija de Wotan,
+el dios de todos los dioses.
+
+579
+00:47:06,583 --> 00:47:09,909
+Como sea, su padre
+estaba realmente molesto con ella.
+
+580
+00:47:10,008 --> 00:47:11,568
+¿Qué hizo ella?
+
+581
+00:47:12,511 --> 00:47:16,159
+No puedo recordar exactamente.
+Creo que le desobedeció de algún modo.
+
+582
+00:47:16,860 --> 00:47:20,162
+Así que la puso
+en la cima de la montaña.
+
+583
+00:47:20,343 --> 00:47:21,973
+¿Broomhilda está sobre una montaña?
+
+584
+00:47:22,033 --> 00:47:25,457
+Es una leyenda alemana, siempre
+va a haber una montaña, en algún lado.
+
+585
+00:47:25,981 --> 00:47:29,978
+Y puso un dragón que lanzaba fuego allí,
+para resguardar la montaña.
+
+586
+00:47:31,952 --> 00:47:34,168
+Y él la rodeó...
+
+587
+00:47:34,721 --> 00:47:37,457
+...en un círculo de fuego infernal.
+
+588
+00:47:38,545 --> 00:47:43,237
+Y allí, Broomhilda permanecería...
+
+589
+00:47:43,965 --> 00:47:49,635
+...a menos que surgiera un héroe
+suficientemente valiente para salvarla.
+
+590
+00:47:50,764 --> 00:47:52,214
+¿Surgió algún tipo?
+
+591
+00:47:52,330 --> 00:47:55,136
+Sí, Django.
+De hecho, sí.
+
+592
+00:47:55,473 --> 00:47:57,681
+Un tipo llamado Sigfried.
+
+593
+00:47:58,135 --> 00:47:59,935
+¿Sigfried la salvó?
+
+594
+00:48:01,610 --> 00:48:03,850
+Espectacularmente, sí.
+
+595
+00:48:05,045 --> 00:48:09,574
+Él escaló la montaña,
+porque no le tenía miedo.
+
+596
+00:48:09,847 --> 00:48:13,641
+Mató al dragón,
+porque no le tenía miedo.
+
+597
+00:48:14,165 --> 00:48:16,803
+Y caminó a través del fuego infernal...
+
+598
+00:48:18,773 --> 00:48:21,467
+...porque Broomhilda lo valía.
+
+599
+00:48:25,371 --> 00:48:27,171
+Sé cómo se sentía él.
+
+600
+00:48:28,593 --> 00:48:31,593
+Creo que estoy empezando
+a darme cuenta de eso.
+
+601
+00:48:37,023 --> 00:48:41,166
+Ahora.
+Mira, Django.
+
+602
+00:48:44,049 --> 00:48:48,007
+No dudo que alguna vez
+salvarás a tu amada.
+
+603
+00:48:49,138 --> 00:48:52,526
+Pero no puedo dejarte ir a Greenville,
+de eso soy consciente.
+
+604
+00:48:54,070 --> 00:48:58,020
+Una subasta de esclavos en Mississippi
+no es un lugar para que tú lo visites.
+
+605
+00:48:58,534 --> 00:49:00,716
+Libre o no, es muy peligroso.
+
+606
+00:49:04,377 --> 00:49:06,577
+Pero, déjame hacerte una pregunta.
+
+607
+00:49:14,000 --> 00:49:16,000
+¿Qué te parece el negocio de cazarrecompensas?
+
+608
+00:49:17,500 --> 00:49:19,500
+¿Matar blancos y que te paguen por eso?
+
+609
+00:49:20,883 --> 00:49:22,655
+¿Por qué no habría de gustarme?
+
+610
+00:49:22,815 --> 00:49:25,229
+Debo admitirlo,
+hacemos un buen equipo.
+
+611
+00:49:25,389 --> 00:49:28,133
+¿No te enojaste porque maté
+a Big John y a Little Raj?
+
+612
+00:49:28,226 --> 00:49:33,029
+Sí, fuiste demasiado entusiasta,
+pero, en general, eso es algo bueno.
+
+613
+00:49:33,423 --> 00:49:35,627
+¿Te interesaría acompañarme
+durante el invierno?
+
+614
+00:49:35,830 --> 00:49:37,630
+¿A qué te refieres?
+
+615
+00:49:38,172 --> 00:49:42,542
+A que trabajemos juntos
+hasta que la nieve se derrita.
+
+616
+00:49:42,702 --> 00:49:45,143
+Te daré un tercio de las recompensas.
+
+617
+00:49:46,465 --> 00:49:50,399
+Haremos dinero durante el invierno,
+y cuando la nieve se derrita...
+
+618
+00:49:50,885 --> 00:49:53,548
+...yo mismo
+te llevaré a Greenville...
+
+619
+00:49:53,708 --> 00:49:57,117
+...y averiguaremos
+dónde está tu esposa.
+
+620
+00:50:00,966 --> 00:50:03,217
+¿Por qué te interesa
+lo que me suceda?
+
+621
+00:50:04,173 --> 00:50:06,695
+¿Por qué te interesa
+que encuentre a mi esposa?
+
+622
+00:50:06,855 --> 00:50:08,083
+Honestamente...
+
+623
+00:50:09,442 --> 00:50:12,312
+...nunca le había dado
+a nadie su libertad.
+
+624
+00:50:12,367 --> 00:50:16,708
+Y ahora que lo he hecho,
+me siento un poco responsable por ti.
+
+625
+00:50:17,246 --> 00:50:21,617
+Además, cuando un alemán conoce
+a un Sigfried real, es algo importante.
+
+626
+00:50:23,529 --> 00:50:26,146
+Como alemán,
+estoy obligado a ayudarte...
+
+627
+00:50:26,306 --> 00:50:29,880
+...en tu aventura para rescatar
+a tu amada Broomhilda.
+
+628
+00:52:46,617 --> 00:52:50,958
+¿Qué pasó con "quiero dispararle
+a blancos por dinero"?
+
+629
+00:52:51,639 --> 00:52:53,083
+Está con su hijo.
+
+630
+00:52:53,243 --> 00:52:56,160
+Bien. Tendrá a un ser querido
+junto a él.
+
+631
+00:52:56,320 --> 00:52:59,001
+Quizás incluso
+tenga unas últimas palabras.
+
+632
+00:53:00,644 --> 00:53:02,808
+Es más de lo que la mayoría recibe...
+
+633
+00:53:02,968 --> 00:53:05,428
+...y mucho más de lo que merece.
+
+634
+00:53:13,495 --> 00:53:15,176
+Baja el rifle.
+
+635
+00:53:17,616 --> 00:53:19,657
+Descuida, no estoy enojado.
+
+636
+00:53:20,342 --> 00:53:23,065
+Saquemos el folleto de Smitty Bacall.
+
+637
+00:53:26,363 --> 00:53:28,282
+Léelo en voz alta.
+
+638
+00:53:28,793 --> 00:53:31,108
+Considéralo la lección de hoy.
+
+639
+00:53:33,015 --> 00:53:36,152
+"Se busca, vivo o muerto.
+
+640
+00:53:36,860 --> 00:53:39,898
+Smitty Bacall y su...
+
+641
+00:53:41,293 --> 00:53:42,740
+...pandilla...
+
+642
+00:53:43,300 --> 00:53:46,927
+...por asesinato
+y robo de diligen--
+
+643
+00:53:48,312 --> 00:53:49,842
+"Diligencias".
+
+644
+00:53:50,002 --> 00:53:52,519
+- "Siete, cero, cero, ce--
+- "Siete mil".
+
+645
+00:53:52,679 --> 00:53:54,499
+- "Siete--
+- "Mil".
+
+646
+00:53:54,827 --> 00:53:58,720
+"Siete mil dólares por Smitty Bacall.
+
+647
+00:53:58,880 --> 00:54:03,826
+1.500 por cada miembro de su...
+
+648
+00:54:03,986 --> 00:54:05,936
+...pan--
+
+649
+00:54:07,374 --> 00:54:08,944
+- "Pandilla".
+- "Pandilla".
+
+650
+00:54:09,302 --> 00:54:11,189
+"Los miembros conocidos...
+
+651
+00:54:11,349 --> 00:54:14,306
+...de la pandilla de Smitty Bacall
+son los 'siguiendos' ".
+
+652
+00:54:14,466 --> 00:54:16,331
+- "Siguientes".
+- "Siguientes".
+
+653
+00:54:16,637 --> 00:54:20,039
+"Dandy Michaels, Gerald Nash y--
+
+654
+00:54:21,376 --> 00:54:23,157
+El Loco Craig Koons.
+
+655
+00:54:24,158 --> 00:54:26,508
+Eso es lo que Smitty Bacall es.
+
+656
+00:54:27,044 --> 00:54:29,698
+Si Smitty Bacall hubiese querido
+tener una granja a los 22...
+
+657
+00:54:29,858 --> 00:54:32,233
+...no habrían impreso esto.
+
+658
+00:54:32,393 --> 00:54:35,750
+Pero Smitty Bacall
+quería robar diligencias...
+
+659
+00:54:35,910 --> 00:54:38,311
+...y no le importaba
+matar para lograrlo.
+
+660
+00:54:39,090 --> 00:54:42,274
+¿Quieres salvar a tu esposa
+haciendo lo que yo hago?
+
+661
+00:54:43,645 --> 00:54:45,248
+Esto es lo que yo hago.
+
+662
+00:54:45,408 --> 00:54:48,653
+Mato personas
+y luego vendo sus cadáveres.
+
+663
+00:54:49,642 --> 00:54:53,160
+Este cadáver vale 7.000 dólares.
+
+664
+00:54:53,475 --> 00:54:56,277
+Ahora deja de quejarte
+y dispárale.
+
+665
+00:55:05,932 --> 00:55:07,407
+¿Papá?
+
+666
+00:55:07,567 --> 00:55:09,112
+¡Papá!
+
+667
+00:55:17,353 --> 00:55:18,648
+Toma.
+
+668
+00:55:18,999 --> 00:55:21,267
+Quédate con el folleto
+de Smitty Bacall.
+
+669
+00:55:21,427 --> 00:55:23,637
+- ¿Por qué?
+- Es de buena suerte.
+
+670
+00:55:23,797 --> 00:55:27,228
+Siempre hay que quedarse con el folleto
+de la primera recompensa.
+
+671
+00:56:14,221 --> 00:56:15,916
+Eso es precisión.
+
+672
+00:57:24,212 --> 00:57:27,382
+Doctor, Django, ¿cómo están?
+
+673
+00:57:28,366 --> 00:57:30,369
+¿A quiénes traen allí?
+
+674
+00:57:30,529 --> 00:57:32,694
+La pandilla Wilson-Lowe.
+
+675
+00:57:32,954 --> 00:57:35,758
+¿Cuál demonios
+es la pandilla Wilson-Lowe?
+
+676
+00:57:36,413 --> 00:57:41,119
+El malo Chuck Wilson y el aún peor
+Bobby Lowe, y tres de sus acólitos.
+
+677
+00:57:42,426 --> 00:57:44,914
+Déjenlos afuera,
+no se irán a ninguna parte.
+
+678
+00:57:45,174 --> 00:57:48,955
+Salgan de la nieve
+y les serviré café.
+
+679
+00:57:49,401 --> 00:57:52,172
+Ayer festejamos un cumpleaños,
+todavía queda torta.
+
+680
+00:57:52,600 --> 00:57:54,351
+Está muy buena.
+
+681
+00:58:03,598 --> 00:58:06,548
+Luego de un invierno
+muy frío y muy lucrativo...
+
+682
+00:58:06,708 --> 00:58:09,908
+...Django y el Dr. Schultz
+bajaron de las montañas...
+
+683
+00:58:10,068 --> 00:58:12,650
+...y se dirigieron a...
+
+684
+00:58:15,974 --> 00:58:17,589
+¡Muévanse!
+
+685
+00:58:23,545 --> 00:58:25,193
+¡Caminen!
+
+686
+00:58:27,278 --> 00:58:28,913
+Avancen.
+
+687
+00:58:32,089 --> 00:58:35,124
+Que el barro no los detenga, sigan.
+
+688
+00:58:50,865 --> 00:58:52,265
+Continúen.
+
+689
+00:58:54,785 --> 00:58:58,243
+Broomhilda Von Shaft,
+27 años...
+
+690
+00:58:58,554 --> 00:59:00,945
+...una "marca" en su mejilla derecha.
+
+691
+00:59:01,803 --> 00:59:03,810
+Calvin Candie.
+
+692
+00:59:04,337 --> 00:59:07,356
+Dueño de la cuarta plantación
+de algodón más grande de Mississippi.
+
+693
+00:59:07,516 --> 00:59:08,665
+Candyland.
+
+694
+00:59:08,925 --> 00:59:11,325
+- ¿Candyland?
+- ¿La has sentido nombrar?
+
+695
+00:59:11,485 --> 00:59:13,709
+Todos los esclavos
+han oído hablar de Candyland.
+
+696
+00:59:13,869 --> 00:59:16,248
+Aparentemente
+allí se encuentra tu esposa.
+
+697
+00:59:16,408 --> 00:59:18,883
+Y ese desagradable caballero
+es su dueño.
+
+698
+00:59:19,303 --> 00:59:22,053
+Sólo esperemos que no esté
+trabajando en los campos.
+
+699
+00:59:22,279 --> 00:59:24,085
+No está en los campos.
+
+700
+00:59:24,436 --> 00:59:26,263
+Es linda.
+
+701
+00:59:27,234 --> 00:59:29,340
+Y habla bien.
+
+702
+00:59:30,273 --> 00:59:33,117
+Pero cuando le destrozaron
+la espalda...
+
+703
+00:59:33,655 --> 00:59:36,061
+...y le quemaron la mejilla...
+
+704
+00:59:36,963 --> 00:59:38,410
+...la estropearon.
+
+705
+00:59:42,948 --> 00:59:46,283
+No es una negra de campo, y ahora
+tampoco puede trabajar en la casa.
+
+706
+00:59:46,684 --> 00:59:50,123
+- Querrán hacerla una chica de confort.
+- ¿Qué es una chica de--
+
+707
+00:59:50,537 --> 00:59:52,427
+No mientras tenga mi libertad.
+
+708
+00:59:54,095 --> 00:59:55,923
+No mientras tenga mi arma.
+
+709
+00:59:58,613 --> 01:00:00,669
+¿Le ofreceremos comprarla?
+
+710
+01:00:03,189 --> 01:00:04,828
+Bueno...
+
+711
+01:00:06,187 --> 01:00:07,798
+...digamos...
+
+712
+01:00:09,898 --> 01:00:13,017
+...que un hombre
+quiere comprar un caballo.
+
+713
+01:00:13,177 --> 01:00:15,518
+Necesita comprar un caballo.
+
+714
+01:00:16,289 --> 01:00:19,681
+Llega a la granja del granjero,
+golpea su puerta y le dice...
+
+715
+01:00:19,841 --> 01:00:23,088
+...que quiere comprar su caballo.
+¿Qué responde el granjero?
+
+716
+01:00:23,248 --> 01:00:25,753
+El granjero dice: "No".
+
+717
+01:00:26,946 --> 01:00:29,685
+Y yo digo:
+"A la mierda con el granjero".
+
+718
+01:00:29,845 --> 01:00:31,695
+Me robaré ese caballo.
+
+719
+01:00:32,118 --> 01:00:36,318
+Claro, pero ahora eres un ladrón,
+y a los ladrones los cuelgan.
+
+720
+01:00:36,483 --> 01:00:40,381
+Sin mencionar que el caballo
+vuelve con su dueño original.
+
+721
+01:00:40,641 --> 01:00:44,088
+La necesitamos a ella
+junto con un recibo de compra.
+
+722
+01:00:44,248 --> 01:00:46,763
+Si no la intentamos comprar,
+¿cómo la conseguiremos?
+
+723
+01:00:48,038 --> 01:00:51,559
+¿Puedo ofrecer un plan alternativo?
+
+724
+01:00:51,819 --> 01:00:53,228
+Adelante.
+
+725
+01:00:55,391 --> 01:01:00,050
+El hombre llega a la granja,
+golpea la puerta...
+
+726
+01:01:00,355 --> 01:01:05,406
+...pero no ofrece comprar el caballo,
+sino la granja.
+
+727
+01:01:05,666 --> 01:01:09,009
+Y le hace una oferta
+tan ridícula...
+
+728
+01:01:09,169 --> 01:01:11,788
+...que el granjero
+sólo puede decir que sí.
+
+729
+01:01:12,568 --> 01:01:14,207
+¿Vamos a comprar Candyland?
+
+730
+01:01:14,479 --> 01:01:16,078
+No, es demasiado grande...
+
+731
+01:01:16,238 --> 01:01:19,575
+...pero, aparentemente, a este granjero
+no sólo le interesan las granjas.
+
+732
+01:01:20,826 --> 01:01:22,941
+¿Qué sabes de la lucha de mandingos?
+
+733
+01:01:22,981 --> 01:01:23,981
+¿Qué?
+
+734
+01:01:24,051 --> 01:01:28,837
+¿Puedes representar convincentemente
+que eres un experto en lucha mandinga?
+
+735
+01:01:28,908 --> 01:01:30,028
+¿Por qué?
+
+736
+01:01:30,296 --> 01:01:34,113
+Porque mi personaje
+es un gran comprador de Düsseldorf...
+
+737
+01:01:34,114 --> 01:01:37,494
+...llegado a Greenville para comprar mi
+entrada al mundo de la lucha mandinga...
+
+738
+01:01:37,542 --> 01:01:41,430
+...y tu personaje es el experto mandinga
+que contraté para ayudarme.
+
+739
+01:01:41,563 --> 01:01:43,279
+A esto lo llaman "Charly el Tuerto".
+
+740
+01:01:46,671 --> 01:01:48,051
+<i>Bonjour.</i>
+
+741
+01:01:48,212 --> 01:01:51,311
+<i>Bon soir, negrita...</i>
+
+742
+01:01:51,350 --> 01:01:53,912
+...venimos a ver al Sr. Calvin Candie.
+
+743
+01:01:54,225 --> 01:01:55,785
+<i>Entrez.</i>
+
+744
+01:01:58,442 --> 01:01:59,842
+Gracias.
+
+745
+01:02:00,695 --> 01:02:02,838
+¿Quieres que pase
+por un esclavista negro?
+
+746
+01:02:03,674 --> 01:02:05,937
+Nada más bajo
+que un esclavista negro.
+
+747
+01:02:06,562 --> 01:02:09,442
+Un esclavista negro es más bajo
+que el negro de la casa grande.
+
+748
+01:02:10,614 --> 01:02:12,420
+Y eso, compañero,
+ya está bastante abajo.
+
+749
+01:02:13,999 --> 01:02:15,968
+Pues actúa así...
+
+750
+01:02:16,023 --> 01:02:19,984
+...muéstrame tu esclavista negro.
+
+751
+01:02:31,616 --> 01:02:33,316
+¡Dr. Schultz!
+
+752
+01:02:33,363 --> 01:02:34,988
+Me alegro de volver a verle.
+
+753
+01:02:35,129 --> 01:02:36,529
+Sr. Moguy.
+
+754
+01:02:36,530 --> 01:02:40,522
+Gracias por su ayuda al crear
+la oportunidad para este encuentro.
+
+755
+01:02:40,538 --> 01:02:42,098
+No es nada, a eso me dedico.
+
+756
+01:02:42,754 --> 01:02:45,874
+Así que este es el Charly el Tuerto
+del que he oído hablar tanto.
+
+757
+01:02:46,015 --> 01:02:47,905
+Sí, él es Django Freeman.
+
+758
+01:02:48,249 --> 01:02:50,997
+Django, este es el abogado
+del Sr. Candie, Leonide Moguy.
+
+759
+01:02:51,130 --> 01:02:52,807
+Llámeme sólo Leo.
+
+760
+01:02:53,143 --> 01:02:56,490
+Calvin está en la sala Julio César,
+¿me siguen?
+
+761
+01:02:56,727 --> 01:02:59,031
+¿Cuánto hace
+que es socio del Sr. Candie?
+
+762
+01:02:59,117 --> 01:03:03,326
+El padre de Calvin y yo tendríamos once
+cuando ya íbamos a la escuela juntos.
+
+763
+01:03:03,839 --> 01:03:06,634
+El padre del padre de Calvin
+me metió en la facultad de derecho.
+
+764
+01:03:06,794 --> 01:03:09,869
+Casi se podría decir que me criaron
+para ser el abogado de Calvin.
+
+765
+01:03:09,966 --> 01:03:12,260
+Casi se podría decir que eres un negro.
+
+766
+01:03:12,629 --> 01:03:14,189
+¿Cómo has dicho?
+
+767
+01:03:14,416 --> 01:03:15,418
+He dicho--
+
+768
+01:03:15,443 --> 01:03:17,543
+Nada, sólo se hace el gracioso.
+
+769
+01:03:17,678 --> 01:03:22,123
+¿Algo más que deba saber
+sobre el Sr. Candie antes de conocerlo?
+
+770
+01:03:22,170 --> 01:03:24,308
+Sí, es medio seguidor de Franco.
+
+771
+01:03:24,398 --> 01:03:26,208
+¿Qué gente civilizada no lo es?
+
+772
+01:03:26,250 --> 01:03:28,677
+Y prefiere monsieur Candie a Sr. Candie.
+
+773
+01:03:28,716 --> 01:03:30,816
+<i>Si c'est celà qu'il préfére.</i>
+
+774
+01:03:30,979 --> 01:03:35,229
+No habla francés.
+No le hable en francés, lo avergonzará.
+
+775
+01:03:38,444 --> 01:03:40,769
+Vuelve a ponerte encima,
+dale la vuelta.
+
+776
+01:03:40,832 --> 01:03:41,900
+Eso es.
+
+777
+01:03:42,398 --> 01:03:43,816
+Eso es.
+
+778
+01:03:45,798 --> 01:03:48,483
+¿Por qué quiere meterse
+en el negocio mandinga?
+
+779
+01:03:50,560 --> 01:03:55,346
+¿No va a permitir que su ayudante
+haga las presentaciones adecuadas?
+
+780
+01:03:55,643 --> 01:03:59,054
+Sin rodeos.
+Responda a la pregunta.
+
+781
+01:04:01,494 --> 01:04:03,140
+¿La cruda verdad?
+
+782
+01:04:03,397 --> 01:04:05,062
+Me la paso aburrido.
+
+783
+01:04:05,172 --> 01:04:07,012
+Esto parece bastante divertido.
+
+784
+01:04:12,350 --> 01:04:14,450
+Bueno, venga acá.
+
+785
+01:04:14,686 --> 01:04:17,332
+Tenemos una pelea en curso,
+que es bastante divertida.
+
+786
+01:04:21,231 --> 01:04:23,331
+¿Me acompañaría al bar?
+
+787
+01:04:31,780 --> 01:04:34,418
+No se lleva sombrero dentro de casa,
+hombre blanco, hasta yo lo sé.
+
+788
+01:04:43,568 --> 01:04:45,268
+- ¡Dr. Schultz!
+- Un verdadero placer...
+
+789
+01:04:45,276 --> 01:04:46,889
+¡Sigan luchando, negros!
+
+790
+01:04:46,975 --> 01:04:48,506
+...y debo añadir, un honor.
+
+791
+01:04:48,842 --> 01:04:52,089
+Honrado de conocerle, tome asiento,
+por favor, el placer es todo mío.
+
+792
+01:04:52,160 --> 01:04:54,851
+Dale a Freeman Django lo que quiera.
+
+793
+01:04:55,579 --> 01:04:57,399
+Y yo tomaré un té dulce y bourbon.
+
+794
+01:05:17,363 --> 01:05:19,798
+¡Usa tu peso, muchacho,
+usa tu peso! ¡Eso es!
+
+795
+01:05:21,061 --> 01:05:22,668
+¡Él es mucho más grande y fuerte!
+
+796
+01:05:23,324 --> 01:05:24,724
+¡Por favor!
+
+797
+01:05:24,884 --> 01:05:27,684
+Es que no hace lo que le dije.
+Por el amor de Dios.
+
+798
+01:05:28,334 --> 01:05:31,527
+<i>Bravo, Luigi, cosí, e dai.
+Dai che sei piú rapido.</i>
+
+799
+01:05:31,632 --> 01:05:34,489
+¡Vamos, muchachos,
+esto es una pelea a muerte!
+
+800
+01:05:35,544 --> 01:05:37,471
+¡O tú o él!
+
+801
+01:05:42,242 --> 01:05:45,426
+<i>Ecco lí, colla spalla al tappetto.
+La spalla al tappetto, giú!</i>
+
+802
+01:05:45,957 --> 01:05:47,777
+¡Vamos, Big Fred!
+
+803
+01:05:48,692 --> 01:05:50,291
+¡Dale la vuelta ya!
+
+804
+01:05:53,847 --> 01:05:55,860
+¡Usa tu fuerza, muchacho!
+
+805
+01:05:56,360 --> 01:05:58,459
+¡Vamos ahora, usa tu fuerza!
+
+806
+01:06:00,646 --> 01:06:02,046
+¡Eso es!
+
+807
+01:06:03,417 --> 01:06:04,817
+¡Eso es!
+
+808
+01:06:05,214 --> 01:06:06,214
+¡Mira eso!
+
+809
+01:06:07,229 --> 01:06:10,029
+Sí, se lo dije, es un salvaje.
+
+810
+01:06:10,445 --> 01:06:12,265
+Haz lo que te dije, chico.
+
+811
+01:06:12,649 --> 01:06:13,649
+¡Eso es!
+
+812
+01:06:15,561 --> 01:06:18,410
+Haz lo que te dije.
+Al suelo de nuevo, chico.
+
+813
+01:06:18,433 --> 01:06:19,675
+¡Al suelo de nuevo!
+
+814
+01:06:21,957 --> 01:06:23,915
+¡No!
+
+815
+01:06:44,726 --> 01:06:45,883
+Acábalo.
+
+816
+01:06:49,842 --> 01:06:51,662
+Vamos, chico, ¡acábalo!
+
+817
+01:06:56,041 --> 01:06:57,719
+¡Por eso lo llaman Big Fred!
+
+818
+01:06:58,060 --> 01:06:59,461
+Vale cada centavo.
+
+819
+01:06:59,501 --> 01:07:01,250
+<i>Bueno, ¡arrivederci, Luigi!</i>
+
+820
+01:07:01,469 --> 01:07:03,805
+Levanta, muchacho, date un descanso...
+
+821
+01:07:03,813 --> 01:07:06,669
+...has hecho buen trabajo,
+buen trabajo de verdad.
+
+822
+01:07:30,026 --> 01:07:31,426
+Tequila.
+
+823
+01:07:41,325 --> 01:07:42,637
+¿Cómo te llamas?
+
+824
+01:07:45,123 --> 01:07:46,408
+Django.
+
+825
+01:07:48,957 --> 01:07:50,777
+¿Sabes deletrearlo?
+
+826
+01:07:52,723 --> 01:07:56,713
+D, J, A, N, G, O.
+
+827
+01:07:58,401 --> 01:08:00,221
+La D es muda.
+
+828
+01:08:00,357 --> 01:08:01,477
+Ya lo sé.
+
+829
+01:08:08,679 --> 01:08:09,679
+<i>Umberto, andiamo.</i>
+
+830
+01:08:09,700 --> 01:08:10,776
+Sr. Moguy...
+
+831
+01:08:11,242 --> 01:08:12,984
+Quiero que se encargue
+de este mi nuevo muchacho.
+
+832
+01:08:13,234 --> 01:08:15,130
+Búsquele un cuarto con cama blanda...
+
+833
+01:08:15,139 --> 01:08:17,472
+...y mándele un poni
+a que le lama el palo.
+
+834
+01:08:17,981 --> 01:08:20,791
+Prepárate a viajar a Candyland
+mañana por la mañana, ¿me oíste?
+
+835
+01:08:20,869 --> 01:08:21,869
+Sí, monsieur Candie.
+
+836
+01:08:21,880 --> 01:08:25,547
+Antes de irte, Roscoe,
+dale a Fred un cerveza grande.
+
+837
+01:08:29,767 --> 01:08:31,178
+Disfrútala, muchacho.
+
+838
+01:08:31,679 --> 01:08:32,803
+Te lo has ganado.
+
+839
+01:08:32,890 --> 01:08:34,010
+Sí, señor.
+
+840
+01:08:43,532 --> 01:08:44,982
+¿Cómo te llamas, muchacho?
+
+841
+01:08:45,116 --> 01:08:47,216
+Se llama Django Freeman.
+
+842
+01:08:51,218 --> 01:08:52,442
+¿De dónde lo sacó?
+
+843
+01:08:52,469 --> 01:08:56,208
+Un hecho fortuito hizo que Django
+y yo termináramos juntos.
+
+844
+01:08:57,708 --> 01:08:59,669
+He oído hablar de ti.
+
+845
+01:09:00,480 --> 01:09:03,376
+He oído que le dices a todo el mundo
+que los mandingas no son tan buenos...
+
+846
+01:09:03,382 --> 01:09:06,743
+...y nada de lo que está en venta
+merece comprarlo. Me pregunto...
+
+847
+01:09:07,495 --> 01:09:09,594
+...¿qué te hace un experto en mandinga?
+
+848
+01:09:11,838 --> 01:09:14,238
+Y yo me pregunto
+por qué se lo pregunta.
+
+849
+01:09:17,583 --> 01:09:19,385
+- ¿Qué dijiste muchacho?
+- Cálmate, Butch.
+
+850
+01:09:20,743 --> 01:09:22,221
+Si no quiso ofender...
+
+851
+01:09:22,753 --> 01:09:23,836
+...no hay ofensa.
+
+852
+01:09:24,150 --> 01:09:25,430
+Sr. Candie...
+
+853
+01:09:25,789 --> 01:09:29,654
+...apreciaría si pudiera dirigir
+sus preguntas hacia mí.
+
+854
+01:09:29,709 --> 01:09:30,829
+Primero...
+
+855
+01:09:31,784 --> 01:09:34,875
+...no tiene nada para beber,
+¿puedo traerle un rico refresco?
+
+856
+01:09:35,015 --> 01:09:36,844
+¡Sí! Tomaré una cerveza.
+
+857
+01:09:36,938 --> 01:09:38,031
+<i>Wunderbar.</i>
+
+858
+01:09:38,217 --> 01:09:40,136
+Roscoe, una cerveza
+para el hombre de barba...
+
+859
+01:09:40,146 --> 01:09:43,542
+<i>...y yo tomaré un Pearl Diver
+de la Polinesia, no escatime en el ron.</i>
+
+860
+01:09:44,128 --> 01:09:45,248
+Doc...
+
+861
+01:09:46,459 --> 01:09:49,972
+...yo soy un experto en esclavos,
+usted es, bueno, es un neófito.
+
+862
+01:09:49,988 --> 01:09:54,830
+Simplemente intento averiguar si este
+vaquero está aprovechándose de usted.
+
+863
+01:09:56,510 --> 01:09:59,429
+<i>Con el debido respeto,
+monsieur Candie...</i>
+
+864
+01:10:00,310 --> 01:10:02,323
+...no lo busqué por consejo.
+
+865
+01:10:02,464 --> 01:10:06,946
+Lo busqué para comprar un negro luchador
+de lo mejor que haya en el mercado.
+
+866
+01:10:07,391 --> 01:10:10,271
+Tenía la impresión
+cuando me concedió audiencia...
+
+867
+01:10:10,291 --> 01:10:12,632
+...que sería
+para discutir sobre negocios.
+
+868
+01:10:15,570 --> 01:10:17,310
+Bueno,
+no estábamos haciendo negocios aún.
+
+869
+01:10:17,982 --> 01:10:19,856
+Estamos discutiendo mi curiosidad.
+
+870
+01:10:23,558 --> 01:10:26,258
+Roscoe, Coco,
+vayan afuera a jugar.
+
+871
+01:10:28,407 --> 01:10:29,527
+Sheba...
+
+872
+01:10:29,884 --> 01:10:31,704
+...quédate allí mismo.
+
+873
+01:10:32,078 --> 01:10:34,178
+Sé que no me incluía.
+
+874
+01:10:35,434 --> 01:10:36,554
+<i>Prost.</i>
+
+875
+01:10:36,803 --> 01:10:37,923
+<i>Jambo.</i>
+
+876
+01:10:38,788 --> 01:10:40,270
+Ahora, de acuerdo con Moguy...
+
+877
+01:10:40,672 --> 01:10:44,981
+...si hago negocios contigo,
+estoy haciendo negocios con ambos.
+
+878
+01:10:45,095 --> 01:10:47,569
+Él inspecciona,
+tú eres el del dinero, ¿es así?
+
+879
+01:10:47,687 --> 01:10:52,130
+No lo hace sonar muy halagador,
+pero más o menos, sí.
+
+880
+01:10:53,888 --> 01:10:55,008
+Entonces...
+
+881
+01:10:55,557 --> 01:10:56,957
+...chico brillante...
+
+882
+01:10:57,177 --> 01:10:59,485
+...Moguy dime que miraste
+mi carne africana...
+
+883
+01:10:59,486 --> 01:11:01,401
+...y no le impresionó ninguno.
+
+884
+01:11:01,605 --> 01:11:03,405
+No son de lo mejor.
+
+885
+01:11:05,499 --> 01:11:07,348
+Entonces no tenemos nada más
+de qué hablar.
+
+886
+01:11:07,557 --> 01:11:09,625
+Verá, usted quiere comprar
+un negro peleador mío...
+
+887
+01:11:09,707 --> 01:11:12,181
+...esos son todos los negros peleadores
+que quiero vender, así que...
+
+888
+01:11:12,242 --> 01:11:14,716
+Él no quiere comprar los negros
+que usted quiere vender.
+
+889
+01:11:15,173 --> 01:11:18,044
+Él quiere el negro
+que usted no quiere vender.
+
+890
+01:11:18,601 --> 01:11:22,622
+No vendo los negros
+que no quiero vender.
+
+891
+01:11:25,150 --> 01:11:28,520
+Bueno.
+No venderá al mejor.
+
+892
+01:11:28,757 --> 01:11:30,679
+Ni siquiera venderá al segundo mejor.
+
+893
+01:11:31,492 --> 01:11:34,755
+Pero al tercero mejor,
+tampoco quiere vendérselos a él...
+
+894
+01:11:35,169 --> 01:11:39,026
+...pero si hago una oferta tan ridícula
+que se viera forzado a considerarla...
+
+895
+01:11:40,613 --> 01:11:42,893
+¿Quién sabe lo que podría pasar?
+
+896
+01:11:44,386 --> 01:11:46,786
+¿Y que considera usted ridículo?
+
+897
+01:11:47,498 --> 01:11:52,081
+Por un verdadero espécimen talentoso,
+¿el negro correcto?
+
+898
+01:11:53,616 --> 01:11:55,418
+¿Cuánto dirías, Django?
+
+899
+01:11:58,800 --> 01:12:00,600
+Doce mil dólares.
+
+900
+01:12:05,545 --> 01:12:06,706
+¡Caballeros!
+
+901
+01:12:07,108 --> 01:12:08,872
+Tenían mi curiosidad.
+
+902
+01:12:09,317 --> 01:12:11,002
+Ahora tienen mi atención.
+
+903
+01:12:25,162 --> 01:12:27,240
+¡Willie!
+Willie.
+
+904
+01:12:27,287 --> 01:12:29,107
+¡Aguarden!
+Esperen.
+
+905
+01:12:30,501 --> 01:12:32,157
+Buenos días, caballeros.
+
+906
+01:12:32,244 --> 01:12:35,304
+El buen Dr. Schultz.
+Hermosa mañana, ¿no es así?
+
+907
+01:12:35,750 --> 01:12:37,398
+No podría haber elegido una mejor.
+
+908
+01:12:37,445 --> 01:12:40,460
+Por favor, daría un paseo
+con nosotros en el Victoria.
+
+909
+01:12:40,492 --> 01:12:42,168
+Muchas gracias.
+
+910
+01:12:42,216 --> 01:12:44,370
+Ate su caballo atrás.
+
+911
+01:12:52,444 --> 01:12:53,564
+¡Django!
+
+912
+01:12:58,660 --> 01:13:01,925
+Difiero mucho
+de mis colegas frenólogos...
+
+913
+01:13:02,266 --> 01:13:05,224
+...porque creo que hay un nivel
+sobre lo brillante...
+
+914
+01:13:05,765 --> 01:13:11,255
+...sobre lo talentoso, sobre lo leal,
+al que un negro puede aspirar.
+
+915
+01:13:11,853 --> 01:13:16,764
+Nombre un negro
+que sobresalga de diez mil.
+
+916
+01:13:16,811 --> 01:13:18,631
+Un negro excepcional.
+
+917
+01:13:19,512 --> 01:13:21,361
+Un día brillante,
+¿verdad, negro brillante?
+
+918
+01:13:22,498 --> 01:13:23,898
+El sol está en su tope.
+
+919
+01:13:24,854 --> 01:13:26,674
+Brillando sobre todos nosotros.
+
+920
+01:13:31,557 --> 01:13:33,377
+Siéntese, Doc.
+
+921
+01:13:34,859 --> 01:13:36,043
+Un verdadero honor.
+
+922
+01:13:36,154 --> 01:13:38,174
+- El honor es todo nuestro.
+- Gracias.
+
+923
+01:13:38,223 --> 01:13:41,451
+<i>...pero sí creo que, con el tiempo...</i>
+
+924
+01:13:41,452 --> 01:13:44,533
+...los negros excepcionales,
+como este chico brillante...
+
+925
+01:13:45,448 --> 01:13:47,570
+...vendrán frecuentemente...
+
+926
+01:13:48,345 --> 01:13:49,745
+...más frecuentemente.
+
+927
+01:13:51,711 --> 01:13:53,111
+Chico brillante...
+
+928
+01:13:53,962 --> 01:13:56,062
+...eres uno en diez mil.
+
+929
+01:13:56,491 --> 01:13:59,434
+El nombre del juego es continuar,
+no ponerse al día, negro.
+
+930
+01:14:15,388 --> 01:14:16,612
+Si tocan sus armas, mueren.
+
+931
+01:14:16,621 --> 01:14:18,441
+¡Todos calmados!
+
+932
+01:14:19,136 --> 01:14:21,040
+Vi todo, no hubo daño.
+
+933
+01:14:21,071 --> 01:14:22,733
+¿Me estás jodiendo?
+Este negro--
+
+934
+01:14:22,764 --> 01:14:26,264
+¡Dije que no hubo daño!
+¡Saquen sus manos de las pistolas!
+
+935
+01:14:27,896 --> 01:14:29,016
+¡Butch!
+
+936
+01:14:29,350 --> 01:14:31,170
+También es para ti.
+
+937
+01:14:32,060 --> 01:14:34,753
+Todos dejen de molestar
+a mis huéspedes.
+
+938
+01:14:36,455 --> 01:14:37,455
+¡Hoot!
+
+939
+01:14:37,597 --> 01:14:39,219
+Vuelve a tu caballo.
+
+940
+01:14:39,536 --> 01:14:40,971
+¡Rompió mi clavícula!
+
+941
+01:14:41,065 --> 01:14:45,672
+Por Dios, alguien que ayude a Hoot
+por favor a subir a su maldito caballo.
+
+942
+01:14:46,468 --> 01:14:48,731
+Es un negro con suerte.
+
+943
+01:14:49,958 --> 01:14:51,783
+Tiene que escuchar a su jefe,
+muchacho blanco.
+
+944
+01:14:51,870 --> 01:14:54,227
+Te puedo acompañar a un paseo
+a la luz de la luna.
+
+945
+01:14:54,425 --> 01:14:56,245
+¿Y vamos agarrados de la mano?
+
+946
+01:15:02,362 --> 01:15:05,315
+¡Willie!
+Llévanos a casa.
+
+947
+01:16:02,870 --> 01:16:04,649
+¿Tiene un problema
+en el ojo, muchacho?
+
+948
+01:16:04,754 --> 01:16:05,768
+No, señor.
+
+949
+01:16:05,834 --> 01:16:08,234
+¿Quiere un taco de bota en él?
+
+950
+01:16:08,726 --> 01:16:09,726
+No, señor.
+
+951
+01:16:09,790 --> 01:16:12,022
+Entonces,
+sácame tu maldito ojo de encima.
+
+952
+01:16:13,189 --> 01:16:14,682
+Mírame así de nuevo...
+
+953
+01:16:14,732 --> 01:16:16,225
+...y te daré un motivo para no gustarte.
+
+954
+01:16:16,304 --> 01:16:17,460
+¡Ahora muévete, negro!
+
+955
+01:16:19,910 --> 01:16:22,025
+Ustedes negros,
+van a entender algo sobre mí.
+
+956
+01:16:22,174 --> 01:16:24,038
+Soy peor que cualquiera
+de estos hombres blancos.
+
+957
+01:16:24,335 --> 01:16:27,671
+Saquen la melaza de su trasero
+y sáquenme su maldito ojo de encima.
+
+958
+01:16:27,953 --> 01:16:31,153
+Es un poco bullicioso, ¿no es así?
+
+959
+01:16:31,209 --> 01:16:32,505
+¡En efecto!
+
+960
+01:16:35,059 --> 01:16:38,252
+¿Podría detenerse por un momento?
+¿Así puedo hablar con mi hombre al oído?
+
+961
+01:16:38,640 --> 01:16:42,349
+Sí, estoy esperando enamorarme una vez
+que vea los especímenes en Candyland...
+
+962
+01:16:42,389 --> 01:16:45,762
+...antes de ese momento,
+sería bueno si pudiera tener...
+
+963
+01:16:45,763 --> 01:16:49,823
+...una reunión estratégica en privado
+con mi confidente.
+
+964
+01:16:53,213 --> 01:16:54,929
+¿Le importaría decirme
+qué demonios está sucediendo?
+
+965
+01:16:55,003 --> 01:16:57,539
+He confirmado
+que Broomhilda está en Candyland.
+
+966
+01:17:01,088 --> 01:17:02,531
+¿Seguro que es ella?
+
+967
+01:17:02,623 --> 01:17:04,972
+No la llamó por el nombre,
+pero es una joven dama...
+
+968
+01:17:04,997 --> 01:17:06,948
+...marcas de látigo en su espalda
+y habla alemán.
+
+969
+01:17:09,363 --> 01:17:11,791
+En este caso,
+creo que es bastante seguro.
+
+970
+01:17:11,901 --> 01:17:13,301
+El punto es...
+
+971
+01:17:13,656 --> 01:17:16,476
+...no te dejes arrastrar
+por la venganza.
+
+972
+01:17:16,789 --> 01:17:18,758
+No te olvides por qué estamos aquí.
+
+973
+01:17:18,842 --> 01:17:20,081
+¿Crees que me olvido?
+
+974
+01:17:20,112 --> 01:17:23,070
+¡Sí, así es!
+¡Deja de enfrentarte a Candie!
+
+975
+01:17:23,462 --> 01:17:28,639
+Vas a revelar toda esta farsa y,
+lo más probable, tendrás dos muertos...
+
+976
+01:17:28,663 --> 01:17:33,410
+...y por mi parte, no tengo intención de
+morir en Chickasaw, Mississippi, EE.UU.
+
+977
+01:17:33,652 --> 01:17:36,384
+No me estoy enfrentando.
+Lo estoy intrigando.
+
+978
+01:17:36,673 --> 01:17:39,405
+¡Te estás quejando
+ante el abuso de estos pobres esclavos!
+
+979
+01:17:40,186 --> 01:17:42,006
+Recuerdo el hombre...
+
+980
+01:17:42,444 --> 01:17:45,762
+...que me hizo matar a otro
+enfrente de su hijo...
+
+981
+01:17:45,848 --> 01:17:47,205
+...sin inmutarse.
+
+982
+01:17:49,056 --> 01:17:50,456
+¿Recuerdas eso?
+
+983
+01:17:52,377 --> 01:17:53,663
+¡Por supuesto que lo recuerdo!
+
+984
+01:17:53,765 --> 01:17:55,273
+Lo que tú dijiste fue...
+
+985
+01:17:55,539 --> 01:17:56,827
+"Este no es mi mundo.
+
+986
+01:17:58,355 --> 01:18:00,094
+En mi mundo
+tú tienes que ensuciarte."
+
+987
+01:18:01,243 --> 01:18:04,071
+Así que eso es lo que hago.
+Me ensucio.
+
+988
+01:18:07,849 --> 01:18:11,013
+Estás parafraseando un poco, pero...
+
+989
+01:18:12,534 --> 01:18:14,409
+...esa era la idea.
+
+990
+01:18:18,423 --> 01:18:20,243
+Nos vemos en Candyland.
+
+991
+01:18:27,189 --> 01:18:28,704
+¡Listos, negros!
+
+992
+01:18:29,079 --> 01:18:30,199
+Vamos.
+
+993
+01:18:31,376 --> 01:18:33,476
+Tú también, Luz de Luna.
+
+994
+01:19:20,780 --> 01:19:23,262
+Ahí está.
+¡D'Artagnan!
+
+995
+01:19:24,050 --> 01:19:26,954
+¿Por qué hiciste algo tan tonto
+como huir?
+
+996
+01:19:27,421 --> 01:19:29,595
+No puedo pelear más, Monsieur Candie.
+
+997
+01:19:29,847 --> 01:19:31,247
+¡Sí que puedes!
+
+998
+01:19:31,448 --> 01:19:33,633
+Tal vez no seas capaz de ganar,
+pero tu trasero puede pelear.
+
+999
+01:19:34,704 --> 01:19:37,279
+Sr. Stonesipher,
+¿podría callar a esos malditos perros?
+
+1000
+01:19:37,317 --> 01:19:38,588
+¡No puedo escuchar ni lo que pienso!
+
+1001
+01:19:38,619 --> 01:19:43,405
+¡Basta, Marsha!
+¡Silencio, Marsha! ¡Marsha, silencio!
+
+1002
+01:19:43,555 --> 01:19:46,897
+¡Alejen los perros de ese negro!
+
+1003
+01:19:56,075 --> 01:19:57,895
+Eso es.
+
+1004
+01:19:58,526 --> 01:20:00,742
+- Baja del árbol.
+- Sí, señor.
+
+1005
+01:20:23,869 --> 01:20:25,251
+¿Cuánto tiempo estuvo perdido?
+
+1006
+01:20:26,275 --> 01:20:27,275
+Una noche...
+
+1007
+01:20:27,851 --> 01:20:28,971
+...un día...
+
+1008
+01:20:29,775 --> 01:20:30,895
+...más la mitad de otra noche.
+
+1009
+01:20:32,388 --> 01:20:33,999
+¿A qué distancia se
+alejó de la propiedad?
+
+1010
+01:20:34,320 --> 01:20:35,880
+Como veinte quilómetros.
+
+1011
+01:20:36,343 --> 01:20:38,638
+Bastante lejos, considerando su cojera.
+
+1012
+01:20:40,989 --> 01:20:44,236
+Sr. Moguy, ¿con quién
+tenía que pelear D'Artagnan el viernes?
+
+1013
+01:20:44,424 --> 01:20:45,783
+Uno del nuevo lote.
+
+1014
+01:20:47,445 --> 01:20:50,231
+Por cómo se ve, ni un indio ciego
+apostaría un cordón por él.
+
+1015
+01:20:50,294 --> 01:20:53,143
+Por favor, Sr Candie, no puedo hacerlo.
+No puedo más--
+
+1016
+01:20:53,178 --> 01:20:56,164
+No, no, no, no,
+no empieces.
+
+1017
+01:20:57,367 --> 01:20:59,117
+No quieras ablandarme el corazón.
+
+1018
+01:21:03,169 --> 01:21:04,879
+Hijo, estás en problemas.
+
+1019
+01:21:09,206 --> 01:21:12,006
+Pagué 500 dólares por ti.
+
+1020
+01:21:12,415 --> 01:21:14,688
+Cuando los pagué...
+
+1021
+01:21:15,009 --> 01:21:19,389
+...esperaba tener cinco
+peleas antes de verte morir.
+
+1022
+01:21:19,905 --> 01:21:22,949
+Tienes que entender, es mi negocio.
+
+1023
+01:21:23,840 --> 01:21:25,434
+Peleaste tres veces.
+
+1024
+01:21:25,536 --> 01:21:26,830
+Pero gané todas.
+
+1025
+01:21:26,878 --> 01:21:28,469
+Así es.
+Así es.
+
+1026
+01:21:28,485 --> 01:21:31,424
+Pero en la última
+apenas lo conseguiste.
+
+1027
+01:21:35,178 --> 01:21:36,998
+Así que el trato continúa.
+
+1028
+01:21:37,538 --> 01:21:40,745
+Si pago 500 dólares,
+quiero cinco malditas peleas.
+
+1029
+01:21:41,592 --> 01:21:43,434
+¿Qué hay de mis 500 dólares?
+
+1030
+01:21:45,789 --> 01:21:47,333
+¿Qué hacemos con mis 500 dólares?
+
+1031
+01:21:49,161 --> 01:21:50,722
+¿Me los vas a reembolsar?
+
+1032
+01:21:56,859 --> 01:21:59,813
+¿Sabes lo que esa palabra significa?
+
+1033
+01:22:07,529 --> 01:22:09,349
+¡Yo se lo reembolsaré!
+
+1034
+01:22:13,018 --> 01:22:14,418
+¿Sí?
+
+1035
+01:22:19,859 --> 01:22:21,544
+Pagará 500 dólares...
+
+1036
+01:22:22,156 --> 01:22:26,160
+...¿por un casi tuerto que ni
+siquiera puede usar una escoba?
+
+1037
+01:22:26,316 --> 01:22:27,716
+No, no lo hará.
+
+1038
+01:22:29,723 --> 01:22:31,728
+Solo está harto de verlo jugar con él.
+
+1039
+01:22:32,846 --> 01:22:34,306
+De hecho, yo también.
+
+1040
+01:22:35,276 --> 01:22:37,172
+Pero no pagaremos nada por ese negro...
+
+1041
+01:22:37,482 --> 01:22:39,568
+No tenemos ni un uso para él.
+¿Verdad, Doc?
+
+1042
+01:22:40,997 --> 01:22:42,123
+¡Ya lo escuchó!
+
+1043
+01:22:51,607 --> 01:22:56,159
+Tendrá que disculparme,
+Sr. Stonesipher, mandíbula floja...
+
+1044
+01:22:56,373 --> 01:22:58,902
+...nunca vio a un negro
+como este en su vida.
+
+1045
+01:22:59,768 --> 01:23:01,548
+¿Tengo razón, Sr. Stonesipher?
+
+1046
+01:23:04,041 --> 01:23:05,441
+Es verdad.
+
+1047
+01:23:06,392 --> 01:23:07,512
+El tema es que...
+
+1048
+01:23:09,257 --> 01:23:11,077
+...no hay acuerdo.
+
+1049
+01:23:16,645 --> 01:23:17,765
+Ahora...
+
+1050
+01:23:19,073 --> 01:23:22,031
+Ya que no pagará nada
+por este negro...
+
+1051
+01:23:24,774 --> 01:23:27,745
+...no le importará que haga lo
+que quiera con él.
+
+1052
+01:23:29,100 --> 01:23:30,420
+Es su negro.
+
+1053
+01:23:34,539 --> 01:23:35,812
+¿Sr. Stonesipher?
+
+1054
+01:23:37,680 --> 01:23:40,755
+Haga que Marsha y sus perras envíen
+a D'Artagnan al cielo de los negros.
+
+1055
+01:23:41,594 --> 01:23:44,685
+¡Marsha! ¡Al negro!
+
+1056
+01:24:23,537 --> 01:24:25,881
+Su jefe se ve un poco
+descompuesto ante...
+
+1057
+01:24:25,882 --> 01:24:27,794
+...un deporte sangriento
+como la pelea de negros.
+
+1058
+01:24:28,039 --> 01:24:29,093
+No.
+
+1059
+01:24:29,734 --> 01:24:32,893
+No le gusta ver a un hombre siendo
+destripado por perros. Eso es todo.
+
+1060
+01:24:35,612 --> 01:24:37,002
+¿Usted está acostumbrado?
+
+1061
+01:24:37,237 --> 01:24:40,737
+Soy un poco más norteamericano que él.
+
+1062
+01:24:41,383 --> 01:24:44,413
+Ahora, Monsieur Candie...
+
+1063
+01:24:45,064 --> 01:24:46,624
+...cuando quiera.
+
+1064
+01:24:47,023 --> 01:24:49,731
+Cabalgamos cinco horas
+para ver su mercancía.
+
+1065
+01:24:50,396 --> 01:24:52,216
+Hagámoslo.
+
+1066
+01:24:53,519 --> 01:24:55,612
+Porque si esta es una muestra...
+
+1067
+01:24:56,105 --> 01:24:57,225
+...no estoy impresionado.
+
+1068
+01:24:59,963 --> 01:25:01,363
+Síganme.
+
+1069
+01:26:58,899 --> 01:27:00,631
+Hagan una fila, negros.
+
+1070
+01:27:05,740 --> 01:27:06,860
+Eso es.
+
+1071
+01:27:09,698 --> 01:27:11,578
+Una fila, una fila.
+
+1072
+01:27:11,655 --> 01:27:13,710
+Ahora, una fila.
+
+1073
+01:28:13,245 --> 01:28:15,070
+¡Hola, Steven!
+
+1074
+01:28:15,109 --> 01:28:17,356
+Sí, "hola" mi trasero.
+
+1075
+01:28:17,838 --> 01:28:20,710
+¿Quién es ese negro en el jamelgo?
+
+1076
+01:28:21,101 --> 01:28:22,661
+Steven desayunó mal.
+
+1077
+01:28:23,075 --> 01:28:25,666
+¿Qué te pasa, por qué tan intratable,
+me extrañaste?
+
+1078
+01:28:25,696 --> 01:28:30,014
+Sí, señor, lo extraño,
+como cerdo que extraña su charco...
+
+1079
+01:28:30,108 --> 01:28:34,176
+...como bebé extraña la teta de mamá.
+
+1080
+01:28:34,824 --> 01:28:39,047
+Lo extrañé
+como extraño una piedra en mi zapato.
+
+1081
+01:28:41,080 --> 01:28:45,710
+Ahora le pregunto,
+¿quién es ese negro en ese jamelgo?
+
+1082
+01:28:45,758 --> 01:28:46,758
+Oiga, Bola de nieve.
+
+1083
+01:28:48,620 --> 01:28:51,880
+Si quiere saber mi nombre o el de mi
+caballo sólo tiene que preguntármelo.
+
+1084
+01:28:52,475 --> 01:28:55,199
+¿Cómo te atreves a
+llamarme "Bola de nieve"?
+
+1085
+01:28:55,310 --> 01:28:58,081
+Voy a partirte ese
+culo negro en el barro--
+
+1086
+01:28:58,144 --> 01:29:00,774
+Steven, Steven.
+
+1087
+01:29:00,962 --> 01:29:02,598
+Sigamos divirtiéndonos.
+
+1088
+01:29:03,031 --> 01:29:04,645
+Django es un hombre libre.
+
+1089
+01:29:05,544 --> 01:29:07,344
+- ¿Este negro?
+- Ese negro.
+
+1090
+01:29:07,821 --> 01:29:09,967
+Déjeme al menos
+presentarlos a ustedes dos.
+
+1091
+01:29:10,334 --> 01:29:14,120
+Django, este es otro moco
+de mejillas negras como tú, Steven.
+
+1092
+01:29:14,340 --> 01:29:15,917
+Steven, este de ahí es Django.
+
+1093
+01:29:16,000 --> 01:29:17,591
+Ustedes dos deben de odiarse.
+
+1094
+01:29:17,756 --> 01:29:21,863
+Calvin, ¿quién demonios es este negro al
+que siente la necesidad de entretener?
+
+1095
+01:29:21,967 --> 01:29:25,769
+Django, y su amigo de gris,
+el Dr. Schultz, son clientes...
+
+1096
+01:29:26,066 --> 01:29:27,618
+...y son nuestros huéspedes, Steven...
+
+1097
+01:29:27,627 --> 01:29:31,568
+...y tú, decrépito viejo bastardo,
+les vas a mostrar hospitalidad.
+
+1098
+01:29:31,607 --> 01:29:33,753
+- ¿Entiendes eso?
+- Sí, señor, yo aquí entiendo...
+
+1099
+01:29:33,758 --> 01:29:35,727
+...pero no sé por qué
+debo hablar a este negro.
+
+1100
+01:29:35,761 --> 01:29:38,761
+No tienes que entender por qué.
+¿Comprendes?
+
+1101
+01:29:39,263 --> 01:29:41,229
+Sí, señor, comprendo.
+
+1102
+01:29:41,323 --> 01:29:42,443
+¡Muy bien!
+
+1103
+01:29:42,671 --> 01:29:45,692
+Pasarán la noche aquí, ve arriba a las
+habitaciones de huéspedes y alista dos.
+
+1104
+01:29:46,740 --> 01:29:48,581
+¿Él se va a quedar en la casa grande?
+
+1105
+01:29:48,647 --> 01:29:50,995
+Steven, él es un esclavista.
+Es diferente.
+
+1106
+01:29:51,046 --> 01:29:52,395
+¿En la casa grande?
+
+1107
+01:29:52,429 --> 01:29:53,804
+Bueno, ¿tienes algún problema con eso?
+
+1108
+01:29:53,827 --> 01:29:56,260
+¡No, no, no tengo
+ningún problema con eso...
+
+1109
+01:29:56,315 --> 01:29:59,117
+...si usted no tiene problema con quemar
+la cama, las sábanas, las fundas...
+
+1110
+01:29:59,130 --> 01:30:01,156
+...todo, cuando
+este negro hijo de puta se haya ido!
+
+1111
+01:30:01,179 --> 01:30:03,166
+¡Ese es mi problema,
+son míos para quemarlos!
+
+1112
+01:30:03,305 --> 01:30:05,623
+¡Tu problema ahora
+es causar buena impresión!
+
+1113
+01:30:05,723 --> 01:30:07,920
+¡Y quiero que comiences
+a resolver ese problema ahora mismo...
+
+1114
+01:30:07,954 --> 01:30:09,584
+...y alista las dos
+malditas habitaciones!
+
+1115
+01:30:11,739 --> 01:30:12,889
+Sí, señor, monsieur Candie.
+
+1116
+01:30:14,862 --> 01:30:16,262
+Ve ahora.
+
+1117
+01:30:17,104 --> 01:30:19,554
+No puedo creer que trajera
+a un negro a quedarse en la casa grande.
+
+1118
+01:30:19,641 --> 01:30:21,463
+Su papá se debe estar
+revolcando en su tumba ahora mismo.
+
+1119
+01:30:21,500 --> 01:30:22,500
+¡Vaya con la boca de él!
+
+1120
+01:30:22,512 --> 01:30:24,823
+Un negro en la propiedad principal.
+¿Qué mierda es esa?
+
+1121
+01:30:24,886 --> 01:30:26,006
+¡Ahora!
+
+1122
+01:30:26,199 --> 01:30:30,493
+¿Dónde está mi hermosa hermana?
+
+1123
+01:30:31,019 --> 01:30:32,384
+¡Ahí está ella!
+
+1124
+01:30:34,462 --> 01:30:39,303
+Dr. Schultz, esta atractiva
+belleza sureña es mi hermana viuda.
+
+1125
+01:30:39,683 --> 01:30:43,610
+Querida, eres
+un diamante para los ojos cansados.
+
+1126
+01:30:44,729 --> 01:30:48,211
+¿Puedo presentarle
+a usted a Lara Lee Candie-Fitzwilly?
+
+1127
+01:30:48,274 --> 01:30:51,764
+Chester, Rodney, Chicken Charlie, vayan
+a poner esos culos arriba de esa colina.
+
+1128
+01:30:51,795 --> 01:30:53,139
+Ven, Charlie, vamos ya.
+
+1129
+01:30:53,162 --> 01:30:55,144
+Vamos, ahora.
+Ya saben dónde es.
+
+1130
+01:30:55,613 --> 01:30:57,009
+¡Te quiero en una cuerda!
+
+1131
+01:30:58,281 --> 01:31:00,696
+¡Los negros no caminan por aquí!
+¡Los negros corren!
+
+1132
+01:31:01,523 --> 01:31:03,623
+¿Monsieur Candie?
+
+1133
+01:31:05,924 --> 01:31:08,765
+¿Acerca de ese asunto,
+de la chica negra de la que hablábamos?
+
+1134
+01:31:08,845 --> 01:31:09,904
+¿Chica negra?
+
+1135
+01:31:09,909 --> 01:31:13,208
+Sí, ¿creo que usted mencionó
+que hablaba alemán?
+
+1136
+01:31:13,380 --> 01:31:15,780
+Sí, Hildi, ¿qué pasa con ella?
+
+1137
+01:31:16,130 --> 01:31:20,416
+¿Cree usted que antes de la demostración
+podría enviarla a mi habitación?
+
+1138
+01:31:20,806 --> 01:31:23,077
+¡Usted pequeño Dickens, vaya!
+
+1139
+01:31:23,803 --> 01:31:24,803
+No veo por qué no.
+
+1140
+01:31:24,828 --> 01:31:27,958
+Steven, cuando termines de mostrarles
+sus habitaciones, ve por Hildi...
+
+1141
+01:31:27,988 --> 01:31:31,446
+...haz que la limpien y que huela lindo,
+y envíala al cuarto del Dr. Schultz.
+
+1142
+01:31:31,491 --> 01:31:36,076
+De hecho, monsieur Candie,
+hay algo que aún no le he dicho.
+
+1143
+01:31:36,097 --> 01:31:37,112
+¿Qué?
+
+1144
+01:31:37,197 --> 01:31:39,712
+Bueno, Hildi está en la caja caliente.
+
+1145
+01:31:41,811 --> 01:31:43,024
+¿Qué está haciendo ahí?
+
+1146
+01:31:43,117 --> 01:31:46,582
+¿Qué cree que está haciendo ahí, en la
+caja caliente? Está siendo castigada.
+
+1147
+01:31:47,390 --> 01:31:49,544
+- ¿Qué es lo que hizo?
+- Ella huyó de nuevo.
+
+1148
+01:31:50,202 --> 01:31:52,965
+Por Dios, Steven, ¿cuánta gente huyó
+mientras estuve ausente?
+
+1149
+01:31:53,012 --> 01:31:54,018
+Dos.
+
+1150
+01:31:54,365 --> 01:31:55,498
+¿Y cuándo huyó?
+
+1151
+01:31:55,581 --> 01:31:58,581
+Anoche, ellos la trajeron de regreso
+esta mañana.
+
+1152
+01:31:58,785 --> 01:32:01,243
+¿Qué tan mal la dejaron
+los perros de Stonesipher?
+
+1153
+01:32:01,808 --> 01:32:05,301
+Por suerte para ella, estaban
+detrás del culo de D'Artagnan.
+
+1154
+01:32:05,340 --> 01:32:09,418
+Bill y Cody salieron a buscarla,
+la encontraron y la trajeron de vuelta.
+
+1155
+01:32:10,078 --> 01:32:11,209
+Ahora está un poco golpeada...
+
+1156
+01:32:11,270 --> 01:32:14,310
+...pero se lo ha hecho ella misma,
+por correr entre los arbustos y mierda.
+
+1157
+01:32:14,404 --> 01:32:15,794
+¿Cuánto tiempo ha estado en la caja?
+
+1158
+01:32:16,054 --> 01:32:19,044
+¿Cuánto cree usted?
+¡Ha estado ahí todo el maldito día!
+
+1159
+01:32:19,177 --> 01:32:22,284
+Y la pequeña perra
+le quedan aún diez días más ahí.
+
+1160
+01:32:22,541 --> 01:32:23,845
+Steven, sácala.
+
+1161
+01:32:23,971 --> 01:32:25,207
+¿Sacarla, por qué?
+
+1162
+01:32:25,293 --> 01:32:27,254
+Porque yo lo digo, por eso.
+
+1163
+01:32:27,299 --> 01:32:29,179
+El Dr. Schultz es mi huésped.
+
+1164
+01:32:29,313 --> 01:32:33,812
+Hildi es mía, la hospitalidad sureña
+dicta que la ponga a su disposición.
+
+1165
+01:32:33,881 --> 01:32:36,119
+¡Pero monsieur Candie, ella huyó!
+
+1166
+01:32:36,158 --> 01:32:39,711
+Por Dios, Steven, ¿cuál es el punto
+de tener una negra que habla alemán...
+
+1167
+01:32:39,797 --> 01:32:42,177
+...si no puedes sacarla cuando
+tienes un huésped alemán?
+
+1168
+01:32:42,381 --> 01:32:46,450
+Me doy cuenta que es un inconveniente,
+pero aún así, saca su culo fuera de ahí.
+
+1169
+01:32:46,591 --> 01:32:47,642
+Sí, señor.
+
+1170
+01:32:49,058 --> 01:32:52,329
+Lara Lee,
+¿Cora y tú se encargarían...
+
+1171
+01:32:52,349 --> 01:32:55,349
+...de asear y poner presentable a Hildi
+para el Dr. Schultz aquí presente?
+
+1172
+01:32:55,384 --> 01:32:56,784
+Por supuesto, querido.
+
+1173
+01:32:56,929 --> 01:33:01,924
+Ahora, caballeros, me disculpo,
+pero estoy cansado del viaje...
+
+1174
+01:33:02,072 --> 01:33:04,893
+...es tiempo para dar
+un descanso a mis cansados ojos.
+
+1175
+01:33:09,704 --> 01:33:12,389
+¡Todos escucharon al hombre,
+traigan sus culos para acá!
+
+1176
+01:33:12,919 --> 01:33:14,646
+¡Cora, ven acá!
+
+1177
+01:33:15,311 --> 01:33:18,410
+Ve hacia allá, límpiala
+y tráela de vuelta aquí con el doctor...
+
+1178
+01:33:18,418 --> 01:33:20,237
+...¿qué, cómo dijo que se llama, Schut?
+
+1179
+01:33:20,410 --> 01:33:21,847
+- Schultz.
+- ¡Schultz!
+
+1180
+01:33:22,236 --> 01:33:24,022
+Tráela para acá, apresúrate niña.
+
+1181
+01:33:24,069 --> 01:33:25,469
+Sí, señor.
+
+1182
+01:34:43,064 --> 01:34:47,102
+¿Vienes conmigo, o vas a dormir
+en esa pequeña caja de por allá?
+
+1183
+01:36:22,237 --> 01:36:23,594
+Hola, señoras.
+
+1184
+01:36:23,688 --> 01:36:27,170
+Dr. Schultz,
+¿puedo presentarle a Broomhilda?
+
+1185
+01:36:31,310 --> 01:36:33,409
+Hildi, éste es el doctor Schultz.
+
+1186
+01:36:35,451 --> 01:36:37,566
+Es un placer conocerla, Broomhilda.
+
+1187
+01:36:38,603 --> 01:36:40,931
+He oído muchas cosas buenas de usted.
+
+1188
+01:36:41,002 --> 01:36:44,502
+Bueno, no es que todos las negras
+hablen alemán, ¿no lo cree?
+
+1189
+01:36:47,180 --> 01:36:49,443
+Ahora que la veo, Broomhilda...
+
+1190
+01:36:49,545 --> 01:36:53,427
+...puedo ver que todas las pasiones que
+inspira son completamente justificadas.
+
+1191
+01:36:57,632 --> 01:36:59,732
+¡El doctor habla alemán!
+
+1192
+01:37:01,899 --> 01:37:04,099
+¿Y me han informado que usted también?
+
+1193
+01:37:05,323 --> 01:37:07,486
+Adelante chica, habla un poco de alemán.
+
+1194
+01:37:09,587 --> 01:37:13,187
+Sería un placer
+para mí hablar con usted en alemán.
+
+1195
+01:37:15,937 --> 01:37:17,483
+Sorprendente.
+
+1196
+01:37:17,884 --> 01:37:19,584
+Por favor, entre, señorita.
+
+1197
+01:37:24,844 --> 01:37:27,313
+- Y debo traer--
+- Muchas gracias.
+
+1198
+01:37:33,214 --> 01:37:37,214
+- ¿Puedo servirle un vaso de agua?
+- Sí.
+
+1199
+01:38:00,981 --> 01:38:02,293
+No tenga miedo.
+
+1200
+01:38:05,794 --> 01:38:06,794
+Discúlpeme.
+
+1201
+01:38:13,295 --> 01:38:18,495
+Estoy consciente que no ha
+hablado alemán en mucho tiempo.
+
+1202
+01:38:22,596 --> 01:38:25,496
+Así que hablaré lentamente.
+
+1203
+01:38:30,797 --> 01:38:35,297
+Sólo le estoy hablando en alemán en caso
+de que la gente de Candie nos oiga.
+
+1204
+01:38:41,819 --> 01:38:42,939
+Perdón.
+
+1205
+01:38:46,640 --> 01:38:48,540
+Que hermosa es usted.
+
+1206
+01:38:50,641 --> 01:38:51,641
+Gracias.
+
+1207
+01:39:01,042 --> 01:39:05,242
+Un amigo mutuo y yo...
+
+1208
+01:39:06,443 --> 01:39:09,343
+...hemos pasado por muchos problemas...
+
+1209
+01:39:09,444 --> 01:39:12,344
+...y hemos cabalgado
+muchos kilómetros...
+
+1210
+01:39:12,845 --> 01:39:14,645
+...para
+encontrarla a usted, mi señorita...
+
+1211
+01:39:17,646 --> 01:39:19,146
+...para rescatarla.
+
+1212
+01:39:20,947 --> 01:39:22,447
+Por favor, beba.
+
+1213
+01:39:26,548 --> 01:39:30,748
+Ahora, es mi intención
+y la nuestro mutuo amigo...
+
+1214
+01:39:31,049 --> 01:39:33,349
+...llevarla lejos de aquí para siempre.
+
+1215
+01:39:33,650 --> 01:39:35,450
+Yo no tengo amigos.
+
+1216
+01:39:37,151 --> 01:39:39,951
+Sí, los tiene.
+
+1217
+01:39:40,652 --> 01:39:41,652
+¿Quién?
+
+1218
+01:39:41,953 --> 01:39:44,553
+Eso no se lo puedo decir.
+
+1219
+01:39:47,054 --> 01:39:51,654
+Nuestro mutuo amigo
+tiene una debilidad por lo dramático.
+
+1220
+01:39:53,255 --> 01:39:55,455
+¿Dónde está este amigo?
+
+1221
+01:39:57,856 --> 01:40:00,056
+Parado detrás de esa puerta.
+
+1222
+01:40:07,757 --> 01:40:10,457
+¿Me promete que no gritará?
+
+1223
+01:40:14,658 --> 01:40:18,458
+Diga, "lo prometo".
+
+1224
+01:40:37,459 --> 01:40:38,858
+Hola, pequeña "provoca problemas".
+
+1225
+01:40:48,044 --> 01:40:50,444
+Tú, demonio lengua de plata.
+
+1226
+01:40:52,345 --> 01:40:53,545
+¡Apresúrate chica!
+
+1227
+01:40:54,046 --> 01:40:55,646
+No, no, no, beberán toda la noche.
+
+1228
+01:40:55,647 --> 01:40:58,247
+Ve abajo por la jarra grande de mezcla
+que le gusta al Sr. Candie.
+
+1229
+01:40:58,447 --> 01:41:01,747
+- ¡Estás grande, Theresa!
+- Sabes que te gusta.
+
+1230
+01:41:02,048 --> 01:41:04,248
+Como si supieras lo que me gusta.
+
+1231
+01:41:06,701 --> 01:41:12,238
+Mire, Monsieur Candie,
+todos eran finos especímenes, sin duda.
+
+1232
+01:41:12,605 --> 01:41:15,423
+Pero los tres mejores,
+por mucho, fueron...
+
+1233
+01:41:15,751 --> 01:41:17,009
+...Sansón...
+
+1234
+01:41:17,648 --> 01:41:19,608
+- Cuál es el nombre de nuevo?
+- Goldie.
+
+1235
+01:41:20,007 --> 01:41:22,872
+Goldie y Joe el Esquimal.
+
+1236
+01:41:23,505 --> 01:41:25,760
+Por cierto,
+¿por qué le dicen Joe el esquimal?
+
+1237
+01:41:25,827 --> 01:41:29,237
+Usted ni se imagina cómo comenzaron
+los apodos de estos negros.
+
+1238
+01:41:29,352 --> 01:41:32,873
+Su nombre era Joe, tal vez un día
+dijo que estaba frío, ¿quién sabe?
+
+1239
+01:41:36,013 --> 01:41:37,253
+Bueno, no importa...
+
+1240
+01:41:41,378 --> 01:41:45,117
+...nunca lo va a vender,
+y puedo ver por qué, es un campeón.
+
+1241
+01:41:45,198 --> 01:41:48,742
+Los tres son campeones.
+
+1242
+01:41:49,563 --> 01:41:51,123
+Samson es campeón.
+
+1243
+01:41:51,901 --> 01:41:53,820
+Los otros dos son muy buenos.
+
+1244
+01:41:54,984 --> 01:41:56,554
+- Calvin, ¨qué negro...
+- Deja--
+
+1245
+01:41:56,563 --> 01:41:57,773
+Está bien, está bien.
+
+1246
+01:41:57,844 --> 01:41:59,802
+Tiene que entender,
+señor Candie...
+
+1247
+01:41:59,914 --> 01:42:03,607
+...aunque admito que soy un neófito
+en las peleas de negros...
+
+1248
+01:42:03,670 --> 01:42:07,749
+...conozco un poco de antecedentes
+en circos itinerantes europeos.
+
+1249
+01:42:07,796 --> 01:42:09,145
+¿Es eso cierto?
+
+1250
+01:42:09,421 --> 01:42:13,450
+Por consiguiente, tengo grandes ideas
+cuando se trata de presentaciones.
+
+1251
+01:42:14,777 --> 01:42:17,166
+Necesito algo más
+que sólo un negro grande.
+
+1252
+01:42:19,126 --> 01:42:21,235
+<i>Necesito que tenga estilo.</i>
+
+1253
+01:42:21,382 --> 01:42:23,850
+- ¿Necesita tener qué cosa?
+- Estilo.
+
+1254
+01:42:24,913 --> 01:42:27,575
+- Sentido de espectáculo.
+- Espectáculo, sí.
+
+1255
+01:42:27,612 --> 01:42:31,359
+Quiero poder promocionarlo
+como el "Hércules Negro".
+
+1256
+01:42:32,711 --> 01:42:34,497
+Hércules Negro, ¿no es astuto?
+
+1257
+01:42:34,545 --> 01:42:36,003
+Más como Négrules.
+
+1258
+01:42:37,690 --> 01:42:39,602
+Dije, y cito:
+
+1259
+01:42:40,306 --> 01:42:45,573
+Pagaré la cantidad de dólares necesarios
+por el negro correcto.
+
+1260
+01:42:46,540 --> 01:42:49,944
+No estoy diciendo que Joe el Esquimal
+es el negro incorrecto, en sí.
+
+1261
+01:42:50,944 --> 01:42:53,488
+¿Pero sería la inversión correcta?
+
+1262
+01:42:54,814 --> 01:42:57,999
+Dr. Schultz, tendrá que saber...
+
+1263
+01:42:58,065 --> 01:43:01,195
+...que no hay ningún negro
+en las peleas que agradezca...
+
+1264
+01:43:01,210 --> 01:43:04,434
+...el valor de un presentador
+más que el señor Calvin J. Candie.
+
+1265
+01:43:04,442 --> 01:43:05,442
+Nadie.
+
+1266
+01:43:05,694 --> 01:43:09,184
+Pero no debe olvidar lo más importante
+en las peleas de negros.
+
+1267
+01:43:09,291 --> 01:43:12,343
+Y es que un negro pueda ganar peleas.
+
+1268
+01:43:12,781 --> 01:43:16,997
+Esa debería ser su primera, segunda,
+tercera, cuarta y quinta preocupación.
+
+1269
+01:43:17,135 --> 01:43:19,382
+Después de que tenga eso,
+y sabe que tendrá eso...
+
+1270
+01:43:19,435 --> 01:43:22,585
+...entonces puede empezar
+a implementar un gran proyecto.
+
+1271
+01:43:23,504 --> 01:43:26,105
+En otras palabras,
+lo primero es lo primero.
+
+1272
+01:43:26,160 --> 01:43:28,285
+Lo primero es lo primero.
+
+1273
+01:43:36,716 --> 01:43:39,116
+Veo que ustedes dos se llevan bien.
+
+1274
+01:43:39,643 --> 01:43:41,323
+Increíblemente.
+
+1275
+01:43:41,667 --> 01:43:44,312
+Señor Candie,
+no puede imaginar cómo es...
+
+1276
+01:43:44,313 --> 01:43:47,758
+...no escuchar su lengua nativa
+en cuatro años.
+
+1277
+01:43:48,012 --> 01:43:50,673
+Bueno, diablos,
+no puedo imaginar dos semanas en Boston.
+
+1278
+01:43:52,241 --> 01:43:55,498
+Dos semanas en Boston,
+ese es su-- ¡Vaya!
+
+1279
+01:43:57,071 --> 01:43:58,633
+¡Dos semanas en Boston!
+
+1280
+01:43:58,996 --> 01:44:04,462
+No puedo expresar la felicidad que sentí
+conversando en mi lengua materna.
+
+1281
+01:44:04,521 --> 01:44:08,948
+Y Hildi es una encantadora
+compañía para conversar.
+
+1282
+01:44:09,042 --> 01:44:11,008
+Tenga cuidado, Dr. Schultz...
+
+1283
+01:44:11,171 --> 01:44:13,801
+...podría quedar atrapado
+en una pequeña dosis de amor negro.
+
+1284
+01:44:14,138 --> 01:44:16,503
+Amor negro
+es una emoción poderosa, chico.
+
+1285
+01:44:16,558 --> 01:44:20,001
+Es como una piscina de alquitrán negro,
+una vez que te agarra el culo, no pued--
+
+1286
+01:44:20,071 --> 01:44:21,876
+Sí, señor, no puede.
+
+1287
+01:44:23,223 --> 01:44:27,728
+No sé, doctor, puede hablar
+todo el dulce alemán que quiera, pero...
+
+1288
+01:44:27,776 --> 01:44:30,536
+...parece que este poni
+tiene la mirada puesta en Django.
+
+1289
+01:44:34,302 --> 01:44:40,292
+Bueno, naturalmente, es el águila
+de alto vuelo que atrae su atención...
+
+1290
+01:44:40,383 --> 01:44:42,784
+...no el pollo desplumado.
+
+1291
+01:44:44,000 --> 01:44:46,646
+Dr. Schultz, no se menosprecie...
+
+1292
+01:44:46,664 --> 01:44:48,372
+...usted es un apuesto
+caballero europeo.
+
+1293
+01:44:48,396 --> 01:44:51,678
+<i>Tienes que acabar esto, tiene que meter
+el codo en esto, es esto, me escucha--</i>
+
+1294
+01:44:51,728 --> 01:44:54,124
+Conoces a ese negro, ¿no?
+
+1295
+01:44:55,045 --> 01:44:56,218
+¿Quién?
+¿Quién?
+
+1296
+01:44:56,294 --> 01:44:59,057
+No me contestes, zorra,
+sabes de quién te hablo.
+
+1297
+01:45:01,078 --> 01:45:02,368
+¿En la mesa?
+
+1298
+01:45:03,296 --> 01:45:04,720
+No lo conozco.
+
+1299
+01:45:04,888 --> 01:45:06,107
+¿No lo conoces?
+
+1300
+01:45:06,606 --> 01:45:07,656
+No.
+
+1301
+01:45:07,874 --> 01:45:09,054
+¿No, qué?
+
+1302
+01:45:09,334 --> 01:45:10,741
+No, señor.
+
+1303
+01:45:15,544 --> 01:45:17,422
+No me mentirías, ¿verdad?
+
+1304
+01:45:22,134 --> 01:45:23,342
+Bien.
+
+1305
+01:45:24,707 --> 01:45:27,611
+Si tú lo dices.
+
+1306
+01:45:34,003 --> 01:45:37,320
+Joe el Esquimal es un negro de calidad,
+no hay duda de ello.
+
+1307
+01:45:39,181 --> 01:45:40,409
+Pero si fuera mi dinero.
+
+1308
+01:45:42,053 --> 01:45:44,105
+No pagaría 12.000 dólares por él.
+
+1309
+01:45:44,408 --> 01:45:46,293
+¿Cuál sería su precio?
+
+1310
+01:45:46,885 --> 01:45:48,870
+Bueno, si estuviese dispuesto
+a ser generoso...
+
+1311
+01:45:48,948 --> 01:45:52,174
+...y no sé por qué
+estaría dispuesto a ser generoso...
+
+1312
+01:45:53,292 --> 01:45:54,360
+...9.000.
+
+1313
+01:45:55,891 --> 01:45:56,891
+Tal vez.
+
+1314
+01:45:57,725 --> 01:45:59,125
+Dr. Schultz.
+
+1315
+01:45:59,709 --> 01:46:03,644
+Déjeme aclarar
+cómo surgió está negociación.
+
+1316
+01:46:03,988 --> 01:46:06,235
+Verá, no fui yo
+que fui a venderle un negro...
+
+1317
+01:46:06,236 --> 01:46:07,236
+Claro, no fue.
+
+1318
+01:46:07,237 --> 01:46:09,165
+...fue usted quien se acercó
+a comprarme uno.
+
+1319
+01:46:09,166 --> 01:46:10,166
+Claro, así es.
+
+1320
+01:46:10,167 --> 01:46:12,833
+Ahora esos 9.000 dólares
+de los que habla su chico maravilla...
+
+1321
+01:46:12,850 --> 01:46:14,105
+...dista mucho de lo que quiero...
+
+1322
+01:46:14,108 --> 01:46:15,769
+...y si quisiera vender
+a Joe el Esquimal por eso...
+
+1323
+01:46:15,784 --> 01:46:17,539
+...podría hacerlo cualquier día.
+
+1324
+01:46:17,551 --> 01:46:18,566
+Cualquier día.
+
+1325
+01:46:18,982 --> 01:46:21,104
+Pero como dijo en Greenville, doctor...
+
+1326
+01:46:21,293 --> 01:46:22,963
+...no quiero venderlos.
+
+1327
+01:46:23,760 --> 01:46:26,531
+Solo fue su ridícula oferta...
+
+1328
+01:46:26,550 --> 01:46:29,836
+...de 12.000 dólares
+que me hizo considerarlo.
+
+1329
+01:46:39,118 --> 01:46:43,311
+Sabe, señor Candie,
+posee usted el poder de la persuasión.
+
+1330
+01:46:47,601 --> 01:46:52,137
+¿Por qué no, señor Candie? Es un trato,
+Joe el Esquimal por 12.000 dólares.
+
+1331
+01:46:52,208 --> 01:46:55,393
+Hurra, doctor, hurra,
+y una sabia decisión, ¡eso es!
+
+1332
+01:46:55,455 --> 01:46:58,866
+Sin embargo,
+esa es una enorme cantidad de dinero.
+
+1333
+01:46:59,161 --> 01:47:02,338
+Y al igual que usted tiene al Sr. Moguy,
+yo tengo un abogado...
+
+1334
+01:47:02,387 --> 01:47:04,377
+...un quisquilloso hombre
+llamado Tuttle...
+
+1335
+01:47:04,517 --> 01:47:07,694
+...y necesitaría que mi Sr. Tuttle
+redacte un contrato legal...
+
+1336
+01:47:07,708 --> 01:47:11,705
+...antes de sentirme cómodo cambiando
+esa cantidad de dinero por carne.
+
+1337
+01:47:11,979 --> 01:47:15,390
+Además, quiero a Joe el Esquimal
+examinado por un médico de mi elección.
+
+1338
+01:47:15,444 --> 01:47:16,844
+Naturalmente.
+
+1339
+01:47:16,875 --> 01:47:21,097
+Digo, que volveré en...
+
+1340
+01:47:23,690 --> 01:47:25,790
+- ...cinco días.
+- ¡Cinco días!
+
+1341
+01:47:25,969 --> 01:47:28,826
+Con mi Sr. Tuttle.
+Y entonces mi Sr. Tuttle...
+
+1342
+01:47:28,850 --> 01:47:32,340
+...y su Sr. Moguy puede discutir
+los más íntimos detalles entre ellos.
+
+1343
+01:47:33,474 --> 01:47:36,339
+Digo, espléndido doctor.
+Espléndido.
+
+1344
+01:47:37,152 --> 01:47:38,552
+Caballeros...
+
+1345
+01:47:39,464 --> 01:47:40,928
+...puedo proponer un brindis...
+
+1346
+01:47:43,695 --> 01:47:47,468
+...por Joe el Esquimal.
+O, deberíamos llamarlo...
+
+1347
+01:47:47,778 --> 01:47:49,598
+...el Hércules Negro.
+
+1348
+01:47:49,922 --> 01:47:51,656
+Por el Hércules Negro.
+
+1349
+01:47:51,774 --> 01:47:53,019
+¡El Hércules Negro!
+
+1350
+01:47:53,277 --> 01:47:54,779
+¡El Hércules Negro!
+
+1351
+01:47:54,844 --> 01:47:58,060
+Tenía razón, doctor,
+ese nombre ayuda a pagar un trasero.
+
+1352
+01:48:00,388 --> 01:48:01,788
+¡Hildi!
+
+1353
+01:48:02,218 --> 01:48:03,456
+No tengo más bebida.
+
+1354
+01:48:06,689 --> 01:48:10,952
+Hildi, ¿te gusta servir
+en la mesa grande en la casa grande?
+
+1355
+01:48:11,957 --> 01:48:14,689
+Cuando el señor Candie te habla,
+tú respondes.
+
+1356
+01:48:15,288 --> 01:48:17,121
+Me gusta mucho, señor Candie.
+
+1357
+01:48:18,302 --> 01:48:20,216
+Es mucho mejor que chisporrotear
+en esa caja caliente...
+
+1358
+01:48:20,230 --> 01:48:22,589
+...o arrastrar tu trasero
+a través de un arbusto espinoso.
+
+1359
+01:48:22,709 --> 01:48:25,633
+Quizá no sea tan divertido
+como obtener el placer de los mandingos.
+
+1360
+01:48:25,753 --> 01:48:27,580
+- ¿Cierto, dulzura?
+- Ahora le gustan.
+
+1361
+01:48:27,700 --> 01:48:30,213
+- Como Samson, ¿no?
+- Sí, señor.
+
+1362
+01:48:30,549 --> 01:48:32,111
+¿Sabe, Sr. Candie?
+
+1363
+01:48:32,231 --> 01:48:35,828
+El doctor quizás esté interesado
+en ver la espalda pelada de Hildi...
+
+1364
+01:48:35,948 --> 01:48:39,177
+...ya que no hay muchos negros
+de donde él viene.
+
+1365
+01:48:39,297 --> 01:48:41,939
+Dr. Schultz,
+cuando estuvo a solas con Hildi...
+
+1366
+01:48:42,059 --> 01:48:45,167
+...¿habló en alemán
+o simplemente le quitó la ropa?
+
+1367
+01:48:45,287 --> 01:48:49,144
+- No, solo hablamos y...
+- Entonces, ¿no vio su espalda?
+
+1368
+01:48:49,324 --> 01:48:50,325
+No.
+
+1369
+01:48:50,445 --> 01:48:53,469
+No, no, no, entonces Steven tiene razón,
+podría encontrar esto interesante.
+
+1370
+01:48:53,589 --> 01:48:57,138
+Hildi, vamos, quítate el vestido,
+muéstrale tu espalda al Dr. Schultz.
+
+1371
+01:48:57,258 --> 01:49:01,245
+Calvin,
+acabo de vestirla y embellecerla.
+
+1372
+01:49:01,365 --> 01:49:05,784
+Pero, Lara Lee, el Dr. Schultz
+es de Düsseldorf, no tienen negros allí.
+
+1373
+01:49:05,993 --> 01:49:07,474
+Es un hombre de la medicina.
+
+1374
+01:49:07,631 --> 01:49:10,519
+Estoy seguro que le fascinará
+la resistencia al dolor de los negros.
+
+1375
+01:49:10,639 --> 01:49:14,056
+Estos negros son duros, Dr. Schultz,
+no hay duda sobre ello.
+
+1376
+01:49:14,176 --> 01:49:16,510
+Hildi tiene algo así
+como cuatro latigazos en la espalda.
+
+1377
+01:49:16,630 --> 01:49:18,966
+Lara Lee, aflójale su maldito vestido.
+
+1378
+01:49:19,086 --> 01:49:21,020
+Mire eso, doctor,
+es como un cuadro. Mírelo.
+
+1379
+01:49:21,140 --> 01:49:22,190
+¡Calvin!
+
+1380
+01:49:23,096 --> 01:49:26,181
+¡Estamos comiendo,
+nadie quiere mirar su espalda azotada!
+
+1381
+01:49:28,197 --> 01:49:30,241
+Bien. Bien, bien, bien.
+
+1382
+01:49:30,507 --> 01:49:32,981
+Luego de la cena, Steven.
+Luego de la cena.
+
+1383
+01:49:34,216 --> 01:49:35,715
+Cuando tomemos los cocteles, caballeros.
+
+1384
+01:49:42,147 --> 01:49:44,247
+¡Cora, ven a buscar a esta niña!
+
+1385
+01:49:47,196 --> 01:49:49,498
+- Está hecha un desastre.
+- ¿Sí, señora?
+
+1386
+01:49:49,951 --> 01:49:51,892
+¿Qué han hecho?
+
+1387
+01:49:52,012 --> 01:49:54,676
+Acabo de arreglarte.
+¡Ven aquí!
+
+1388
+01:50:01,077 --> 01:50:04,910
+Cariño, sacaste el lado malo de Steven,
+pero necesitas estar en su lado oculto.
+
+1389
+01:50:05,030 --> 01:50:07,168
+¿Dijiste que no lo conoces?
+
+1390
+01:50:08,197 --> 01:50:09,332
+¿Qué?
+
+1391
+01:50:09,469 --> 01:50:14,451
+Dije: "Dijiste que no lo conoces.".
+
+1392
+01:50:16,316 --> 01:50:17,876
+No lo conozco.
+
+1393
+01:50:18,236 --> 01:50:19,559
+Sí, lo conoces.
+
+1394
+01:50:21,730 --> 01:50:22,985
+Señora Steven.
+
+1395
+01:50:24,393 --> 01:50:25,712
+No lo conozco.
+
+1396
+01:50:25,907 --> 01:50:27,707
+¿Por qué me mientes?
+
+1397
+01:50:30,342 --> 01:50:31,678
+No miento.
+
+1398
+01:50:32,156 --> 01:50:34,116
+Entonces, ¿por qué lloras?
+
+1399
+01:50:35,017 --> 01:50:36,382
+Me está asustando.
+
+1400
+01:50:36,622 --> 01:50:38,422
+¿Por qué te asusto?
+
+1401
+01:50:39,255 --> 01:50:40,955
+Porque usted da miedo.
+
+1402
+01:50:42,689 --> 01:50:45,500
+<i>...hablar alemán con Hildi esta tarde...</i>
+
+1403
+01:50:45,620 --> 01:50:48,369
+<i>...fue positivamente
+enriquecedor para el alma.</i>
+
+1404
+01:50:52,139 --> 01:50:54,863
+Quédate en esa silla.
+
+1405
+01:51:00,442 --> 01:51:05,041
+Hace un rato señaló que estaría
+dispuesto a marcharse con Hildi.
+
+1406
+01:51:05,190 --> 01:51:07,953
+Sí.
+Sí, señor Bob, lo hice.
+
+1407
+01:51:09,860 --> 01:51:15,709
+En ese caso,
+permítame hacerle otra propuesta.
+
+1408
+01:51:16,073 --> 01:51:17,073
+Soy todo oídos.
+
+1409
+01:51:17,193 --> 01:51:19,003
+¡Apresúrate, maldición!
+
+1410
+01:51:19,969 --> 01:51:21,972
+- Señor Candie--
+- ¡Steven!
+
+1411
+01:51:22,434 --> 01:51:24,873
+¡Acaba de interrumpir al Dr. Schultz!
+
+1412
+01:51:25,818 --> 01:51:30,948
+Discúlpeme, Dr. Schultz,
+mis oídos ya casi ni funcionan.
+
+1413
+01:51:32,308 --> 01:51:35,587
+Señor Candie,
+¿podría hablar con usted en la cocina?
+
+1414
+01:51:36,522 --> 01:51:38,480
+¿Se refiere a levantarme de mi silla?
+
+1415
+01:51:38,618 --> 01:51:40,410
+Si es que puede hacerlo.
+
+1416
+01:51:40,723 --> 01:51:41,843
+¿Por qué?
+
+1417
+01:51:42,135 --> 01:51:45,398
+- Es sobre el postre.
+- ¿Qué hay con el postre?
+
+1418
+01:51:45,890 --> 01:51:48,515
+Prefiero discutirlo en privado.
+
+1419
+01:51:48,635 --> 01:51:50,695
+Comeremos torta blanca.
+
+1420
+01:51:50,931 --> 01:51:53,436
+¿Qué clase de melodrama
+podría estar tramándose allí atrás?
+
+1421
+01:51:53,585 --> 01:51:57,856
+Tiene razón Sr. Candie, tiene razón.
+Yo mismo me encargaré.
+
+1422
+01:51:58,002 --> 01:51:59,426
+Encuéntreme en la biblioteca.
+
+1423
+01:51:59,755 --> 01:52:02,960
+Es solo que no comprendo por qué
+no quiere venir a hablar de la velada...
+
+1424
+01:52:03,080 --> 01:52:04,958
+...que ella jodió y me culpa a mí.
+
+1425
+01:52:05,078 --> 01:52:06,896
+Bien, bien, amigo Steven.
+
+1426
+01:52:08,107 --> 01:52:09,662
+Iré en un momento.
+
+1427
+01:52:10,409 --> 01:52:11,529
+Sí, señor.
+
+1428
+01:52:12,363 --> 01:52:13,483
+Bueno...
+
+1429
+01:52:14,176 --> 01:52:18,087
+Caballeros, como pueden ver,
+aunque son talentosos en la cocina...
+
+1430
+01:52:18,207 --> 01:52:21,962
+...de vez en cuando
+se requiere la supervisión de un adulto.
+
+1431
+01:52:24,869 --> 01:52:26,827
+Si me disculpan un momento...
+
+1432
+01:52:32,784 --> 01:52:34,884
+Pueden retirar la vajilla de la cena.
+
+1433
+01:52:38,880 --> 01:52:39,880
+<i>¡Apresúrate, niña!</i>
+
+1434
+01:52:40,000 --> 01:52:41,374
+Entonces, Dr. Schultz...
+
+1435
+01:52:41,804 --> 01:52:44,622
+...¿por qué no nos regala
+ese cuento del circo?
+
+1436
+01:52:45,418 --> 01:52:47,035
+¡El circo!
+
+1437
+01:52:54,295 --> 01:52:56,095
+¿Cuál es el problema?
+
+1438
+01:53:01,404 --> 01:53:05,956
+Esos hijos de puta
+no están aquí para comprar mandingos.
+
+1439
+01:53:06,602 --> 01:53:08,058
+Quieren a la muchacha.
+
+1440
+01:53:10,313 --> 01:53:13,053
+Steven, ¿de qué diablos habla?
+
+1441
+01:53:13,198 --> 01:53:16,477
+Que lo están tomando por estúpido,
+de eso estoy hablando.
+
+1442
+01:53:16,758 --> 01:53:20,123
+No vinieron
+por el excesivamente musculoso Jimmy...
+
+1443
+01:53:20,940 --> 01:53:22,271
+...están aquí por la muchacha.
+
+1444
+01:53:22,717 --> 01:53:25,188
+¿Qué muchacha?
+¿Qué, Hildi?
+
+1445
+01:53:25,308 --> 01:53:27,587
+Sí, Hildi. ¿Ella y Django?
+
+1446
+01:53:27,908 --> 01:53:30,016
+Esos negros se conocen.
+
+1447
+01:53:31,001 --> 01:53:33,991
+- Acaba de comprar a Joe el Esquimal.
+- ¿Le dio dinero?
+
+1448
+01:53:34,111 --> 01:53:35,112
+No, aún no, pero ellos van--
+
+1449
+01:53:35,232 --> 01:53:37,722
+Entonces no comprarán nada,
+al menos no ahora.
+
+1450
+01:53:37,912 --> 01:53:43,152
+Pero ya estaba por comprar a quien vino
+de verdad a comprar cuando interrumpí.
+
+1451
+01:53:43,660 --> 01:53:46,337
+Gracias, Steven.
+De nada, Calvin.
+
+1452
+01:53:51,966 --> 01:53:54,213
+¿De dónde sacas todo esto?
+
+1453
+01:53:55,002 --> 01:53:57,000
+¿Por qué se molestarían tanto
+por una negra...
+
+1454
+01:53:57,120 --> 01:53:59,913
+...con una espalda destruida
+que no vale ni trescientos dólares?
+
+1455
+01:54:00,095 --> 01:54:03,733
+Lo están haciendo porque ese negro
+Django está enamorado de Hildi.
+
+1456
+01:54:04,265 --> 01:54:05,934
+Es probable que ella sea su esposa.
+
+1457
+01:54:06,100 --> 01:54:07,900
+Ahora, por qué a ese alemán
+le importa un carajo...
+
+1458
+01:54:08,020 --> 01:54:09,954
+...de quién está enamorado
+ese arrogante hijo de puta...
+
+1459
+01:54:10,074 --> 01:54:12,274
+...estoy seguro de no saberlo.
+
+1460
+01:54:15,039 --> 01:54:16,915
+Si ella es a quien quieren...
+
+1461
+01:54:17,330 --> 01:54:21,474
+...¿por qué toda esta farsa
+sobre comprar mandingos?
+
+1462
+01:54:21,836 --> 01:54:24,818
+Usted no prestaría
+nada de atención a $300.
+
+1463
+01:54:25,670 --> 01:54:27,149
+Pero ¿y a $12.000?
+
+1464
+01:54:28,457 --> 01:54:30,644
+Eso lo haría muy amigable, ¿no?
+
+1465
+01:54:33,639 --> 01:54:35,039
+Sí, así es.
+
+1466
+01:54:38,746 --> 01:54:39,879
+Su esposa, ¿no?
+
+1467
+01:54:44,450 --> 01:54:46,509
+Si hubiera sido una serpiente...
+
+1468
+01:54:46,883 --> 01:54:48,290
+...nos habría mordido.
+
+1469
+01:54:51,424 --> 01:54:56,289
+Esos malditos mentirosos...
+
+1470
+01:54:56,440 --> 01:54:59,979
+...hijos de puta
+que hacen perder el tiempo.
+
+1471
+01:55:02,224 --> 01:55:03,784
+¡Hijos de puta!
+
+1472
+01:55:03,917 --> 01:55:05,110
+...fuera de Nueva Orleáns...
+
+1473
+01:55:05,230 --> 01:55:08,855
+...así que tuve algo de experiencia
+en algunos tipos de teatros.
+
+1474
+01:55:10,095 --> 01:55:11,725
+¡Allí estás!
+
+1475
+01:55:11,845 --> 01:55:15,420
+Comenzaba a pensar que usted
+y ese viejo cuervo habían huido juntos.
+
+1476
+01:55:16,724 --> 01:55:18,831
+Vaya sorpresa que hubiera sido, ¿cierto?
+
+1477
+01:55:19,099 --> 01:55:20,112
+Lara Lee.
+
+1478
+01:55:20,354 --> 01:55:21,971
+Estaba mirando por la ventana grande.
+
+1479
+01:55:22,045 --> 01:55:23,972
+Billy Crash anda por ahí
+negociando con...
+
+1480
+01:55:23,973 --> 01:55:26,368
+...un traficante de esclavos sospechoso
+tratando de vender unos ponis.
+
+1481
+01:55:26,378 --> 01:55:29,617
+¿Serías tan amable de ir
+a echarles una vistazo a las chicas?
+
+1482
+01:55:30,501 --> 01:55:33,301
+- Por supuesto, hermano.
+- Gracias, querida.
+
+1483
+01:55:45,947 --> 01:55:49,360
+Bien. Los negocios no se toman descanso.
+
+1484
+01:55:51,654 --> 01:55:53,054
+La oferta.
+
+1485
+01:55:53,202 --> 01:55:56,932
+Antes de que se fuera,
+hablábamos sobre la posibilidad...
+
+1486
+01:55:56,982 --> 01:55:58,982
+...de que yo comprara a Broomhilda.
+
+1487
+01:55:59,027 --> 01:56:01,309
+¡Sí! Sí, así es.
+
+1488
+01:56:02,028 --> 01:56:04,387
+Y lo volveremos a hacer;
+en un momento.
+
+1489
+01:56:20,488 --> 01:56:22,588
+¿Quién es su amiguito?
+
+1490
+01:56:27,750 --> 01:56:29,150
+Él es Ben.
+
+1491
+01:56:30,719 --> 01:56:35,248
+Era un negro que vivió aquí
+durante mucho tiempo.
+
+1492
+01:56:35,811 --> 01:56:37,911
+Y cuando digo "mucho tiempo"
+hablo de una maldita eternidad.
+
+1493
+01:56:39,303 --> 01:56:40,703
+Este Ben...
+
+1494
+01:56:41,350 --> 01:56:43,170
+...cuidó a mi padre...
+
+1495
+01:56:43,733 --> 01:56:45,553
+...y al padre de mi padre.
+
+1496
+01:56:46,129 --> 01:56:48,275
+Y hasta que un día empezó
+la temporada de caza de ciervos...
+
+1497
+01:56:51,377 --> 01:56:52,859
+...me cuidó a mí.
+
+1498
+01:56:55,633 --> 01:56:59,537
+Crecí como hijo del dueño
+de una enorme plantación en Misisipi...
+
+1499
+01:56:59,551 --> 01:57:05,541
+...en donde hombres blancos
+vivían con muchos rostros negros.
+
+1500
+01:57:07,300 --> 01:57:12,336
+Pasé toda mi vida aquí,
+precisamente aquí, en Candyland...
+
+1501
+01:57:13,704 --> 01:57:17,233
+...rodeado de rostros negros.
+
+1502
+01:57:19,546 --> 01:57:22,614
+Y los he visto a diario, día tras día.
+
+1503
+01:57:23,216 --> 01:57:24,918
+Sólo una cosa me intrigaba.
+
+1504
+01:57:28,987 --> 01:57:30,620
+¿Por qué no nos matan?
+
+1505
+01:57:34,727 --> 01:57:36,654
+¡Ahora mismo, en el porche!
+
+1506
+01:57:37,077 --> 01:57:39,568
+Tres veces por semana
+durante cincuenta años...
+
+1507
+01:57:39,702 --> 01:57:44,262
+...el viejo Ben afeitaba a mi padre
+con una navaja.
+
+1508
+01:57:45,004 --> 01:57:50,126
+Si yo fuera Ben, le habría cortado
+a mi padre la maldita garganta...
+
+1509
+01:57:50,185 --> 01:57:53,925
+...y no hubiera tardado cincuenta años
+en hacerlo.
+
+1510
+01:57:56,276 --> 01:57:57,688
+Pero él no lo hizo.
+
+1511
+01:57:59,532 --> 01:58:00,652
+¿Por qué no?
+
+1512
+01:58:02,186 --> 01:58:03,186
+Verán...
+
+1513
+01:58:03,490 --> 01:58:05,818
+...la analogía en la ciencia...
+
+1514
+01:58:06,871 --> 01:58:12,071
+...es crucial para comprender
+las diferencias entre dos especies.
+
+1515
+01:58:13,873 --> 01:58:16,277
+En el cráneo de este africano...
+
+1516
+01:58:17,856 --> 01:58:20,228
+...la zona asociada con la obediencia...
+
+1517
+01:58:20,296 --> 01:58:23,559
+...es más grande
+que en la de cualquier humano...
+
+1518
+01:58:23,609 --> 01:58:25,109
+...o especie subhumana
+del planeta Tierra.
+
+1519
+01:58:41,490 --> 01:58:43,310
+Si examinan...
+
+1520
+01:58:44,590 --> 01:58:46,690
+...este trozo de cráneo...
+
+1521
+01:58:52,930 --> 01:58:56,982
+...verán tres hoyuelos.
+
+1522
+01:59:00,100 --> 01:59:03,574
+Aquí, aquí y aquí.
+
+1523
+01:59:04,019 --> 01:59:05,139
+Ahora bien...
+
+1524
+01:59:05,449 --> 01:59:10,212
+Si yo tuviera en mi mano el cráneo
+de Isaac Newton o de Galileo...
+
+1525
+01:59:10,611 --> 01:59:14,882
+...estos tres hoyuelos estarían
+en la región craneal asociada con...
+
+1526
+01:59:15,226 --> 01:59:16,626
+...la creatividad.
+
+1527
+01:59:17,224 --> 01:59:19,324
+Pero este es el cráneo de Ben.
+
+1528
+01:59:20,036 --> 01:59:23,916
+Y en el cráneo de Ben,
+depositario de la carga genética...
+
+1529
+01:59:24,513 --> 01:59:28,721
+...los tres hoyuelos están
+en la región craneal asociada con...
+
+1530
+01:59:29,675 --> 01:59:31,075
+...el servilismo.
+
+1531
+01:59:32,394 --> 01:59:33,899
+Muchacho listo...
+
+1532
+01:59:34,767 --> 01:59:37,007
+...reconoceré
+que es bastante inteligente.
+
+1533
+01:59:39,679 --> 01:59:41,342
+Pero si tomara este martillo...
+
+1534
+01:59:43,753 --> 01:59:45,750
+...y le abriera el cráneo...
+
+1535
+01:59:47,062 --> 01:59:49,445
+...tendría esos tres hoyuelos...
+
+1536
+01:59:50,172 --> 01:59:51,966
+...en los mismos lugares...
+
+1537
+01:59:53,794 --> 01:59:55,161
+...que el viejo Ben.
+
+1538
+01:59:57,420 --> 01:59:59,910
+¡Extienda las manos sobre la mesa!
+
+1539
+02:00:00,008 --> 02:00:03,051
+¡Si quita las manos de esa mesa...
+
+1540
+02:00:03,104 --> 02:00:06,349
+...el Sr. Butch le disparará con ambos
+cañones de esa carabina recortada!
+
+1541
+02:00:07,454 --> 02:00:10,796
+¡Se han dicho muchas mentiras
+sentados a la mesa, esta noche...
+
+1542
+02:00:10,822 --> 02:00:12,446
+...pueden estar seguros de eso!
+
+1543
+02:00:13,647 --> 02:00:14,754
+Sr. Moguy...
+
+1544
+02:00:14,800 --> 02:00:16,618
+...¿sería tan amable
+de recoger las pistolas...
+
+1545
+02:00:16,668 --> 02:00:18,668
+...que tienen los muchachos
+en sus caderas?
+
+1546
+02:00:23,452 --> 02:00:24,832
+Se lo agradezco mucho.
+
+1547
+02:00:24,903 --> 02:00:26,023
+Doctor.
+
+1548
+02:00:30,402 --> 02:00:31,681
+¿En dónde estábamos?
+
+1549
+02:00:36,180 --> 02:00:37,459
+Idiota.
+
+1550
+02:00:41,365 --> 02:00:42,804
+Sí, ya sé.
+
+1551
+02:00:43,314 --> 02:00:48,077
+Creo que estaba por hacerme una oferta
+para comprar a Broomhilda.
+
+1552
+02:00:48,751 --> 02:00:50,029
+¿Me equivoco?
+
+1553
+02:00:54,230 --> 02:00:55,820
+Entonces, continuemos.
+
+1554
+02:00:57,822 --> 02:00:59,321
+¡Tráela, Hildi!
+
+1555
+02:01:02,509 --> 02:01:03,629
+Pasa, querida.
+
+1556
+02:01:05,217 --> 02:01:07,417
+¡Siéntate en la maldita silla!
+
+1557
+02:01:07,441 --> 02:01:08,886
+Coloca tus manos sobre la mesa.
+
+1558
+02:01:08,941 --> 02:01:10,761
+¡Y cierra la boca!
+
+1559
+02:01:14,597 --> 02:01:18,986
+Dr. Schultz.
+En Greenville, usted dijo...
+
+1560
+02:01:19,090 --> 02:01:21,251
+...que por "una negra especial"
+estaría dispuesto a pagar...
+
+1561
+02:01:21,267 --> 02:01:24,400
+...lo que algunos considerarían
+una suma ridícula.
+
+1562
+02:01:25,079 --> 02:01:28,053
+Por eso le pregunté
+"¿Qué es lo que entiende por ridículo?".
+
+1563
+02:01:28,081 --> 02:01:31,920
+A lo cual respondió, "12.000 dólares".
+
+1564
+02:01:32,989 --> 02:01:36,799
+Considerando que viajó
+miles de kilómetros...
+
+1565
+02:01:36,961 --> 02:01:38,641
+...se metió en miles de problemas...
+
+1566
+02:01:38,940 --> 02:01:43,484
+...e hizo miles de cosas
+para comprar a esta encantadora dama...
+
+1567
+02:01:43,516 --> 02:01:48,810
+...todo indica que
+¡Broomhilda es esa "negra especial"!
+
+1568
+02:01:50,063 --> 02:01:52,740
+Y si quieren irse de Candyland
+con Broomhilda...
+
+1569
+02:01:53,829 --> 02:01:59,146
+...su precio es de 12.000 dólares.
+
+1570
+02:01:59,539 --> 02:02:03,693
+¿Supongo que usted prefiere
+el "Tómalo o déjalo" para negociar?
+
+1571
+02:02:05,615 --> 02:02:07,435
+Sí, así es, doctor.
+
+1572
+02:02:07,976 --> 02:02:11,026
+Según la ley del condado Chickasaw...
+
+1573
+02:02:11,127 --> 02:02:14,027
+...Broomhilda es de mi propiedad...
+
+1574
+02:02:14,653 --> 02:02:19,869
+...¡y con mis pertenencias
+puedo hacer lo que quiera!
+
+1575
+02:02:21,064 --> 02:02:23,328
+¡Y si consideran que el precio...
+
+1576
+02:02:23,429 --> 02:02:27,329
+...que pido por esta negra
+es muy alto...
+
+1577
+02:02:27,820 --> 02:02:30,427
+...entonces lo que haré...
+
+1578
+02:02:33,550 --> 02:02:37,571
+...es tomar este maldito martillo
+y darle una golpiza!
+
+1579
+02:02:37,651 --> 02:02:39,187
+¡Frente a ustedes!
+
+1580
+02:02:39,201 --> 02:02:40,201
+Tranquilo, amigo.
+
+1581
+02:02:40,203 --> 02:02:44,451
+¡Así podremos examinar los tres hoyuelos
+en el cráneo de Broomhilda!
+
+1582
+02:02:44,647 --> 02:02:45,910
+¡Ahora!
+
+1583
+02:02:46,043 --> 02:02:48,332
+¿Qué vamos a hacer, Doc?
+
+1584
+02:02:49,169 --> 02:02:50,169
+¿Qué haremos?
+
+1585
+02:02:50,184 --> 02:02:53,784
+¿Puedo quitar las manos de la mesa
+para poder sacar mi billetera?
+
+1586
+02:02:55,597 --> 02:02:56,719
+Sí, claro que puede.
+
+1587
+02:03:10,578 --> 02:03:11,698
+Son doce.
+
+1588
+02:03:15,826 --> 02:03:17,245
+¡Vendida!
+
+1589
+02:03:17,957 --> 02:03:23,618
+Al hombre de la barba excepcional
+y su negro ordinario.
+
+1590
+02:03:29,701 --> 02:03:31,724
+- Sr. Moguy.
+- ¿Sí, Calvin?
+
+1591
+02:03:32,738 --> 02:03:36,071
+Por favor, hágale al caballero
+un recibo por 12.000 dólares.
+
+1592
+02:03:36,236 --> 02:03:39,054
+12.000 dólares.
+
+1593
+02:03:41,074 --> 02:03:43,474
+Fue un placer hacer negocios
+con ustedes.
+
+1594
+02:03:44,046 --> 02:03:45,482
+Caballeros...
+
+1595
+02:03:46,834 --> 02:03:48,927
+...si me acompañan a la sala...
+
+1596
+02:03:49,771 --> 02:03:52,074
+...podrán degustar torta blanca.
+
+1597
+02:05:20,445 --> 02:05:21,997
+Buen trabajo, Calvin.
+
+1598
+02:05:24,815 --> 02:05:27,633
+Disculpe.
+Disculpe, señora.
+
+1599
+02:05:28,821 --> 02:05:31,225
+¿Sería tan amable
+de dejar de tocar Beethoven?
+
+1600
+02:05:31,269 --> 02:05:32,607
+¡Quite sus manos del arpa!
+
+1601
+02:05:36,993 --> 02:05:38,113
+¡Doctor!
+
+1602
+02:05:38,389 --> 02:05:40,988
+- ¡Doc, no puede entrar ahí!
+- ¡Tranquilo, Steven, calma!
+
+1603
+02:05:40,998 --> 02:05:43,011
+- No tiene nada que hacer ahí.
+- Déjalo.
+
+1604
+02:05:43,806 --> 02:05:47,186
+Está un poco enojado, eso es todo.
+Yo me encargaré.
+
+1605
+02:06:12,941 --> 02:06:14,061
+¿Torta blanca?
+
+1606
+02:06:15,204 --> 02:06:18,004
+No me atraen los dulces, gracias.
+
+1607
+02:06:27,530 --> 02:06:29,996
+Está pensativo porque estoy tratando
+de sacar lo mejor de usted, ¿no es así?
+
+1608
+02:06:30,911 --> 02:06:35,432
+Más bien pensaba en ese pobre diablo
+con el que hoy alimentó a los perros.
+
+1609
+02:06:35,674 --> 02:06:37,026
+D'Artagnan.
+
+1610
+02:06:38,467 --> 02:06:41,427
+Y me preguntaba qué habría hecho Dumas
+con todo esto.
+
+1611
+02:06:42,251 --> 02:06:44,051
+¿Cómo dijo?
+
+1612
+02:06:46,936 --> 02:06:50,785
+Alejandro Dumas,
+escribió Los Tres Mosqueteros.
+
+1613
+02:06:51,207 --> 02:06:52,918
+Sí, por supuesto, doctor.
+
+1614
+02:06:52,957 --> 02:06:54,703
+Supuse que debería ser usted
+un admirador...
+
+1615
+02:06:54,713 --> 02:06:58,486
+...pues el nombre de su perro es el del
+personaje más importante de su novela.
+
+1616
+02:06:59,441 --> 02:07:03,059
+Entonces, si Alejandro Dumas
+hubiera estado hoy allí...
+
+1617
+02:07:03,110 --> 02:07:05,350
+...me pregunto qué habría hecho con eso.
+
+1618
+02:07:07,344 --> 02:07:08,990
+¿Duda que lo aprobaría?
+
+1619
+02:07:11,151 --> 02:07:16,180
+Sí, su aprobación sería como mucho
+una dudosa propuesta.
+
+1620
+02:07:18,574 --> 02:07:20,347
+¿Un francesito de corazón blando?
+
+1621
+02:07:22,377 --> 02:07:24,377
+Alejandro Dumas es negro.
+
+1622
+02:07:28,469 --> 02:07:30,304
+¿Esos son los documentos de Broomhilda?
+
+1623
+02:07:30,414 --> 02:07:32,232
+- Así es.
+- ¿Me permite?
+
+1624
+02:07:32,365 --> 02:07:34,159
+- ¡Por supuesto!
+- Gracias.
+
+1625
+02:07:36,863 --> 02:07:39,719
+Ese es su recibo de compra,
+su historial de propiedad...
+
+1626
+02:07:39,720 --> 02:07:42,071
+...y, por supuesto,
+sus documentos de libertad.
+
+1627
+02:07:42,291 --> 02:07:44,452
+¿Me proporcionaría tinta y una pluma?
+
+1628
+02:07:45,653 --> 02:07:47,523
+Allí, sobre la mesita.
+
+1629
+02:07:47,617 --> 02:07:49,017
+Gracias.
+
+1630
+02:08:09,888 --> 02:08:11,288
+Gracias.
+
+1631
+02:08:14,773 --> 02:08:16,593
+Broomhilda Von Shaft...
+
+1632
+02:08:19,084 --> 02:08:21,302
+...considérate una mujer libre.
+
+1633
+02:08:33,500 --> 02:08:35,320
+Sr. Candie...
+
+1634
+02:08:37,248 --> 02:08:40,753
+<i>Normalmente diría yo: auf wiedersehen.</i>
+
+1635
+02:08:41,480 --> 02:08:45,673
+<i>Pero como auf wiedersehen
+significa "hasta la vista"...</i>
+
+1636
+02:08:46,370 --> 02:08:49,703
+...y como yo quisiera no verlo
+nunca más, a usted, señor...
+
+1637
+02:08:50,133 --> 02:08:52,735
+...le digo "adiós".
+
+1638
+02:08:56,983 --> 02:08:58,383
+Vámonos.
+
+1639
+02:08:59,723 --> 02:09:00,843
+Andando.
+
+1640
+02:09:02,858 --> 02:09:05,258
+¡Un momento, doctor!
+
+1641
+02:09:06,650 --> 02:09:07,726
+¿Qué?
+
+1642
+02:09:12,293 --> 02:09:14,470
+Es costumbre aquí, en el sur...
+
+1643
+02:09:14,996 --> 02:09:18,165
+...que una vez que se ha concluido
+un trato, las dos partes...
+
+1644
+02:09:18,830 --> 02:09:20,541
+...se den la mano.
+
+1645
+02:09:21,277 --> 02:09:22,664
+Eso implica buena fe.
+
+1646
+02:09:23,474 --> 02:09:25,593
+- No soy del sur.
+- Pero está...
+
+1647
+02:09:26,592 --> 02:09:28,125
+...en mi casa, doctor...
+
+1648
+02:09:29,711 --> 02:09:31,316
+...así que temo que debo insistir.
+
+1649
+02:09:31,589 --> 02:09:35,088
+¿Insistir? ¿En qué?
+¿En que yo estreche su mano?
+
+1650
+02:09:35,105 --> 02:09:38,235
+Bien, entonces temo que debo insistir
+en la dirección opuesta.
+
+1651
+02:09:38,940 --> 02:09:40,453
+¿Sabe lo que pienso de usted?
+
+1652
+02:09:40,640 --> 02:09:43,640
+¿Lo que piensa de mí?
+No, no lo sé.
+
+1653
+02:09:45,490 --> 02:09:47,657
+Pienso que es usted un perdedor.
+
+1654
+02:09:47,831 --> 02:09:50,831
+Y yo pienso que usted
+es un pésimo ganador.
+
+1655
+02:09:51,026 --> 02:09:52,539
+No obstante...
+
+1656
+02:09:52,886 --> 02:09:55,781
+...aquí en el Condado Chickasaw,
+un trato no se ha cumplido...
+
+1657
+02:09:56,110 --> 02:09:58,734
+...hasta que las dos partes
+se estrechen la mano.
+
+1658
+02:09:59,375 --> 02:10:02,419
+Aún después de eso,
+todas esas firmas no valen una mierda...
+
+1659
+02:10:03,341 --> 02:10:06,385
+...si usted no estrecha mi mano.
+
+1660
+02:10:07,729 --> 02:10:10,664
+¿Si no le doy la mano...
+
+1661
+02:10:10,859 --> 02:10:13,507
+...va a arrojar a la basura
+12 mil dólares?
+
+1662
+02:10:13,688 --> 02:10:15,787
+No lo creo.
+
+1663
+02:10:16,609 --> 02:10:18,289
+Sr. Butch...
+
+1664
+02:10:19,657 --> 02:10:21,862
+...si ella intenta irse
+antes de que ese alemán...
+
+1665
+02:10:21,863 --> 02:10:23,863
+...amante de los negros
+estreche mi mano...
+
+1666
+02:10:24,432 --> 02:10:26,592
+...la matas de inmediato.
+
+1667
+02:10:48,171 --> 02:10:51,424
+¿En verdad quiere que le de la mano?
+
+1668
+02:10:52,951 --> 02:10:54,511
+Insisto en ello.
+
+1669
+02:10:55,972 --> 02:10:58,222
+Si insiste.
+
+1670
+02:11:16,453 --> 02:11:18,212
+¡Calvin!
+
+1671
+02:11:19,108 --> 02:11:21,206
+¡Calvin!
+
+1672
+02:11:26,976 --> 02:11:29,432
+Lo siento.
+No pude resistirlo.
+
+1673
+02:11:42,143 --> 02:11:44,078
+¡El negro se está volviendo loco,
+al diablo--
+
+1674
+02:11:44,727 --> 02:11:47,396
+¡Socorro, está acabando con todos!
+
+1675
+02:12:04,453 --> 02:12:06,575
+¡Mierda! ¡Hijo de puta!
+
+1676
+02:12:10,728 --> 02:12:11,848
+¡Agarren a ese maldito--
+
+1677
+02:12:12,476 --> 02:12:13,596
+¡Agarren a ese maldito--
+
+1678
+02:12:16,567 --> 02:12:21,182
+¡Maldito hijo de puta!
+¿Qué mierda hizo? ¡Maldición!
+
+1679
+02:12:22,846 --> 02:12:23,966
+¿Qué--
+
+1680
+02:12:25,672 --> 02:12:27,039
+¡No dispares!
+
+1681
+02:12:27,132 --> 02:12:28,857
+¡Estúpido hijo de puta!
+
+1682
+02:12:28,928 --> 02:12:30,328
+¡Lo siento, Jessie!
+
+1683
+02:12:30,404 --> 02:12:34,995
+¡¿Quién diablos le dio un arma al negro?!
+
+1684
+02:13:08,190 --> 02:13:10,515
+Ningún negro va a--
+
+1685
+02:13:10,922 --> 02:13:14,169
+¡Dios! ¡Dios mío!
+
+1686
+02:13:14,289 --> 02:13:16,138
+¡Hijo de puta!
+
+1687
+02:14:35,634 --> 02:14:37,454
+¡Alto el fuego!
+
+1688
+02:14:40,294 --> 02:14:42,114
+¡Alto el fuego!
+
+1689
+02:14:43,597 --> 02:14:45,697
+¡Deja de disparar, maldición!
+
+1690
+02:14:54,284 --> 02:14:55,404
+¡Django!
+
+1691
+02:14:56,285 --> 02:14:57,405
+¿Qué?
+
+1692
+02:15:00,267 --> 02:15:02,087
+¡Tenemos a tu mujer!
+
+1693
+02:15:03,273 --> 02:15:06,342
+¡Billy Crash tiene el arma
+apuntando a su cabeza!
+
+1694
+02:15:06,841 --> 02:15:08,880
+Si no dejas de disparar...
+
+1695
+02:15:08,982 --> 02:15:11,518
+...le va a volar los sesos.
+
+1696
+02:15:11,693 --> 02:15:13,582
+¡Y no es ninguna amenaza, vaquero!
+
+1697
+02:15:14,535 --> 02:15:15,907
+Es una promesa.
+
+1698
+02:15:17,509 --> 02:15:18,629
+O...
+
+1699
+02:15:18,970 --> 02:15:20,090
+Puedes entregarte.
+
+1700
+02:15:20,546 --> 02:15:22,646
+Arroja tu arma.
+
+1701
+02:15:22,960 --> 02:15:24,080
+No mataremos a Hildi.
+
+1702
+02:15:24,450 --> 02:15:25,850
+¡Mierda!
+
+1703
+02:15:26,052 --> 02:15:28,776
+De verdad, sucio indio Django.
+Lo juro por Dios.
+
+1704
+02:15:30,177 --> 02:15:31,297
+¿Te entregas?
+
+1705
+02:15:32,151 --> 02:15:34,422
+No te haremos daño.
+
+1706
+02:15:36,306 --> 02:15:38,352
+¿Y debo creerle a tu culo negro?
+
+1707
+02:15:38,728 --> 02:15:41,858
+¡Personalmente, me importa un carajo
+lo que creas o dejes de creer!
+
+1708
+02:15:41,890 --> 02:15:44,965
+¡Creo que si no te entregas
+en los próximos diez segundos...
+
+1709
+02:15:44,979 --> 02:15:47,140
+...le volaremos los sesos a esta puta!
+
+1710
+02:15:47,159 --> 02:15:48,968
+¡Cree eso!
+
+1711
+02:15:53,184 --> 02:15:54,582
+Déjame.
+
+1712
+02:15:54,600 --> 02:15:55,600
+¡Seis!
+
+1713
+02:15:55,601 --> 02:15:56,871
+¡Déjame ir!
+
+1714
+02:15:56,901 --> 02:15:57,901
+¡Siete!
+
+1715
+02:15:57,902 --> 02:15:59,271
+- Me importas mucho.
+- Django.
+
+1716
+02:15:59,280 --> 02:16:00,280
+¡Ocho!
+
+1717
+02:16:00,524 --> 02:16:01,924
+Te amo.
+
+1718
+02:16:01,993 --> 02:16:03,113
+¡Nueve!
+
+1719
+02:16:03,180 --> 02:16:04,888
+- ¡Un momento!
+- ¡No!
+
+1720
+02:16:07,279 --> 02:16:08,607
+Me entrego.
+
+1721
+02:16:09,420 --> 02:16:11,562
+No te oigo, negro.
+
+1722
+02:16:12,469 --> 02:16:14,547
+¡Dije que me entrego!
+
+1723
+02:18:14,968 --> 02:18:16,793
+Hora de despertarse, negro.
+
+1724
+02:18:22,496 --> 02:18:24,775
+Son cazadores de recompensa, ¿no?
+
+1725
+02:18:25,600 --> 02:18:27,840
+Sabía que había algo sospechoso
+en todos ustedes.
+
+1726
+02:18:29,356 --> 02:18:34,025
+Encontramos tu afiche de "buscado"
+y un libro de dibujos en tus alforjas.
+
+1727
+02:18:35,762 --> 02:18:37,307
+Debo decir...
+
+1728
+02:18:38,115 --> 02:18:40,706
+...que nunca antes había escuchado
+de algún cazarrecompensas negro.
+
+1729
+02:18:41,432 --> 02:18:44,742
+Le pagan a un negro para que mate a los
+blancos, ¿cuánto te gustaba ese trabajo?
+
+1730
+02:18:45,570 --> 02:18:48,370
+Probablemente bastante,
+mientras duró, ¿no?
+
+1731
+02:18:57,983 --> 02:19:00,099
+Es hora de decirles buenas noches
+a tus pelotas, negro.
+
+1732
+02:19:00,282 --> 02:19:01,365
+A la cuenta de tres...
+
+1733
+02:19:02,149 --> 02:19:03,248
+Uno...
+
+1734
+02:19:03,788 --> 02:19:04,788
+Te tengo.
+
+1735
+02:19:05,506 --> 02:19:06,692
+Dos...
+
+1736
+02:19:06,973 --> 02:19:08,892
+Tranquilo negro, aquí viene--
+
+1737
+02:19:10,033 --> 02:19:11,153
+¿Capitán?
+
+1738
+02:19:11,640 --> 02:19:13,160
+La señorita Lara desea verlo.
+
+1739
+02:19:14,265 --> 02:19:17,073
+Eso tiene algo que ver con el
+funeral del viejo.
+
+1740
+02:19:18,455 --> 02:19:21,922
+Y cambió de opinión
+acerca de dispararle a Django.
+
+1741
+02:19:23,079 --> 02:19:26,381
+Va a entregarlo a la gente de
+LeQuint Dickey.
+
+1742
+02:19:27,671 --> 02:19:30,231
+Bueno, no perdió el tiempo
+en contarme.
+
+1743
+02:19:37,010 --> 02:19:39,197
+Qué decepcionante.
+
+1744
+02:20:01,815 --> 02:20:02,935
+Te irás.
+
+1745
+02:20:04,907 --> 02:20:06,027
+Éstos de aquí son...
+
+1746
+02:20:06,453 --> 02:20:08,273
+...lo que puedes llevar contigo.
+
+1747
+02:20:11,333 --> 02:20:14,854
+De tu culo negro es de lo único que esos
+hijos de puta en la Casa Grande...
+
+1748
+02:20:14,909 --> 02:20:17,539
+...han estado hablando
+durante las últimas horas.
+
+1749
+02:20:18,446 --> 02:20:22,342
+Parece que a esos muchachos
+no se les ocurrió ni una buena idea...
+
+1750
+02:20:22,363 --> 02:20:24,803
+...acerca de cómo matarte.
+
+1751
+02:20:25,014 --> 02:20:30,621
+La mayoría de sus ideas tenían que ver
+con destrozarte las partes íntimas.
+
+1752
+02:20:30,697 --> 02:20:35,999
+Ahora, eso puede parecer una buena idea,
+pero la verdad es que...
+
+1753
+02:20:37,669 --> 02:20:43,338
+...cuando le disparas a un negro en las
+bolas, la mayoría se desangran en...
+
+1754
+02:20:43,612 --> 02:20:45,612
+...siete minutos, la mayoría de ellos.
+
+1755
+02:20:47,992 --> 02:20:49,419
+Bueno, más de la mayoría.
+
+1756
+02:20:50,140 --> 02:20:51,739
+Entonces digo...
+
+1757
+02:20:53,504 --> 02:20:55,340
+Maldición...
+
+1758
+02:20:56,180 --> 02:21:00,174
+...los negros que vendimos a
+LeQuint Dickey les fue peor que eso.
+
+1759
+02:21:01,244 --> 02:21:04,069
+Y todavía dicen "Vamos a azotarlos
+hasta la muerte...
+
+1760
+02:21:04,145 --> 02:21:07,595
+...tirarlos a los mandingos, alimentar
+a los perros de Stonesipher con ellos".
+
+1761
+02:21:07,831 --> 02:21:12,891
+Y yo digo, "¿Qué tiene eso de especial?
+¡Hacemos esa mierda todo el tiempo!"
+
+1762
+02:21:13,048 --> 02:21:17,605
+Madre mía, los negros
+que vendimos a LeQuint Dickey...
+
+1763
+02:21:17,606 --> 02:21:19,606
+...les fue peor que eso.
+
+1764
+02:21:20,410 --> 02:21:23,136
+Y vaya sorpresa...
+
+1765
+02:21:23,137 --> 02:21:27,437
+...de la nada, la señorita Lara
+aparece con la idea brillante...
+
+1766
+02:21:28,078 --> 02:21:32,739
+...de entregarle tu trasero a
+la Compañía Minera de LeQuint Dickey.
+
+1767
+02:21:34,170 --> 02:21:38,519
+Y como esclavo de
+la Compañía Minera de LeQuint Dickey...
+
+1768
+02:21:39,254 --> 02:21:42,783
+...a partir de ahora,
+hasta el día de tu muerte...
+
+1769
+02:21:43,010 --> 02:21:45,986
+...todo el día, todos los días...
+
+1770
+02:21:46,236 --> 02:21:48,843
+...estarás martillando...
+
+1771
+02:21:49,192 --> 02:21:53,272
+...convirtiendo grandes rocas en
+rocas pequeñas.
+
+1772
+02:21:54,440 --> 02:21:58,680
+Ahora, cuando llegues ahí,
+ellos te quitarán tu nombre...
+
+1773
+02:21:58,844 --> 02:22:01,599
+...te darán un número, y un mazo...
+
+1774
+02:22:02,021 --> 02:22:03,857
+...y dirán "Ponte a trabajar".
+
+1775
+02:22:04,662 --> 02:22:07,112
+A la primera impertinencia,
+te cortan la lengua...
+
+1776
+02:22:07,187 --> 02:22:09,513
+...son buenos en ello también,
+no te desangrarás.
+
+1777
+02:22:09,770 --> 02:22:12,043
+Lo hacen realmente bien.
+
+1778
+02:22:13,502 --> 02:22:17,935
+Te harán trabajar todo el día,
+todos los días...
+
+1779
+02:22:17,996 --> 02:22:20,290
+...hasta que tu espalda se rinda.
+
+1780
+02:22:20,407 --> 02:22:22,896
+Entonces te golpearán en la cabeza
+con un martillo...
+
+1781
+02:22:23,039 --> 02:22:25,388
+...arrojarán tu trasero
+al pozo de los negros.
+
+1782
+02:22:25,881 --> 02:22:31,175
+Y esa...
+será tu historia, Django.
+
+1783
+02:23:19,896 --> 02:23:21,716
+Oye, blanco.
+
+1784
+02:23:22,982 --> 02:23:24,802
+He dicho: oye, blanco.
+
+1785
+02:23:25,440 --> 02:23:27,906
+Cállate, negro,
+no me interesa lo que digas.
+
+1786
+02:23:27,938 --> 02:23:30,647
+¿Qué tanto te gustaría
+ganarte once mil dólares?
+
+1787
+02:23:30,694 --> 02:23:31,980
+¿Hacer qué?
+
+1788
+02:23:32,018 --> 02:23:34,766
+Dije, ¿qué tanto te gustaría
+ganarte once mil dólares?
+
+1789
+02:23:35,722 --> 02:23:37,821
+Once mil quinientos, en realidad.
+
+1790
+02:23:38,267 --> 02:23:40,235
+¿De qué carajos estás hablando?
+
+1791
+02:23:40,306 --> 02:23:42,522
+Allá en la plantación Candyland...
+
+1792
+02:23:42,676 --> 02:23:45,126
+...había una fortuna de
+11.500 dólares...
+
+1793
+02:23:45,148 --> 02:23:47,868
+...esperando ahí,
+y todos ustedes la dejaron pasar.
+
+1794
+02:23:48,510 --> 02:23:50,437
+Maldito seas, negrito,
+no somos bandidos.
+
+1795
+02:23:50,566 --> 02:23:53,446
+No estoy diciendo eso,
+hablo de una linda fortuna.
+
+1796
+02:23:53,661 --> 02:23:56,104
+No es ilegal, no tienes que robarla...
+
+1797
+02:23:57,003 --> 02:23:58,430
+...debes ganártela, blanquito.
+
+1798
+02:23:59,133 --> 02:24:01,305
+Si tienes algo que decir,
+compañero, lo dices.
+
+1799
+02:24:01,457 --> 02:24:04,738
+La fortuna de los 11.500 dólares
+los espera en Candyland...
+
+1800
+02:24:04,786 --> 02:24:07,236
+...está como recompensa de
+"se busca vivo o muerto"...
+
+1801
+02:24:07,253 --> 02:24:09,352
+...en Smitty Bacall,
+y la Pandilla Bacall.
+
+1802
+02:24:09,493 --> 02:24:11,352
+¿Quién mierda es Smitty Bacall?
+
+1803
+02:24:11,393 --> 02:24:14,609
+Smitty Bacall es líder de una pandilla
+asesina de ladrones de diligencias...
+
+1804
+02:24:14,784 --> 02:24:16,415
+...la Pandilla Bacall.
+
+1805
+02:24:16,526 --> 02:24:19,533
+Hay una recompensa "vivo o muerto"
+sobre él de 7.000 dólares...
+
+1806
+02:24:19,800 --> 02:24:23,071
+...y 1.500 dólares
+por cada uno de sus tres cómplices.
+
+1807
+02:24:23,274 --> 02:24:24,461
+Dandy Michaels...
+
+1808
+02:24:25,227 --> 02:24:26,347
+...Gerald Nash...
+
+1809
+02:24:26,618 --> 02:24:28,858
+...Y el Loco Craig Koons.
+
+1810
+02:24:29,686 --> 02:24:32,465
+Ahora esos cuatro, caballeros, se
+encuentran allá en Candyland...
+
+1811
+02:24:32,535 --> 02:24:34,650
+...cagándose de la risa.
+¿Saben por qué?
+
+1812
+02:24:34,876 --> 02:24:37,076
+Porque se salieron con la suya.
+
+1813
+02:24:37,342 --> 02:24:39,011
+Pero no será así.
+
+1814
+02:24:39,085 --> 02:24:42,504
+Tú y tus amigos, pueden volver allí
+y pueden conseguir ese dinero.
+
+1815
+02:24:42,559 --> 02:24:43,856
+¿Qué es lo que hacen estos idiotas?
+
+1816
+02:24:43,903 --> 02:24:46,721
+Esos hijos de putas, ellos--
+ellos asesinaron a personas inocentes.
+
+1817
+02:24:47,362 --> 02:24:49,906
+Robaron diligencias.
+¡Gente blanca inocente!
+
+1818
+02:24:51,836 --> 02:24:54,719
+Tengo el folleto aquí en mi bolsillo
+si me dejas mostrártelo.
+
+1819
+02:24:54,767 --> 02:24:56,167
+Sácalo.
+
+1820
+02:24:58,015 --> 02:25:03,255
+Se busca vivo o muerto... Smitty Bacall
+y la Pandilla de Smitty Bacall.
+
+1821
+02:25:03,301 --> 02:25:04,853
+¡Pero eres un esclavo!
+
+1822
+02:25:05,143 --> 02:25:06,963
+¡No soy ningún maldito esclavo!
+
+1823
+02:25:07,533 --> 02:25:08,921
+¿Acaso sueno como un maldito esclavo?
+
+1824
+02:25:08,976 --> 02:25:11,458
+<i>7000 dólares por Smitty Bacall...
+¡Eso es una maldita cantidad de dinero!</i>
+
+1825
+02:25:11,638 --> 02:25:13,169
+Soy un cazarrecompensas.
+
+1826
+02:25:14,837 --> 02:25:19,293
+Ayer, como un hombre libre,
+fui cabalgando hacia Candyland...
+
+1827
+02:25:19,327 --> 02:25:23,549
+...con mi compañero blanco alemán,
+el Dr. King Schultz.
+
+1828
+02:25:24,222 --> 02:25:28,727
+Rastreamos a la pandilla Bacall todo el
+camino desde Texas al Condado Chikasaw.
+
+1829
+02:25:29,088 --> 02:25:31,742
+Finalmente encontramos sus traseros
+descansando en Candyland.
+
+1830
+02:25:32,102 --> 02:25:35,271
+Fuimos para allá para agarrarlos,
+la cosa se puso ácida...
+
+1831
+02:25:35,670 --> 02:25:38,732
+...mataron a mi compañero,
+Calvin Candie recibió un disparo.
+
+1832
+02:25:39,207 --> 02:25:43,157
+Entonces todos decidieron culparme a mí,
+así que aquí estoy.
+
+1833
+02:25:45,447 --> 02:25:47,390
+Pero todos ustedes saben
+que no estoy en esa lista...
+
+1834
+02:25:47,539 --> 02:25:50,200
+...y todos ustedes saben
+que no debería estar en este viaje.
+
+1835
+02:25:50,616 --> 02:25:53,566
+Pero esos cuatro hombres
+aún están allá, todavía los buscan...
+
+1836
+02:25:54,062 --> 02:25:56,236
+...y esos 11.500
+están esperando que se los ganen...
+
+1837
+02:25:56,245 --> 02:25:59,202
+...y lo último que esperan es a ustedes
+yendo hacia allá y consiguiéndolo.
+
+1838
+02:25:59,713 --> 02:26:01,533
+¿Cuál es el trato?
+
+1839
+02:26:02,055 --> 02:26:05,974
+¿Nos dices quiénes son
+y te liberamos?
+
+1840
+02:26:06,272 --> 02:26:08,372
+No te diré quienes son.
+
+1841
+02:26:08,504 --> 02:26:11,738
+Mira, me das una pistola,
+uno de sus caballos...
+
+1842
+02:26:11,993 --> 02:26:14,957
+...y 500 dólares de esos 11.500...
+
+1843
+02:26:15,242 --> 02:26:16,652
+...y te los señalaré.
+
+1844
+02:26:16,838 --> 02:26:18,173
+Este es un folleto real.
+
+1845
+02:26:18,567 --> 02:26:22,126
+Que sea un folleto real no significa
+que no sean un montón de tonterías.
+
+1846
+02:26:22,226 --> 02:26:28,226
+Ahora, ¿por qué un esclavo tendría
+un folleto de "Se busca" en su bolsillo?
+
+1847
+02:26:32,846 --> 02:26:36,046
+¿Ese ese negro fue a Candyland ayer?
+
+1848
+02:26:42,014 --> 02:26:43,097
+Muy bien.
+
+1849
+02:26:43,853 --> 02:26:45,878
+Te preguntaré de nuevo...
+
+1850
+02:26:47,310 --> 02:26:49,613
+Quiero que recuerden
+que no me gustan los mentirosos.
+
+1851
+02:26:50,534 --> 02:26:55,930
+¿Él es un esclavo de Candyland o llegó
+a caballo con un hombre blanco ayer?
+
+1852
+02:26:56,415 --> 02:26:57,535
+Sí.
+
+1853
+02:26:58,531 --> 02:27:00,656
+Ellos nos acompañaron
+desde la subasta de Greenville y...
+
+1854
+02:27:00,657 --> 02:27:02,731
+...él iba a caballo
+con un hombre blanco.
+
+1855
+02:27:03,659 --> 02:27:05,836
+Y de este hombre blanco...
+
+1856
+02:27:06,039 --> 02:27:07,667
+...¿el negro era su esclavo?
+
+1857
+02:27:08,081 --> 02:27:09,635
+Él no era ningún esclavo.
+
+1858
+02:27:09,782 --> 02:27:11,675
+¿Estás seguro de eso?
+
+1859
+02:27:11,821 --> 02:27:13,221
+Muy seguro.
+
+1860
+02:27:17,504 --> 02:27:19,291
+¿Qué pasó allá en Candyland?
+
+1861
+02:27:19,354 --> 02:27:20,408
+Un tremendo tiroteo...
+
+1862
+02:27:21,033 --> 02:27:22,338
+...y le dieron al amo.
+
+1863
+02:27:23,018 --> 02:27:24,674
+- ¿Quién les disparó?
+- El alemán.
+
+1864
+02:27:25,164 --> 02:27:26,375
+¿Por qué lo hizo?
+
+1865
+02:27:26,911 --> 02:27:30,403
+El negro y el alemán dijeron
+que eran esclavistas, pero no lo eran.
+
+1866
+02:27:30,724 --> 02:27:32,409
+Bien, ¿y qué eran?
+
+1867
+02:27:32,586 --> 02:27:34,284
+Cazarrecompensas.
+
+1868
+02:27:35,098 --> 02:27:37,758
+Maldición, Roy.
+¡Esto puede ser grande, amigo!
+
+1869
+02:27:39,174 --> 02:27:40,499
+Bueno, negro...
+
+1870
+02:27:41,281 --> 02:27:42,679
+...tenemos un trato.
+
+1871
+02:27:43,941 --> 02:27:45,374
+Con una condición más.
+
+1872
+02:27:45,923 --> 02:27:46,923
+¿Cuál?
+
+1873
+02:27:47,007 --> 02:27:49,864
+Cuando lleguemos allá,
+cuando llegue el momento...
+
+1874
+02:27:52,184 --> 02:27:54,041
+...me dejan que los mate.
+
+1875
+02:27:55,331 --> 02:27:56,977
+¡Vaya!
+¡Eres gracioso, amiguito!
+
+1876
+02:27:57,216 --> 02:27:58,992
+- Suéltalo.
+- Sí, sí.
+
+1877
+02:27:59,461 --> 02:28:01,482
+Ya tienes un trato, negrito.
+
+1878
+02:28:01,607 --> 02:28:03,263
+Tienes un trato, amigo.
+
+1879
+02:28:05,577 --> 02:28:07,887
+Lo haces bien para ser negro.
+
+1880
+02:28:13,774 --> 02:28:16,224
+Ahí va... Listo, amigo.
+
+1881
+02:28:17,267 --> 02:28:19,667
+Para ti,
+te vamos a dar ese caballo de allá.
+
+1882
+02:28:19,923 --> 02:28:21,860
+¿Qué contienen esas bolsas?
+
+1883
+02:28:22,131 --> 02:28:23,235
+Dinamita.
+
+1884
+02:28:23,262 --> 02:28:26,142
+No voy a montar un caballo
+con una maldita carga de dinamita.
+
+1885
+02:28:26,247 --> 02:28:27,471
+Entiendo eso.
+
+1886
+02:28:28,284 --> 02:28:30,949
+Frankie, por qué no quitas
+los cartuchos de ese caballo...
+
+1887
+02:28:30,950 --> 02:28:33,867
+...y mételos en la jaula de los negros.
+
+1888
+02:28:35,118 --> 02:28:38,256
+Un poco de dinamita
+para que jueguen, negritos.
+
+1889
+02:28:48,644 --> 02:28:51,393
+Oye, Floyd,
+tienes el rifle en la carreta, ¿no?
+
+1890
+02:28:51,424 --> 02:28:52,424
+Sí, claro.
+
+1891
+02:28:52,479 --> 02:28:54,510
+¿Por qué no le das tu arma y tu correa?
+
+1892
+02:28:56,789 --> 02:28:59,325
+No dejes caer la maldita cosa, ¿sí?
+
+1893
+02:28:59,873 --> 02:29:02,677
+Le acabo de ajustar la mira
+y quedó perfecta.
+
+1894
+02:29:02,964 --> 02:29:04,558
+Eso es bueno saberlo.
+
+1895
+02:30:36,672 --> 02:30:38,648
+Pásame esa dinamita.
+
+1896
+02:32:08,842 --> 02:32:10,533
+- ¡Jake!
+- ¿Sí?
+
+1897
+02:32:10,558 --> 02:32:14,126
+¡Ve a ver qué les pasa
+a esos malditos perros!
+
+1898
+02:32:18,581 --> 02:32:20,438
+¡D'Artagnan, maldito!
+
+1899
+02:33:50,262 --> 02:33:51,916
+<i>Auf wiedersehen.</i>
+
+1900
+02:34:52,137 --> 02:34:53,537
+Soy yo, nena.
+
+1901
+02:36:12,550 --> 02:36:13,550
+Cora...
+
+1902
+02:36:13,558 --> 02:36:15,758
+...¿nos prepararías un poco de café?
+
+1903
+02:36:15,921 --> 02:36:17,715
+Sheba, ayúdala.
+
+1904
+02:36:17,781 --> 02:36:18,880
+Vamos.
+
+1905
+02:36:29,605 --> 02:36:32,891
+Todos ustedes se van a reunir
+con Calvin en el más allá.
+
+1906
+02:36:39,591 --> 02:36:41,940
+Y un poco más temprano de lo que creían.
+
+1907
+02:36:50,289 --> 02:36:51,659
+¡Billy Crash!
+
+1908
+02:36:51,972 --> 02:36:53,727
+¿Dónde estábamos?
+
+1909
+02:36:53,946 --> 02:36:55,485
+Eso es.
+
+1910
+02:36:56,525 --> 02:37:00,905
+La última vez que nos vimos,
+tenías tus manos en mis--
+
+1911
+02:37:13,418 --> 02:37:14,856
+¡D-jango!
+
+1912
+02:37:15,028 --> 02:37:17,080
+¡Negro hijo de puta!
+
+1913
+02:37:17,112 --> 02:37:18,314
+La "D" es muda, ignorante.
+
+1914
+02:37:19,752 --> 02:37:20,872
+¡No!
+
+1915
+02:37:22,874 --> 02:37:28,874
+Ahora, a los negros les sugiero
+que se alejen de todos estos blancos.
+
+1916
+02:37:30,230 --> 02:37:31,743
+Tú no, Steven.
+
+1917
+02:37:32,598 --> 02:37:34,868
+Te quedas aquí donde perteneces.
+
+1918
+02:37:36,799 --> 02:37:38,361
+Cora, antes de que te vayas...
+
+1919
+02:37:38,838 --> 02:37:40,938
+...¿podrías despedirte de la Srta. Lara?
+
+1920
+02:37:41,641 --> 02:37:42,749
+¿Qué haga qué?
+
+1921
+02:37:43,031 --> 02:37:46,171
+Dije, que te despidas de la Srta. Lara.
+
+1922
+02:37:47,992 --> 02:37:48,992
+Adiós, Srta. Lara.
+
+1923
+02:37:54,011 --> 02:37:55,633
+Ahora, ustedes dos se pueden ir.
+
+1924
+02:38:13,898 --> 02:38:15,018
+¡Steven!
+
+1925
+02:38:15,485 --> 02:38:17,677
+¿Te gusta mi... nuevo traje?
+
+1926
+02:38:19,024 --> 02:38:21,623
+Hasta ahora no sabía
+que el rojo borgoña me iba bien.
+
+1927
+02:38:33,256 --> 02:38:35,076
+Conté seis balas, negro.
+
+1928
+02:38:36,816 --> 02:38:38,916
+Y yo cuento dos pistolas, negro.
+
+1929
+02:38:42,314 --> 02:38:44,635
+Dijiste que con 76 años
+en esta plantación...
+
+1930
+02:38:44,636 --> 02:38:47,336
+...habías visto todas las mierdas
+que les hacen a los negros.
+
+1931
+02:38:47,390 --> 02:38:48,997
+Pero, me di cuenta...
+
+1932
+02:38:49,184 --> 02:38:50,478
+...que no mencionaste
+ponerse de rodillas.
+
+1933
+02:38:50,499 --> 02:38:53,979
+¡Maldición, hijo de puta!
+
+1934
+02:38:54,320 --> 02:38:55,845
+76 años, Steven...
+
+1935
+02:38:56,232 --> 02:38:59,300
+...¿cuántos negros crees que pasaron?
+¿7.000?
+
+1936
+02:39:00,214 --> 02:39:01,836
+¿8.000?
+
+1937
+02:39:01,877 --> 02:39:03,174
+¿9.000?
+
+1938
+02:39:03,804 --> 02:39:05,774
+¿9.999?
+
+1939
+02:39:06,441 --> 02:39:10,501
+Cada palabra que salía de la boca
+de Calvin Candie era pura mierda.
+
+1940
+02:39:10,572 --> 02:39:12,266
+Pero tenía razón en una cosa.
+
+1941
+02:39:12,454 --> 02:39:14,554
+Yo soy un negro en 10.000.
+
+1942
+02:39:17,233 --> 02:39:19,402
+¡Hijo de puta!
+
+1943
+02:39:20,355 --> 02:39:21,680
+¡Hijo de puta!
+
+1944
+02:39:22,217 --> 02:39:24,894
+¡Jesús, por favor,
+déjame matar a este negro!
+
+1945
+02:39:26,086 --> 02:39:28,341
+No te vas a librar de esta, Django.
+
+1946
+02:39:29,132 --> 02:39:31,232
+Van a atrapar tu maldito trasero.
+
+1947
+02:39:31,338 --> 02:39:33,887
+Tú eres el vas a estar en los folletos
+de "Se busca" ahora, negro...
+
+1948
+02:39:33,888 --> 02:39:36,494
+...los cazarrecompensas de van a buscar.
+
+1949
+02:39:37,057 --> 02:39:38,554
+Podrás correr, negro...
+
+1950
+02:39:38,805 --> 02:39:40,607
+...¡pero te van a encontrar!
+
+1951
+02:39:41,045 --> 02:39:44,956
+Y cuando lo hagan,
+me va a gustar lo que te van a hacer.
+
+1952
+02:39:45,617 --> 02:39:47,623
+¡Te van a matar, negro!
+
+1953
+02:39:48,068 --> 02:39:49,685
+¡Estás muerto, maldito!
+
+1954
+02:39:50,069 --> 02:39:52,060
+¡Esto es Candyland, negro!
+
+1955
+02:39:52,386 --> 02:39:54,704
+¡No puedes destruir a Candyland!
+
+1956
+02:39:55,103 --> 02:39:59,139
+Hemos estado aquí mucho tiempo,
+¡esto siempre será Candyland!
+
+1957
+02:40:09,781 --> 02:40:14,122
+Ningún negro pistolero puede venir
+de quién sabe dónde a...
+
+1958
+02:40:21,081 --> 02:40:22,477
+¡Django!
+
+1959
+02:40:23,436 --> 02:40:26,285
+¡Maldito hijo de p--
+
+1960
+02:41:00,520 --> 02:41:02,097
+Hola, pequeña "provoca problemas".
+
+1961
+02:41:02,666 --> 02:41:04,526
+Hola, gran "provoca problemas".
+
+1962
+02:41:32,092 --> 02:41:34,402
+¿Sabes cómo te van a llamar?
+
+1963
+02:41:34,575 --> 02:41:36,675
+El pistolero más rápido del sur.
+
+1964
+02:41:44,486 --> 02:41:46,306
+Larguémonos de aquí.
+

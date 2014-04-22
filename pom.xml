@@ -1,0 +1,102 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github</groupId>
+	<artifactId>dualsub</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	<name>dualsub</name>
+	<url>http://dualsub.sourceforge.net/</url>
+
+	<developers>
+		<developer>
+			<id>bonigarcia</id>
+			<name>Boni Garcia</name>
+			<email>boni.gg@gmail.com</email>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+
+		<!-- Dependencies Versions -->
+		<junit.version>4.11</junit.version>
+		<juniversalchardet.version>1.0.3</juniversalchardet.version>
+		<jgoodies.version>1.2.2</jgoodies.version>
+		<markdown4j.version>2.2-cj-1.0</markdown4j.version>
+		<gson.version>2.2.4</gson.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.juniversalchardet</groupId>
+			<artifactId>juniversalchardet</artifactId>
+			<version>${juniversalchardet.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jgoodies</groupId>
+			<artifactId>looks</artifactId>
+			<version>${jgoodies.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.commonjava.googlecode.markdown4j</groupId>
+			<artifactId>markdown4j</artifactId>
+			<version>${markdown4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>${gson.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.github.dualsub.gui.DualSub</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+					<descriptors>
+						<descriptor>src/main/resources/assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<excludes>
+					<exclude>assembly.xml</exclude>
+				</excludes>
+			</resource>
+			<resource>
+				<directory></directory>
+				<includes>
+					<include>README.md</include>
+					<include>ChangeLog</include>
+					<include>LICENSE</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+</project>
