@@ -1,4 +1,5 @@
-Copyright (c) 2014 Boni Garcia. Licensed under [GPL License v3.0].
+dualsub
+=======
 
 DualSub
 -------
@@ -10,10 +11,10 @@ The basic idea behind DualSub is to achieve watching **two sets of subtitles at 
 
 The typical case is watching movies/series in English. If your mother tongue is not English but you want to watch those movies/series, you have several options:
 
-- Learn English
-- Watch it with subtitles
-- Watch it translated to your mother language
-- Do not watch it
+1. Learn English
+2. Watch it with subtitles
+3. Watch it translated to your mother language
+4. Do not watch it
 
 DualSub is a tool for those people between options 1 and 2. If your English is not perfect, you usually face to idioms, words and expression you do not know. By watching movies/series with dual subtitles (i.e. its original subtitles plus a translation) you will never be in doubt anymore of those expressions you do not understand, since the translation is instantaneous. All in all, DualSub allows you to learn a second language while you are watching your favorite movie or TV series. 
 
