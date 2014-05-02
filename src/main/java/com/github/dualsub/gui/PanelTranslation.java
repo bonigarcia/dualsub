@@ -95,10 +95,10 @@ public class PanelTranslation extends JPanel {
 		// Languages
 		JLabel fromLabel = new JLabel(
 				I18N.getHtmlText("PanelTranslation.from.text"));
-		fromLabel.setBounds(10, 45, 50, 20);
+		fromLabel.setBounds(10, 45, 55, 20);
 		this.add(fromLabel);
 		fromComboBox = new JComboBox<LangItem>();
-		fromComboBox.setBounds(60, 45, 95, 20);
+		fromComboBox.setBounds(65, 45, 95, 20);
 		fromComboBox.setCursor(parent.getCursor());
 		this.add(fromComboBox);
 

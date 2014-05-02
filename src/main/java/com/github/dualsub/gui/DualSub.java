@@ -358,6 +358,10 @@ public class DualSub {
 		return exception;
 	}
 
+	public void setException(ExceptionDialog exception) {
+		this.exception = exception;
+	}
+
 	public HelpPlayerDialog getHelpPlayer() {
 		return helpPlayer;
 	}
@@ -384,7 +388,6 @@ public class DualSub {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		// TODO: Final handler of exceptions
 		new DualSub();
 	}
 }

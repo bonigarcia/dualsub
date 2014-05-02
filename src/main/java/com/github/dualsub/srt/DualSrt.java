@@ -194,7 +194,6 @@ public class DualSrt {
 			if (SrtUtils.getWidth(s) <= SrtUtils.getHalfWidth()) {
 				ensured.add(s);
 			} else {
-				// TODO: improve
 				int sLength = s.length();
 				ensured.add(s.substring(0, sLength / 2));
 				ensured.add(s.substring(sLength / 2, sLength / 2));
@@ -217,7 +216,6 @@ public class DualSrt {
 		int numSpaces = (int) Math.floor(diff);
 		String additional = (rest >= 0.5) ? SrtUtils.getPadding() : "";
 
-		// TODO: Improve
 		if (numSpaces < 0) {
 			numSpaces = 0;
 		}

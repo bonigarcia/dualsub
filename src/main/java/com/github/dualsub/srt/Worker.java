@@ -142,12 +142,13 @@ public class Worker extends SwingWorker<Integer, String> {
 				rightSrt = null;
 
 			} catch (Throwable exc) {
+				// exc.printStackTrace();
 				ExceptionDialog exceptionDialog = parent.getException();
 				if (exceptionDialog == null) {
 					exceptionDialog = new ExceptionDialog(parent, true, exc);
+					parent.setException(exceptionDialog);
 				}
 				exceptionDialog.setVisible();
-				// exc.printStackTrace();
 				error = true;
 				break;
 			}

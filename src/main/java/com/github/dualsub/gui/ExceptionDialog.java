@@ -16,17 +16,22 @@
  */
 package com.github.dualsub.gui;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Point;
+import java.util.logging.Level;
 
+import javax.swing.BorderFactory;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
+import javax.swing.border.Border;
 
 import com.github.dualsub.util.I18N;
+import com.github.dualsub.util.Log;
 
 /**
  * ExceptionDialog.
@@ -69,26 +74,40 @@ public class ExceptionDialog extends JDialog {
 		getContentPane().setLayout(null);
 		this.getContentPane().setBackground(parent.getBackground());
 
-		JLabel lblError = new JLabel("Error");
-		lblError.setFont(new Font("Lucida", Font.BOLD, 20));
-		lblError.setBounds(29, 21, 75, 25);
-		getContentPane().add(lblError);
+		JLabel lblTitle = new JLabel(I18N.getText("ExceptionDialog.text.01"));
+		lblTitle.setFont(new Font("Lucida", Font.BOLD, 20));
+		lblTitle.setBounds(29, 21, 435, 25);
+		getContentPane().add(lblTitle);
 
-		JLabel lblNewLabel = new JLabel("There were errors....");
-		lblNewLabel.setBounds(29, 69, 235, 14);
-		getContentPane().add(lblNewLabel);
+		JLabel lblContent01 = new JLabel(
+				I18N.getHtmlText("ExceptionDialog.text.02"));
+		lblContent01.setBounds(29, 69, 435, 50);
+		getContentPane().add(lblContent01);
 
-		JScrollPane scrollPane_1 = new JScrollPane();
-		scrollPane_1.setBounds(28, 103, 383, 132);
-		getContentPane().add(scrollPane_1);
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(28, 130, 435, 150);
+		getContentPane().add(scrollPane);
 
 		JTextArea textArea = new JTextArea();
-		scrollPane_1.setViewportView(textArea);
+		scrollPane.setViewportView(textArea);
 		textArea.append(exception.getClass() + ":" + exception.getMessage()
 				+ "\n");
 		StackTraceElement[] stack = exception.getStackTrace();
 		for (StackTraceElement s : stack) {
 			textArea.append("    " + s.toString() + "\n");
+		}
+
+		JLabel lblContent02 = new JLabel(
+				I18N.getHtmlText("ExceptionDialog.text.03"));
+		lblContent02.setBounds(29, 290, 435, 90);
+		getContentPane().add(lblContent02);
+
+		// Borders (for debug purposes)
+		if (Log.getLevel().equals(Level.FINE)) {
+			Border border = BorderFactory.createLineBorder(Color.black);
+			lblTitle.setBorder(border);
+			lblContent01.setBorder(border);
+			lblContent02.setBorder(border);
 		}
 	}
 }

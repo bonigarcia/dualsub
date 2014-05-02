@@ -126,9 +126,6 @@ public class Menu {
 
 		// Help
 		JMenu helpMenu = new JMenu(I18N.getHtmlText("Menu.help.text"));
-		// TODO Font for chinesse, and so on
-		// http://en.wikipedia.org/wiki/List_of_CJK_fonts
-		// helpMenu.setFont(new Font("NSimSun", 0, 12));
 		menuBar.add(helpMenu);
 
 		JMenuItem helpSubItem = new JMenuItem(
