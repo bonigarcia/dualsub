@@ -1,3 +1,19 @@
+/*
+ * (C) Copyright 2014 Boni Garcia (http://about.me/boni.garcia)
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 package com.github.dualsub.test;
 
 import java.io.File;
@@ -18,6 +34,12 @@ import com.github.dualsub.srt.SrtUtils;
 import com.github.dualsub.util.Charset;
 import com.github.dualsub.util.Log;
 
+/**
+ * TestSrt.
+ * 
+ * @author Boni Garcia (boni.gg@gmail.com)
+ * @since 1.0.0
+ */
 public class TestSrt {
 
 	private Srt srtEn;
@@ -76,8 +98,8 @@ public class TestSrt {
 	public void testMergedFileName() {
 		String mergedFileName = merger.getMergedFileName(srtEs, srtEn);
 		Log.info(mergedFileName);
-		Assert.assertEquals(".\\Game of Thrones 1x01 - Winter Is Coming.srt",
-				mergedFileName);
+		Assert.assertEquals("." + File.separator
+				+ "Game of Thrones 1x01 - Winter Is Coming.srt", mergedFileName);
 	}
 
 	@Test
