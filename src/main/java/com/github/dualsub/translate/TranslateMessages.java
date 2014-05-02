@@ -42,14 +42,15 @@ public class TranslateMessages {
 
 	public final static String TRANSLATE_LANG[] = { Language.ARABIC,
 			Language.CHINESE, Language.DANISH, Language.GERMAN,
-			Language.SPANISH, Language.FINNISH, Language.GREEK, Language.HINDI,
-			Language.ICELANDIC, Language.ITALIAN, Language.JAPANESE,
-			Language.NORWEGIAN, Language.PORTUGUESE, Language.RUSSIAN,
-			Language.SWEDISH };
+			Language.SPANISH, Language.FRENCH, Language.FINNISH,
+			Language.GREEK, Language.HINDI, Language.ICELANDIC,
+			Language.ITALIAN, Language.JAPANESE, Language.NORWEGIAN,
+			Language.PORTUGUESE, Language.RUSSIAN, Language.SWEDISH };
 	public final static String TRANSLATE_CHARSET[] = { "ISO-8859-6", "GB2312",
 			"ISO-8859-1", "ISO-8859-1", "ISO-8859-1", "ISO-8859-1",
-			"ISO-8859-7", "UTF-8", "ISO-8859-1", "ISO-8859-1", "ISO-2022-jp",
-			"ISO-8859-1", "ISO-8859-1", "ISO-8859-5", "ISO-8859-1" };
+			"ISO-8859-1", "ISO-8859-7", "UTF-8", "ISO-8859-1", "ISO-8859-1",
+			"ISO-2022-jp", "ISO-8859-1", "ISO-8859-1", "ISO-8859-5",
+			"ISO-8859-1" };
 
 	public static void main(String[] args) throws IOException {
 		Translator translate = Translator.getInstance();

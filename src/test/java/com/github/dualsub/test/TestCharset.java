@@ -47,6 +47,7 @@ public class TestCharset {
 		Assert.assertEquals(Charset.ISO88591, Charset.detect(isEsFile));
 	}
 
+	@Ignore
 	@Test
 	public void testCharsetSH() throws IOException {
 		String fileStr1 = "Sherlock 3x01 - The Empty Hearse (English).srt";
