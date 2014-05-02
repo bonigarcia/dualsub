@@ -138,7 +138,7 @@ public class AboutDialog extends JDialog {
 
 		JTextPane txtChangelog = new JTextPane();
 		scrollChangelog.setViewportView(txtChangelog);
-		addTextContentToArea(txtChangelog, "ChangeLog", false);
+		addTextContentToArea(txtChangelog, "changelog", false);
 		txtChangelog.setEditable(false);
 
 		// License tab

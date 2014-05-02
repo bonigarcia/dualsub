@@ -109,7 +109,7 @@
 				<directory></directory>
 				<includes>
 					<include>README.md</include>
-					<include>ChangeLog</include>
+					<include>changelog</include>
 					<include>LICENSE</include>
 				</includes>
 			</resource>
