@@ -16,7 +16,7 @@ DualSub is a tool for those people between options 1 and 2. If your English is n
 
 If you want to create your own dual subtitles, you need the video to be played with its subtitles. Ideally, you should have two subtitles SRT files for a single video (for instance, the first SRT subtitle in English and the second one in other language). There are plenty of web sites available to collect SRT files, for example <a href="http://www.opensubtitles.org/">opensubtitles</a>, <a href="http://subscene.com/">subscene</a>, <a href="http://www.subtitulos.es/">subtitulos.es</a>, and so on. If you only have a SRT file, you can also <strong>translate</strong> it automatically using DualSub.
 
-Once you have your video and SRT subtitle(s), the next important step is to decide which player you are going to use to play it. This decision is important since it will determine the available width in which subtitles are going to be displayed. Take into account that the double of text subtitles is going to be displayed. For that reason, you need to specify the player/subtitles features. These parameters are: screen width (in pixels); subtitles font family (Arial, Tahoma, ...); subtitles font size (in points). Nevertheless, the way of working of the most of the players regarding the display of subtitles is quite tricky. For example, VLC shows the size of the subtitles proportional to the video size. For this reason, this setup usually has to be tuned using trial and error.</p>
+Once you have your video and SRT subtitle(s), the next important step is to decide which player you are going to use to play it. This decision is important since it will determine the available width in which subtitles are going to be displayed. Take into account that the double of text subtitles is going to be displayed. For that reason, you need to specify the player/subtitles features. These parameters are: screen width (in pixels); subtitles font family (Arial, Tahoma, ...); subtitles font size (in points). Nevertheless, the way of working of the most of the players regarding the display of subtitles is quite tricky. For example, VLC shows the size of the subtitles proportional to the video size. For this reason, this setup usually has to be tuned using trial and error.
 
 You can see an example of dual subtitles in [YouTube]. It is a piece of Kill Bill Volume 1 with English an Spanish subtitles. Be careful if you have not seen this movie since it is the end of the movie and contains important spoilers!!!
 
@@ -39,7 +39,7 @@ DualSub is a personal project of [Boni Garcia] (boni.gg@gmail.com). Comments, qu
 [GPL v3]: https://www.gnu.org/copyleft/gpl.html
 [SourceForge]: http://dualsub.sourceforge.net/
 [GitHub Repository]: https://github.com/bonigarcia/dualsub
-[Boni Garcia] http://bonigarcia.github.io/
-[SourceForge Releases] http://sourceforge.net/projects/dualsub/
-[GitHub Releases] https://github.com/bonigarcia/dualsub/releases
-[YouTube] https://www.youtube.com/watch?v=GwaeRt9bOL0
+[Boni Garcia]: http://bonigarcia.github.io/
+[SourceForge Releases]: http://sourceforge.net/projects/dualsub/
+[GitHub Releases]: https://github.com/bonigarcia/dualsub/releases
+[YouTube]: https://www.youtube.com/watch?v=GwaeRt9bOL0
