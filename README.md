@@ -1,27 +1,45 @@
-dualsub
-=======
+[![][Logo]][SourceForge]
+
+Copyright © 2014 Boni Garcia. Licensed under [GPL v3].
 
 DualSub
--------
-DualSub is a tool to merge SRT subtitles. It allows watch two different subtitles at the same time.
+=======
 
-Motivation
-----------
-The basic idea behind DualSub is to achieve watching **two sets of subtitles at the same time**. *Why can it be useful?* The inspiring use case of DualSub is to watch movies/series in its original version with its original subtitles but also with subtitles in other language. This can be used to learn languages. 
-
-The typical case is watching movies/series in English. If your mother tongue is not English but you want to watch those movies/series, you have several options:
+DualSub is a tool which allows you to **merge two SRT subtitles** in a single file. The idea of using merged subtitles (let's call them *dual subtitles*) is to watch movies/series in original version with two sets of subtitles. *Why is this useful?* Dual subtitles can be used to learn a second language while watching movies/series. The typical case is when your mother tongue is not English but you want to watch movies/series in English. Then you have several options:
 
 1. Learn English
 2. Watch it with subtitles
 3. Watch it translated to your mother language
 4. Do not watch it
 
-DualSub is a tool for those people between options 1 and 2. If your English is not perfect, you usually face to idioms, words and expression you do not know. By watching movies/series with dual subtitles (i.e. its original subtitles plus a translation) you will never be in doubt anymore of those expressions you do not understand, since the translation is instantaneous. All in all, DualSub allows you to learn a second language while you are watching your favorite movie or TV series. 
+DualSub is a tool for those people between options 1 and 2. If your English is not perfect, you usually face to idioms, words and expression you do not know. By watching movies/series with dual subtitles (i.e. its original subtitles plus a translation) you will never be in doubt anymore of those expressions you do not understand, since the translation is instantaneous.
 
-Downloads
----------
-To download binary releases of DualSub visit http://dualsub.sourceforge.net/
+If you want to create your own dual subtitles, you need the video to be played with its subtitles. Ideally, you should have two subtitles SRT files for a single video (for instance, the first SRT subtitle in English and the second one in other language). There are plenty of web sites available to collect SRT files, for example <a href="http://www.opensubtitles.org/">opensubtitles</a>, <a href="http://subscene.com/">subscene</a>, <a href="http://www.subtitulos.es/">subtitulos.es</a>, and so on. If you only have a SRT file, you can also <strong>translate</strong> it automatically using DualSub.
+
+Once you have your video and SRT subtitle(s), the next important step is to decide which player you are going to use to play it. This decision is important since it will determine the available width in which subtitles are going to be displayed. Take into account that the double of text subtitles is going to be displayed. For that reason, you need to specify the player/subtitles features. These parameters are: screen width (in pixels); subtitles font family (Arial, Tahoma, ...); subtitles font size (in points). Nevertheless, the way of working of the most of the players regarding the display of subtitles is quite tricky. For example, VLC shows the size of the subtitles proportional to the video size. For this reason, this setup usually has to be tuned using trial and error.</p>
+
+You can see an example of dual subtitles in [YouTube]. It is a piece of Kill Bill Volume 1 with English an Spanish subtitles. Be careful if you have not seen this movie since it is the end of the movie and contains important spoilers!!!
 
 Source
 ------
-The source code of this project can be cloned from the [GitHub Repository].
+
+DualSub is open source, released under the terms of [GPL v3]. The source code of this project can be cloned from the [GitHub Repository].
+
+Downloads
+---------
+
+DualSub has been developed in Java. Binary releases for Windows, Linux, and Mac OS X are available on [SourceForge Releases] and [GitHub Releases].
+
+About
+-----
+
+DualSub is a personal project of [Boni Garcia] (boni.gg@gmail.com). Comments, questions and suggestions are always very welcome!
+
+[Logo]: http://dualsub.sourceforge.net/img/dualsub.png
+[GPL v3]: https://www.gnu.org/copyleft/gpl.html
+[SourceForge]: http://dualsub.sourceforge.net/
+[GitHub Repository]: https://github.com/bonigarcia/dualsub
+[Boni Garcia] http://bonigarcia.github.io/
+[SourceForge Releases] http://sourceforge.net/projects/dualsub/
+[GitHub Releases] https://github.com/bonigarcia/dualsub/releases
+[YouTube] https://www.youtube.com/watch?v=GwaeRt9bOL0

@@ -1,5 +1,5 @@
 /*
- * (C) Copyright 2014 Boni Garcia (http://about.me/boni.garcia)
+ * (C) Copyright 2014 Boni Garcia (http://bonigarcia.github.io/)
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
