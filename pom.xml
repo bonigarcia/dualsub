@@ -14,6 +14,7 @@
 			<id>bonigarcia</id>
 			<name>Boni Garcia</name>
 			<email>boni.gg@gmail.com</email>
+			<url>http://bonigarcia.github.io/</url>
 		</developer>
 	</developers>
 
@@ -77,22 +78,6 @@
 						<descriptor>src/main/resources/assembly.xml</descriptor>
 					</descriptors>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>osxappbundle-maven-plugin</artifactId>
-				<version>1.0-alpha-2</version>
-				<configuration>
-					<mainClass>com.example.Main</mainClass>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>bundle</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 		<resources>
