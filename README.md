@@ -33,7 +33,7 @@ DualSub has been developed in Java. Binary releases for Windows, Linux, and Mac 
 About
 -----
 
-DualSub is a personal project of [Boni Garcia] (boni.gg@gmail.com). Comments, questions and suggestions are always very welcome!
+DualSub is a personal project of [Boni Garcia]. Comments, questions and suggestions are always very welcome!
 
 [Logo]: http://dualsub.sourceforge.net/img/dualsub.png
 [GPL v3]: https://www.gnu.org/copyleft/gpl.html
