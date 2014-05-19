@@ -1,18 +1,13 @@
 [![][Logo]][SourceForge]
 
-Copyright © 2014 Boni Garcia. Licensed under [GPL v3].
+Copyright &copy; 2014 Boni Garcia. Licensed under [GPL v3].
 
 DualSub
 =======
 
-DualSub is a tool which allows you to **merge two SRT subtitles** in a single file. The idea of using merged subtitles (let's call them *dual subtitles*) is to watch movies/series in original version with two sets of subtitles. *Why is this useful?* Dual subtitles can be used to learn a second language while watching movies/series. The typical case is when your mother tongue is not English but you want to watch movies/series in English. Then you have several options:
+DualSub is a tool which allows you to **merge two SRT subtitles** in a single file. The idea of using merged subtitles (let's call them *dual subtitles*) is to watch movies/series in original version with two sets of subtitles. *Why is this useful?* Dual subtitles can be used to learn a second language while watching movies/series. The typical case is when your mother tongue is not English but you want to watch movies/series in English. Then you have several options: 1. Learn English; 2. Watch it with subtitles; 3. Watch it translated to your mother language; 4. Do not watch it. DualSub is a tool for those people between options 1 and 2.
 
-1. Learn English
-2. Watch it with subtitles
-3. Watch it translated to your mother language
-4. Do not watch it
-
-DualSub is a tool for those people between options 1 and 2. If your English is not perfect, you usually face to idioms, words and expression you do not know. By watching movies/series with dual subtitles (i.e. its original subtitles plus a translation) you will never be in doubt anymore of those expressions you do not understand, since the translation is instantaneous.
+If your English is not perfect, you usually face to idioms, words and expression you do not know. By watching movies/series with dual subtitles (i.e. its original subtitles plus a translation) you will never be in doubt anymore of those expressions you do not understand, since the translation is instantaneous.
 
 If you want to create your own dual subtitles, you need the video to be played with its subtitles. Ideally, you should have two subtitles SRT files for a single video (for instance, the first SRT subtitle in English and the second one in other language). There are plenty of web sites available to collect SRT files, for example <a href="http://www.opensubtitles.org/">opensubtitles</a>, <a href="http://subscene.com/">subscene</a>, <a href="http://www.subtitulos.es/">subtitulos.es</a>, and so on. If you only have a SRT file, you can also <strong>translate</strong> it automatically using DualSub.
 

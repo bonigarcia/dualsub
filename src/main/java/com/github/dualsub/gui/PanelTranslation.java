@@ -111,8 +111,8 @@ public class PanelTranslation extends JPanel {
 				.split(",");
 		Vector<LangItem> langVector = new Vector<LangItem>();
 		for (String s : languages) {
-			item = new LangItem(s, I18N.getHtmlText("PanelTranslation." + s
-					+ ".text"));
+			item = new LangItem(s, I18N.getHtmlText("PanelTranslation."
+					+ s.toLowerCase() + ".text"));
 			langVector.add(item);
 			if (s.equals(savedLangFrom)) {
 				langFrom = item;
