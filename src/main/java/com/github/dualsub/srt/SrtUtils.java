@@ -132,12 +132,17 @@ public class SrtUtils {
 	 * @throws ParseException
 	 */
 	public static Date getInitTime(String line) throws ParseException {
-		String time = line.substring(0, line.indexOf(SrtUtils.SEP_SRT)).trim();
-		if (time.length() == 8) {
-			// Time without milliseconds (e.g. 01:27:40)
-			time += ",000";
+		Date out = null;
+		int i = line.indexOf(SrtUtils.SEP_SRT);
+		if (i != -1) {
+			String time = line.substring(0, i).trim();
+			if (time.length() == 8) {
+				// Time without milliseconds (e.g. 01:27:40)
+				time += ",000";
+			}
+			out = SrtUtils.getSingleton().simpleDateFormat.parse(time);
 		}
-		return SrtUtils.getSingleton().simpleDateFormat.parse(time);
+		return out;
 	}
 
 	/**
@@ -148,13 +153,17 @@ public class SrtUtils {
 	 * @throws ParseException
 	 */
 	public static Date getEndTime(String line) throws ParseException {
-		String time = line.substring(line.indexOf(SrtUtils.SEP_SRT)
-				+ SrtUtils.SEP_SRT.length());
-		if (time.length() == 8) {
-			// Time without milliseconds (e.g. 01:27:40)
-			time += ",000";
+		Date out = null;
+		int i = line.indexOf(SrtUtils.SEP_SRT);
+		if (i != -1) {
+			String time = line.substring(i + SrtUtils.SEP_SRT.length());
+			if (time.length() == 8) {
+				// Time without milliseconds (e.g. 01:27:40)
+				time += ",000";
+			}
+			out = SrtUtils.getSingleton().simpleDateFormat.parse(time);
 		}
-		return SrtUtils.getSingleton().simpleDateFormat.parse(time);
+		return out;
 	}
 
 	public static String createSrtTime(Date dateFrom, Date dateTo) {

@@ -133,10 +133,6 @@ public class Merger {
 	 * @return
 	 */
 	private String compareNames(String str1, String str2) {
-		if (str1.equalsIgnoreCase(str2)) {
-			return str1.replaceAll(SrtUtils.SRT_EXT, "")
-					+ I18N.getText("Merger.finalName.text") + SrtUtils.SRT_EXT;
-		}
 		str1 = str1.substring(str1.lastIndexOf(File.separator) + 1).replaceAll(
 				SrtUtils.SRT_EXT, "");
 		str2 = str2.substring(str2.lastIndexOf(File.separator) + 1).replaceAll(

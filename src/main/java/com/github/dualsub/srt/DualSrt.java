@@ -232,16 +232,21 @@ public class DualSrt {
 			throws ParseException {
 		TreeMap<String, Entry[]> newSubtitles = new TreeMap<String, Entry[]>();
 
-		long initTime = SrtUtils.getInitTime(time).getTime();
-		long endTime = SrtUtils.getEndTime(time).getTime();
+		Date inTime = SrtUtils.getInitTime(time);
+		Date enTime = SrtUtils.getEndTime(time);
+		long initTime = inTime != null ? inTime.getTime() : 0;
+		long endTime = enTime != null ? enTime.getTime() : 0;
 		long iTime, jTime;
 		int top = 0, down = subtitles.keySet().size();
 		boolean topOver = false, downOver = false;
 		int from, to;
 
 		for (String t : subtitles.keySet()) {
-			iTime = SrtUtils.getInitTime(t).getTime();
-			jTime = SrtUtils.getEndTime(t).getTime();
+			inTime = SrtUtils.getInitTime(time);
+			enTime = SrtUtils.getEndTime(time);
+			iTime = inTime != null ? SrtUtils.getInitTime(t).getTime() : 0;
+			jTime = enTime != null ? SrtUtils.getEndTime(t).getTime() : 0;
+
 			if (iTime <= initTime) {
 				top++;
 			}
@@ -299,12 +304,18 @@ public class DualSrt {
 
 		if (to > 0 && to >= from) {
 			if (from < subtitles.size()) {
-				initFromTime = SrtUtils.getInitTime(
-						(String) subtitles.keySet().toArray()[from]).getTime();
+				Date iTime = SrtUtils.getInitTime((String) subtitles.keySet()
+						.toArray()[from]);
+				if (iTime != null) {
+					initFromTime = iTime.getTime();
+				}
 			}
 			if (to < subtitles.size()) {
-				endToTime = SrtUtils.getEndTime(
-						(String) subtitles.keySet().toArray()[to]).getTime();
+				Date eTime = SrtUtils.getEndTime((String) subtitles.keySet()
+						.toArray()[to]);
+				if (eTime != null) {
+					endToTime = eTime.getTime();
+				}
 			}
 
 			switch (getDesync()) {
@@ -465,33 +476,37 @@ public class DualSrt {
 		for (String t : subtitles.keySet()) {
 			if (!timeBefore.isEmpty()) {
 				init = SrtUtils.getInitTime(t);
-				entries = subtitles.get(timeBefore);
-				if (progressive) {
-					shiftTime = entries.length > 1 ? extension
-							* Math.max(entries[0].size(), entries[1].size())
-							: entries[0].size();
+				if (init != null) {
+					entries = subtitles.get(timeBefore);
+					if (progressive) {
+						shiftTime = entries.length > 1 ? extension
+								* Math.max(entries[0].size(), entries[1].size())
+								: entries[0].size();
+					}
+					if (tsBeforeEnd.getTime() + shiftTime < init.getTime()) {
+						newTime = SrtUtils.createSrtTime(tsBeforeInit,
+								new Date(tsBeforeEnd.getTime() + shiftTime));
+						Log.debug("Shift " + timeBefore + " to " + newTime
+								+ " ... extension " + shiftTime);
+					} else {
+						newTime = SrtUtils.createSrtTime(tsBeforeInit,
+								new Date(init.getTime() - gap));
+						Log.debug("Shift " + timeBefore + " to " + newTime);
+					}
+					newSubtitles.put(newTime, entries);
 				}
-				if (tsBeforeEnd.getTime() + shiftTime < init.getTime()) {
-					newTime = SrtUtils.createSrtTime(tsBeforeInit, new Date(
-							tsBeforeEnd.getTime() + shiftTime));
-					Log.debug("Shift " + timeBefore + " to " + newTime
-							+ " ... extension " + shiftTime);
-				} else {
-					newTime = SrtUtils.createSrtTime(tsBeforeInit, new Date(
-							init.getTime() - gap));
-					Log.debug("Shift " + timeBefore + " to " + newTime);
-				}
-				newSubtitles.put(newTime, entries);
-
 			}
 			timeBefore = t;
 			tsBeforeInit = SrtUtils.getInitTime(timeBefore);
 			tsBeforeEnd = SrtUtils.getEndTime(timeBefore);
+			if (tsBeforeInit == null || tsBeforeEnd == null) {
+				continue;
+			}
 		}
 
 		// Last entry
 		entries = subtitles.get(timeBefore);
-		if (entries != null) {
+		if (entries != null && tsBeforeInit != null && tsBeforeEnd != null) {
 			if (progressive) {
 				extension *= entries.length > 1 ? Math.max(entries[0].size(),
 						entries[1].size()) : entries[0].size();
