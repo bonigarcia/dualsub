@@ -20,6 +20,11 @@ Source
 
 DualSub is open source, released under the terms of [GPL v3]. The source code of this project can be cloned from the [GitHub Repository].
 
+Compile
+-------
+
+To compile the app run `mvn clean compile assembly:single`
+
 Downloads
 ---------
 
