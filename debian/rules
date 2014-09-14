@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+VERSION = $(shell dpkg-parsechangelog -SVersion | cut -d~ -f1 | cut -d- -f1)
+
+
+%:
+	dh $@ --parallel
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -f debian/dualsub.1
+
+override_dh_installman:
+	sed -e 's/@VERSION@/$(VERSION)/' debian/dualsub.1.in > debian/dualsub.1
+	dh_installman

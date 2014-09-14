@@ -1,4 +1,4 @@
-dualsub (1.0.0) precise; urgency=low
+dualsub (1.0.0~precise1) precise; urgency=low
 
   * DualSub 1.0.0 release:
   + Merge capability for SRT files

@@ -1,0 +1,32 @@
+.TH DUALSUB 1 "" "@VERSION@"
+.SH NAME
+DualSub \- merge two SRT subtitles into a single file
+.SH SYNOPSIS
+.B dualsub
+.SH DESCRIPTION
+DualSub is a tool which allows you to merge two SRT subtitles in a single file.
+The idea of using merged subtitles (let's call them 'dual subtitles') is to watch
+movies/series in original version with two sets of subtitles.
+Why is this useful? Dual subtitles can be used to learn a second language while
+watching movies/series.  The typical case is when your mother tongue is not English
+but you want to watch movies/series in English.
+
+Then you have several options:
+.br
+1. Learn English
+.br
+2. Watch it with subtitles
+.br
+3. Watch it translated to your mother language
+.br
+4. Do not watch it
+
+DualSub is a tool for those people between options 1 and 2. If your English is not perfect,
+you usually face to idioms, words and expression you do not know. By watching movies/series
+with dual subtitles (i.e. its original subtitles plus a translation) you will never be in
+doubt anymore of those expressions you do not understand, since the translation is instantaneous.
+
+.SH SEE ALSO
+.I http://dualsub.sourceforge.net/
+.SH AUTHOR
+Boni Garcia <boni.gg@gmail.com>
