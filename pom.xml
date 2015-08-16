@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github</groupId>
+	<groupId>io.github.bonigarcia</groupId>
 	<artifactId>dualsub</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>dualsub</name>
 	<url>http://dualsub.sourceforge.net/</url>
@@ -68,7 +68,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.github.dualsub.gui.DualSub</mainClass>
+							<mainClass>io.github.bonigarcia.dualsub.gui.DualSub</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
