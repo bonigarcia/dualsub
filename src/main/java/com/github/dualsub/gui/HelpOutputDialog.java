@@ -46,6 +46,7 @@ public class HelpOutputDialog extends HelpParent {
 	public HelpOutputDialog(DualSub parent, boolean modal) {
 		super(parent, modal);
 		setWidth(600);
+		parent.setHelpOutput(this);
 	}
 
 	@Override

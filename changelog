@@ -1,3 +1,10 @@
+dualsub (1.0.1) precise; urgency=low
+
+  * DualSub 1.0.1 release:
+  + Optimization of dialog instantiation
+
+ -- Boni Garcia <boni.gg@gmail.com>  Sun, 16 Aug 2015 17:43:00 +0200
+
 dualsub (1.0.0) precise; urgency=low
 
   * DualSub 1.0.0 release:

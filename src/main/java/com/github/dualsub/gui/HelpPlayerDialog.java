@@ -47,6 +47,7 @@ public class HelpPlayerDialog extends HelpParent {
 
 	public HelpPlayerDialog(DualSub parent, boolean modal) {
 		super(parent, modal);
+		parent.setHelpPlayer(this);
 	}
 
 	@Override

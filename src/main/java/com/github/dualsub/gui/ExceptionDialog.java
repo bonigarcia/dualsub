@@ -51,6 +51,7 @@ public class ExceptionDialog extends JDialog {
 		this.parent = parent;
 		this.exception = exception;
 		initComponents();
+		parent.setException(this);
 	}
 
 	public void setVisible() {

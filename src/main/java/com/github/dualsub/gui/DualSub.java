@@ -382,6 +382,34 @@ public class DualSub {
 		return helpSubtitles;
 	}
 
+	public CaptchaDialog getCaptchaDialog() {
+		return captchaDialog;
+	}
+
+	public void setHelpPlayer(HelpPlayerDialog helpPlayer) {
+		this.helpPlayer = helpPlayer;
+	}
+
+	public void setHelpTiming(HelpTimingDialog helpTiming) {
+		this.helpTiming = helpTiming;
+	}
+
+	public void setHelpOutput(HelpOutputDialog helpOutput) {
+		this.helpOutput = helpOutput;
+	}
+
+	public void setHelpTranslation(HelpTranslationDialog helpTranslation) {
+		this.helpTranslation = helpTranslation;
+	}
+
+	public void setHelpSubtitles(HelpSubtitlesDialog helpSubtitles) {
+		this.helpSubtitles = helpSubtitles;
+	}
+
+	public void setCaptchaDialog(CaptchaDialog captchaDialog) {
+		this.captchaDialog = captchaDialog;
+	}
+
 	/**
 	 * Launch the application.
 	 * 

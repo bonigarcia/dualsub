@@ -45,6 +45,7 @@ public class HelpTranslationDialog extends HelpParent {
 	public HelpTranslationDialog(DualSub parent, boolean modal) {
 		super(parent, modal);
 		setHeight(330);
+		parent.setHelpTranslation(this);
 	}
 
 	@Override

@@ -47,6 +47,7 @@ public class HelpTimingDialog extends HelpParent {
 	public HelpTimingDialog(DualSub parent, boolean modal) {
 		super(parent, modal);
 		setHeight(800);
+		parent.setHelpTiming(this);
 	}
 
 	@Override

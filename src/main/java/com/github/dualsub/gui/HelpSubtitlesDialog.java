@@ -45,6 +45,7 @@ public class HelpSubtitlesDialog extends HelpParent {
 
 	public HelpSubtitlesDialog(DualSub parent, boolean modal) {
 		super(parent, modal);
+		parent.setHelpSubtitles(this);
 	}
 
 	@Override
