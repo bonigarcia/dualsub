@@ -16,6 +16,7 @@
  */
 package io.github.bonigarcia.dualsub.srt;
 
+import io.github.bonigarcia.dualsub.gui.DualSub;
 import io.github.bonigarcia.dualsub.translate.Translator;
 import io.github.bonigarcia.dualsub.util.Charset;
 import io.github.bonigarcia.dualsub.util.Log;
@@ -50,8 +51,8 @@ public class Srt {
 		this.readSrt(fileName);
 	}
 
-	public Srt(Srt inputSrt, String fromLang, String toLang, String charset)
-			throws IOException {
+	public Srt(Srt inputSrt, String fromLang, String toLang, String charset,
+			DualSub parent) {
 		this.subtitles = new TreeMap<String, Entry>();
 		Map<String, Entry> subtitlesToTranslate = inputSrt.getSubtitles();
 		String lineToTranslate;
@@ -64,6 +65,7 @@ public class Srt {
 				lineToTranslate += line + " ";
 			}
 			translatedEntry = new Entry();
+			Translator.getInstance().setParent(parent);
 			translatedLine = Translator.getInstance().translate(
 					lineToTranslate, fromLang, toLang, charset);
 			Log.debug("** Translate " + lineToTranslate + " ** FROM "

@@ -21,6 +21,7 @@ import io.github.bonigarcia.dualsub.gui.CharsetItem;
 import io.github.bonigarcia.dualsub.gui.DualSub;
 import io.github.bonigarcia.dualsub.gui.ExceptionDialog;
 import io.github.bonigarcia.dualsub.gui.LangItem;
+import io.github.bonigarcia.dualsub.translate.TranslationCanceled;
 import io.github.bonigarcia.dualsub.util.I18N;
 
 import java.io.File;
@@ -44,7 +45,7 @@ public class Worker extends SwingWorker<Integer, String> {
 	}
 
 	@Override
-	protected Integer doInBackground() throws Exception {
+	protected Integer doInBackground() {
 		ListModel<File> leftSrtModel = parent.getLeftSubtitles().getModel();
 		ListModel<File> rightSrtModel = parent.getRightSubtitles().getModel();
 
@@ -120,13 +121,13 @@ public class Worker extends SwingWorker<Integer, String> {
 							.getToComboBox().getSelectedItem()).getId();
 					if (rightSrt != null && leftSrt == null) {
 						leftSrt = new Srt(rightSrt, fromLang, toLang,
-								rightSrt.getCharset());
+								rightSrt.getCharset(), parent);
 						if (!merge) {
 							rightSrt.resetSubtitles();
 						}
 					} else if (leftSrt != null && rightSrt == null) {
 						rightSrt = new Srt(leftSrt, fromLang, toLang,
-								leftSrt.getCharset());
+								leftSrt.getCharset(), parent);
 						if (!merge) {
 							leftSrt.resetSubtitles();
 						}
@@ -141,6 +142,9 @@ public class Worker extends SwingWorker<Integer, String> {
 				leftSrt = null;
 				rightSrt = null;
 
+			} catch (TranslationCanceled tc) {
+				error = true;
+				break;
 			} catch (Throwable exc) {
 				// exc.printStackTrace();
 				ExceptionDialog exceptionDialog = parent.getException();
@@ -162,5 +166,4 @@ public class Worker extends SwingWorker<Integer, String> {
 
 		return 0;
 	}
-
 }

@@ -42,7 +42,7 @@ import org.junit.Test;
 public class TestTranslation {
 
 	@Test
-	public void testTranslation() throws IOException {
+	public void testTranslation() {
 		Translator translate = Translator.getInstance();
 
 		String english = "Our story starts with the beginning of the universe.";
@@ -72,7 +72,7 @@ public class TestTranslation {
 		Merger merger = new Merger(".", true, 1000, true, properties,
 				Charset.ISO88591, 0, true, merge);
 		Srt srtRight = new Srt(srtLeft, Language.ENGLISH, Language.SPANISH,
-				srtLeft.getCharset());
+				srtLeft.getCharset(), null);
 
 		if (!merge) {
 			// Just translate

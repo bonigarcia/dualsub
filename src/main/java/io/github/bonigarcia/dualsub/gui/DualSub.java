@@ -93,6 +93,7 @@ public class DualSub {
 	private HelpOutputDialog helpOutput;
 	private HelpTranslationDialog helpTranslation;
 	private HelpSubtitlesDialog helpSubtitles;
+	private CaptchaDialog captchaDialog;
 
 	/**
 	 * Create the GUI.
@@ -134,6 +135,10 @@ public class DualSub {
 		menu.addMenu(leftFileListener, rightFileListener, folderListener,
 				mergeButtonListener);
 		showSplash();
+	}
+
+	public void close() {
+		frame.dispose();
 	}
 
 	private void loadProperties() throws IOException {
@@ -383,6 +388,10 @@ public class DualSub {
 		return helpSubtitles;
 	}
 
+	public CaptchaDialog getCaptchaDialog() {
+		return captchaDialog;
+	}
+
 	public void setHelpPlayer(HelpPlayerDialog helpPlayer) {
 		this.helpPlayer = helpPlayer;
 	}
@@ -401,6 +410,10 @@ public class DualSub {
 
 	public void setHelpSubtitles(HelpSubtitlesDialog helpSubtitles) {
 		this.helpSubtitles = helpSubtitles;
+	}
+
+	public void setCaptchaDialog(CaptchaDialog captchaDialog) {
+		this.captchaDialog = captchaDialog;
 	}
 
 	/**
