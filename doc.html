@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>DualSub - Merge and Translate Subtitles</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css"
+	media="all" />
+
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+		<script src="js/modernizr.custom.js"></script>
+	<![endif]-->
+<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="js/functions.js" type="text/javascript"></script>
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
+
+	ga('create', 'UA-53455200-1', 'auto');
+	ga('send', 'pageview');
+</script>
+</head>
+<body>
+	<div id="wrapper">
+		<!-- header -->
+		<header class="header">
+			<!-- shell -->
+			<div class="shell">
+				<h1 id="logo">
+					<a href="index.html">DualSub</a>
+				</h1>
+				<!-- navigation -->
+				<nav id="navigation">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="doc.html">Documentation</a></li>
+						<li><a href="downloads.html">Downloads</a></li>
+						<li><a href="http://bonigarcia.github.io/">About</a></li>
+					</ul>
+				</nav>
+				<!-- navigation -->
+			</div>
+			<!-- end of shell -->
+		</header>
+		<!-- end of header -->
+		<!-- shell -->
+		<div class="shell">
+			<!-- main -->
+			<div class="main">
+				<!-- slider-holder -->
+				<section class="slider-section">
+					<h2 class="alignleft">Getting Started</h2>
+					<a href="https://github.com/bonigarcia/dualsub/" class="buy-btn">Source
+						code</a>
+					<div class="cl">&nbsp;</div>
+					<br />
+					<p>
+						DualSub is a tool which allows you to merge two SRT subtitles in a
+						single file. The idea of using merged subtitles (let's call them <i>dual
+							subtitles</i>) is to watch movies/series in original version with two
+						sets of subtitles. <i>Why is this useful?</i> Dual subtitles can
+						be used to learn a second language while watching movies/series.
+						The typical case is when your mother tongue is not English but you
+						want to watch movies/series in English. Then you have several
+						options: 1. Learn English; 2. Watch it with subtitles; 3. Watch it
+						translated to your mother language; 4. Do not watch it. DualSub is
+						a tool for those people between options 1 and 2.
+					</p>
+					<br />
+					<p>When you are learning languages you face to idioms, words
+						and expression you do not know. Watching movies/series with dual
+						subtitles (i.e. its original subtitles plus a translation) you
+						will never be in doubt anymore of those expressions you do not
+						understand, since the translation is instantaneous.</p>
+					<br />
+					<p>
+						If you want to create your own dual subtitles, you need the video
+						to be played with its subtitles. Ideally, you should have two
+						subtitles SRT files for a single video (for instance, the first
+						SRT subtitle in English and the second one in other language).
+						There are plenty of web sites available to collect SRT files, for
+						example <a href="http://www.opensubtitles.org/">opensubtitles</a>,
+						<a href="http://subscene.com/">subscene</a>, <a
+							href="http://www.subtitulos.es/">subtitulos.es</a>, and so on. If
+						you only have a SRT file, you can also <strong>translate</strong>
+						it automatically using DualSub.
+					</p>
+					<br />
+					<p>Once you have your video and SRT subtitle(s), the next
+						important step is to decide which player you are going to use to
+						play it. This decision is important since it will determine the
+						available width in which subtitles are going to be displayed. Take
+						into account that the double of text subtitles is going to be
+						displayed. For that reason, you need to specify the
+						player/subtitles features. These parameters are: screen width (in
+						pixels); subtitles font family (Arial, Tahoma, ...); subtitles
+						font size (in points). Nevertheless, the way of working of the
+						most of the players regarding the display of subtitles is quite
+						tricky. For example, VLC shows the size of the subtitles
+						proportional to the video size. For this reason, this setup
+						usually has to be tuned using trial and error.</p>
+					<br />
+					<p>Here you can see an example of a video with dual subtitles.
+						It is a piece of Kill Bill Volume 1 with English an Spanish
+						subtitles. Be careful if you have not seen this movie since it is
+						the end of the movie and contains important spoilers!!!</p>
+					<br />
+					<p style="text-align: center;">
+						<iframe title="YouTube video player" class="youtube-player"
+							type="text/html" width="640" height="390"
+							src="http://www.youtube.com/embed/GwaeRt9bOL0" frameborder="0"
+							allowFullScreen></iframe>
+					</p>
+					<br />
+					<p>
+						DualSub has an open <a
+							href="https://groups.google.com/forum/?hl=es#!forum/dualsub">Google
+							Group</a> to post comments, problems, and so on. If you have any
+						suggestion, please send an email to the <a
+							href="mailto:dualsub@googlegroups.com">group</a>!
+					</p>
+
+				</section>
+				<!-- slider-holder -->
+				<section>
+					<a href="doc.es.html" class="all-projects-es">Spanish version</a>
+				</section>
+			</div>
+			<!-- end of shell -->
+		</div>
+		<!-- footer -->
+		<div id="footer">
+			<p class="copy">
+				&copy; 2014 Boni Garc&iacute;a. Design by <a
+					href="http://chocotemplates.com" target="_blank">Chocotemplates.com</a>
+			</p>
+		</div>
+		<!-- end of footer -->
+</body>
+</html>
