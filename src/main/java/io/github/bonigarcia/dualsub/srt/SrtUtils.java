@@ -140,7 +140,7 @@ public class SrtUtils {
 				// Time without milliseconds (e.g. 01:27:40)
 				time += ",000";
 			}
-			out = SrtUtils.getSingleton().simpleDateFormat.parse(time);
+			out = SrtUtils.getSingleton().parse(time);
 		}
 		return out;
 	}
@@ -161,7 +161,8 @@ public class SrtUtils {
 				// Time without milliseconds (e.g. 01:27:40)
 				time += ",000";
 			}
-			out = SrtUtils.getSingleton().simpleDateFormat.parse(time);
+			out = SrtUtils.getSingleton().parse(time);
+
 		}
 		return out;
 	}
@@ -197,6 +198,16 @@ public class SrtUtils {
 
 	public static String format(Date date) {
 		return SrtUtils.getSingleton().simpleDateFormat.format(date);
+	}
+
+	public Date parse(String date) throws ParseException {
+		Date out = null;
+		try {
+			out = SrtUtils.getSingleton().simpleDateFormat.parse(date);
+		} catch (ParseException e) {
+			out = new SimpleDateFormat("HH:mm:ss.SSS").parse(date);
+		}
+		return out;
 	}
 
 	public static String getBlankLine() {

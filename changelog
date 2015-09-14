@@ -1,3 +1,10 @@
+dualsub (1.1.0) precise; urgency=low
+
+  * DualSub 1.1.0 release:
+  + Support for date format HH:mm:ss.SSS
+
+ -- Boni Garcia <boni.gg@gmail.com>  Mon, 14 Sep 2015 19:51:00 +0200
+
 dualsub (1.0.1) precise; urgency=low
 
   * DualSub 1.0.1 release:
