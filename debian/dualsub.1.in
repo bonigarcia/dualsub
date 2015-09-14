@@ -27,6 +27,6 @@ with dual subtitles (i.e. its original subtitles plus a translation) you will ne
 doubt anymore of those expressions you do not understand, since the translation is instantaneous.
 
 .SH SEE ALSO
-.I http://dualsub.sourceforge.net/
+.I http://bonigarcia.github.io/dualsub/
 .SH AUTHOR
 Boni Garcia <boni.gg@gmail.com>

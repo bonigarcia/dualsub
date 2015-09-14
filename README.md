@@ -1,4 +1,4 @@
-[![][Logo]][SourceForge]
+[![][Logo]][Site]
 
 Copyright &copy; 2014 Boni Garcia. Licensed under [GPL v3].
 
@@ -28,18 +28,17 @@ To compile the app run `mvn clean compile assembly:single`
 Downloads
 ---------
 
-DualSub has been developed in Java. Binary releases for Windows, Linux, and Mac OS X are available on [SourceForge Releases] and [GitHub Releases].
+DualSub has been developed in Java. Binary releases for Windows, Linux, and Mac OS X are available on [GitHub Releases].
 
 About
 -----
 
 DualSub is a personal project of [Boni Garcia]. Comments, questions and suggestions are always very welcome!
 
-[Logo]: http://dualsub.sourceforge.net/img/dualsub.png
+[Logo]: http://bonigarcia.github.io/dualsub/img/dualsub.png
 [GPL v3]: https://www.gnu.org/copyleft/gpl.html
-[SourceForge]: http://dualsub.sourceforge.net/
+[Site]: http://bonigarcia.github.io/dualsub/
 [GitHub Repository]: https://github.com/bonigarcia/dualsub
 [Boni Garcia]: http://bonigarcia.github.io/
-[SourceForge Releases]: http://sourceforge.net/projects/dualsub/
 [GitHub Releases]: https://github.com/bonigarcia/dualsub/releases
 [YouTube]: https://www.youtube.com/watch?v=GwaeRt9bOL0

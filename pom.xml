@@ -7,7 +7,7 @@
 	<version>1.1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>dualsub</name>
-	<url>http://dualsub.sourceforge.net/</url>
+	<url>http://bonigarcia.github.io/dualsub/</url>
 
 	<developers>
 		<developer>
