@@ -60,7 +60,8 @@ public class TestTranslation {
 	@Test
 	public void testSrtTranslation() throws IOException, ParseException {
 		String srtLeftFile = "Game of Thrones 1x01 - Winter Is Coming (English).srt";
-		SrtUtils.init("720", "Tahoma", 20, true, true, ".", 50);
+		SrtUtils.init("720", "Tahoma", 20, true, true, ".", 50, false, null,
+				null);
 		Srt srtLeft = new Srt(srtLeftFile);
 		Properties properties = new Properties();
 		InputStream inputStream = Thread.currentThread()

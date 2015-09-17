@@ -41,6 +41,8 @@ public class SrtUtils {
 	public static final String TAG_INIT = "<";
 	public static final String TAG_END = ">";
 	public static final String EOL = "\r\n";
+	public static final String FONT_INIT = "<font color=\"%s\">";
+	public static final String FONT_END = "%s</font>";
 
 	private Font font;
 	private FontMetrics fontMetrics;
@@ -54,6 +56,9 @@ public class SrtUtils {
 	private String separator;
 	private boolean usingSpace;
 	private boolean usingSeparator;
+	private boolean horizontal;
+	private String leftColor;
+	private String rightColor;
 
 	private static SrtUtils singleton = null;
 
@@ -70,7 +75,8 @@ public class SrtUtils {
 
 	@SuppressWarnings("deprecation")
 	public static void init(String maxWidth, String fontFamily, int fontSize,
-			boolean space, boolean separator, String separatorChar, int guard) {
+			boolean space, boolean separator, String separatorChar, int guard,
+			boolean horizontal, String leftColor, String rightColor) {
 		Log.debug("maxWidth " + maxWidth + " fontFamily " + fontFamily
 				+ " fontSize " + fontSize + " space " + space + " separator "
 				+ separator + " separatorChar " + separatorChar + " guard "
@@ -86,6 +92,11 @@ public class SrtUtils {
 		srtUtils.usingSpace = space;
 		srtUtils.usingSeparator = separator;
 		srtUtils.separatorWidth = separator ? getWidth(srtUtils.separator) : 0;
+		srtUtils.horizontal = horizontal;
+		srtUtils.leftColor = leftColor != null ? String.format(FONT_INIT,
+				leftColor) + FONT_END : "%s";
+		srtUtils.rightColor = rightColor != null ? String.format(FONT_INIT,
+				rightColor) + FONT_END : "%s";
 
 		// Even if hard space is used, the width of the padding is the same
 		// as the normal space
@@ -232,6 +243,18 @@ public class SrtUtils {
 
 	public static String getSpace() {
 		return SrtUtils.SPACE;
+	}
+
+	public static boolean isHorizontal() {
+		return SrtUtils.getSingleton().horizontal;
+	}
+
+	public static String getLeftColor() {
+		return SrtUtils.getSingleton().leftColor;
+	}
+
+	public static String getRightColor() {
+		return SrtUtils.getSingleton().rightColor;
 	}
 
 }

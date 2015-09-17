@@ -3,6 +3,8 @@ dualsub (1.1.0) precise; urgency=low
   * DualSub 1.1.0 release:
   + Support for date format HH:mm:ss.SSS
   + Moved site to http://bonigarcia.github.io/dualsub/
+  + Added capability of merging subtitles horizontally
+  + Added capability of coloring subtitles
 
  -- Boni Garcia <boni.gg@gmail.com>  Mon, 14 Sep 2015 19:51:00 +0200
 

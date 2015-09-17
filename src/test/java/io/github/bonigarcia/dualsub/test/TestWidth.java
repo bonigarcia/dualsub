@@ -34,7 +34,8 @@ public class TestWidth {
 
 	@Before
 	public void setup() throws IOException {
-		SrtUtils.init("624", "Tahoma", 17, true, true, ".", 50);
+		SrtUtils.init("624", "Tahoma", 17, true, true, ".", 50, false, null,
+				null);
 	}
 
 	@Test

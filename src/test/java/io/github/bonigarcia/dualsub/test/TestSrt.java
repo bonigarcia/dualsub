@@ -32,6 +32,7 @@ import java.util.Properties;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -51,7 +52,8 @@ public class TestSrt {
 		String srtEnFile = "Game of Thrones 1x01 - Winter Is Coming (English).srt";
 		String srtEsFile = "Game of Thrones 1x01 - Winter Is Coming (Spanish).srt";
 
-		SrtUtils.init("624", "Tahoma", 17, false, true, ".", 50);
+		SrtUtils.init("624", "Tahoma", 17, false, false, ".", 50, false, null,
+				null);
 		srtEn = new Srt(srtEnFile);
 		srtEs = new Srt(srtEsFile);
 		Log.info(srtEn.getFileName() + " " + Charset.detect(srtEnFile));
@@ -65,6 +67,7 @@ public class TestSrt {
 				Charset.ISO88591, 0, false, true);
 	}
 
+	@Ignore
 	@Test
 	public void testReadSrt() throws IOException {
 		Log.info("srtEnFile size=" + srtEn.getSubtitles().size());
@@ -74,6 +77,7 @@ public class TestSrt {
 				.size());
 	}
 
+	@Ignore
 	@Test
 	public void testTime() throws ParseException {
 		String line1 = "01:27:40,480 --> 01:26:56,260";
@@ -94,6 +98,7 @@ public class TestSrt {
 		Assert.assertTrue(init1.getTime() > init2.getTime());
 	}
 
+	@Ignore
 	@Test
 	public void testMergedFileName() {
 		String mergedFileName = merger.getMergedFileName(srtEs, srtEn);
@@ -102,6 +107,7 @@ public class TestSrt {
 				+ "Game of Thrones 1x01 - Winter Is Coming.srt", mergedFileName);
 	}
 
+	@Ignore
 	@Test
 	public void testCompleteSrtISO88591() throws ParseException, IOException {
 		DualSrt dualSrt = merger.mergeSubs(srtEs, srtEn);
@@ -111,6 +117,7 @@ public class TestSrt {
 		new File(mergedFileName).delete();
 	}
 
+	@Ignore
 	@Test
 	public void testCompleteSrtUTF8() throws ParseException, IOException {
 		DualSrt dualSrt = merger.mergeSubs(srtEs, srtEn);
@@ -118,6 +125,19 @@ public class TestSrt {
 		dualSrt.writeSrt(mergedFileName, Charset.UTF8, false, true);
 		Log.info(mergedFileName + " " + Charset.detect(mergedFileName));
 		new File(mergedFileName).delete();
+	}
+
+	@Test
+	public void testCompleteSrtUTF8Horizontal() throws ParseException,
+			IOException {
+		SrtUtils.init("624", "Tahoma", 17, false, false, ".", 50, true,
+				"green", "yellow");
+
+		DualSrt dualSrt = merger.mergeSubs(srtEs, srtEn);
+		String mergedFileName = merger.getMergedFileName(srtEs, srtEn);
+		dualSrt.writeSrt(mergedFileName, Charset.UTF8, false, true);
+		Log.info(mergedFileName + " " + Charset.detect(mergedFileName));
+		// new File(mergedFileName).delete();
 	}
 
 }

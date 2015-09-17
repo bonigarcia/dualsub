@@ -55,7 +55,8 @@ public class TestSynchronization {
 	@Test
 	public void testDesynchronization() throws ParseException, IOException {
 		// Initial configuration
-		SrtUtils.init("624", "Tahoma", 17, true, true, ".", 50);
+		SrtUtils.init("624", "Tahoma", 17, true, true, ".", 50, false, null,
+				null);
 
 		// Input subtitles
 		Srt srtLeft = new Srt("Exceptions (English).srt");
@@ -82,7 +83,8 @@ public class TestSynchronization {
 	@Test
 	public void testDjango() throws ParseException, IOException {
 		// Initial configuration
-		SrtUtils.init("720", "Tahoma", 17, true, true, ".", 50);
+		SrtUtils.init("720", "Tahoma", 17, true, true, ".", 50, false, null,
+				null);
 
 		// Input subtitles
 		Srt srtLeft = new Srt("Django Unchained (English).srt");
