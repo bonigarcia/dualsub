@@ -18,7 +18,6 @@ package io.github.bonigarcia.dualsub.gui;
 
 import io.github.bonigarcia.dualsub.translate.Translator;
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -30,7 +29,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
-import java.util.logging.Level;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -41,6 +39,9 @@ import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 import javax.swing.border.Border;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * CaptchaDialog.
  * 
@@ -48,6 +49,9 @@ import javax.swing.border.Border;
  * @since 1.0.1
  */
 public class CaptchaDialog extends HelpParent {
+
+	private static final Logger log = LoggerFactory
+			.getLogger(CaptchaDialog.class);
 
 	private static final long serialVersionUID = 1L;
 
@@ -138,7 +142,7 @@ public class CaptchaDialog extends HelpParent {
 		});
 
 		// Borders (for debug purposes)
-		if (Log.getLevel().equals(Level.FINE)) {
+		if (log.isDebugEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			lblTitle.setBorder(border);
 			captchaPanel.setBorder(border);

@@ -19,7 +19,6 @@ package io.github.bonigarcia.dualsub.gui;
 import io.github.bonigarcia.dualsub.util.Charset;
 import io.github.bonigarcia.dualsub.util.Font;
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -51,6 +50,9 @@ import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.jgoodies.plaf.plastic.Plastic3DLookAndFeel;
 
 /**
@@ -60,6 +62,8 @@ import com.jgoodies.plaf.plastic.Plastic3DLookAndFeel;
  * @since 1.0.0
  */
 public class DualSub {
+
+	private static final Logger log = LoggerFactory.getLogger(DualSub.class);
 
 	// Preferences and Properties
 	private Preferences preferences;
@@ -114,7 +118,7 @@ public class DualSub {
 			// JFrame.setDefaultLookAndFeelDecorated(true);
 			// JDialog.setDefaultLookAndFeelDecorated(true);
 		} catch (Exception e) {
-			Log.warn(e.getMessage());
+			log.warn(e.getMessage());
 		}
 
 		splash = new Splash(ClassLoader.getSystemResource("img/splash.png"));

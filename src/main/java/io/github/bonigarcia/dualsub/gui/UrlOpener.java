@@ -16,12 +16,13 @@
  */
 package io.github.bonigarcia.dualsub.gui;
 
-import io.github.bonigarcia.dualsub.util.Log;
-
 import java.awt.Desktop;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.URI;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * UrlOpener.
@@ -30,6 +31,8 @@ import java.net.URI;
  * @since 1.0.0
  */
 public class UrlOpener implements ActionListener {
+
+	private static final Logger log = LoggerFactory.getLogger(UrlOpener.class);
 
 	private String uri;
 
@@ -47,10 +50,10 @@ public class UrlOpener implements ActionListener {
 			try {
 				Desktop.getDesktop().browse(new URI(uri));
 			} catch (Exception e) {
-				Log.error(e.getMessage());
+				log.error(e.getMessage());
 			}
 		} else {
-			Log.error("!Desktop.isDesktopSupported()");
+			log.error("!Desktop.isDesktopSupported()");
 		}
 	}
 }

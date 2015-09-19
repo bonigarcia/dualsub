@@ -17,7 +17,6 @@
 package io.github.bonigarcia.dualsub.translate;
 
 import io.github.bonigarcia.dualsub.util.Charset;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -27,6 +26,9 @@ import java.io.Reader;
 import java.util.Arrays;
 import java.util.Properties;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * TranslateMessages.
  * 
@@ -34,6 +36,9 @@ import java.util.Properties;
  * @since 1.0.0
  */
 public class TranslateMessages {
+
+	private static final Logger log = LoggerFactory
+			.getLogger(TranslateMessages.class);
 
 	private final static String MASTER_PROPERTIES = "./src/main/resources/lang/messages.properties";
 	private final static String MASTER_CHARSET = Charset.ISO88591;
@@ -71,7 +76,7 @@ public class TranslateMessages {
 					+ MASTER_PROPERTIES.substring(j);
 			newPropertiesFile = new FileOutputStream(newProperties);
 
-			Log.info(newProperties);
+			log.info(newProperties);
 			for (Object propKey : properties.keySet()) {
 				if (!Arrays.asList(EXCEPTIONS).contains((String) propKey)) {
 					properties.setProperty((String) propKey, translate

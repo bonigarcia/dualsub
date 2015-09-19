@@ -19,7 +19,6 @@ package io.github.bonigarcia.dualsub.translate;
 import io.github.bonigarcia.dualsub.gui.CaptchaDialog;
 import io.github.bonigarcia.dualsub.gui.CaptchaPanel;
 import io.github.bonigarcia.dualsub.gui.DualSub;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
@@ -39,6 +38,8 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.google.gson.Gson;
 
@@ -49,6 +50,8 @@ import com.google.gson.Gson;
  * @since 1.0.0
  */
 public class Translator {
+
+	private static final Logger log = LoggerFactory.getLogger(Translator.class);
 
 	private static final String GOOGLE_TRANSLATOR_URL = "http://translate.google.com/translate_a/t";
 	private static final String USER_AGENT = "Mozilla/5.0";
@@ -125,7 +128,7 @@ public class Translator {
 				+ captchaSolution);
 
 		// Result
-		Log.debug("googleAbuseExceptionCookie " + googleAbuseExceptionCookie);
+		log.debug("googleAbuseExceptionCookie " + googleAbuseExceptionCookie);
 	}
 
 	private static BufferedImage getImage(String url)
@@ -176,7 +179,7 @@ public class Translator {
 				for (Sentences s : translation.getSentences()) {
 					trans += s.getTrans();
 				}
-				Log.debug(charset + " ** " + stringBuilder.toString()
+				log.debug(charset + " ** " + stringBuilder.toString()
 						+ " ---- " + trans);
 			} catch (TranslationCanceled e) {
 				googleAbuseExceptionCookie = null;
@@ -203,8 +206,8 @@ public class Translator {
 
 		HttpResponse response = client.execute(request);
 
-		Log.debug("Sending GET request to URL : " + url);
-		Log.debug("Response Code : " + response.getStatusLine().getStatusCode());
+		log.debug("Sending GET request to URL : " + url);
+		log.debug("Response Code : " + response.getStatusLine().getStatusCode());
 
 		BufferedReader rd = new BufferedReader(new InputStreamReader(response
 				.getEntity().getContent()));

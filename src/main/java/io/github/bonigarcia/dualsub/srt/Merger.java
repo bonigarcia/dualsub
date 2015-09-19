@@ -17,7 +17,6 @@
 package io.github.bonigarcia.dualsub.srt;
 
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.File;
 import java.text.ParseException;
@@ -28,6 +27,9 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.TreeMap;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Merger.
  * 
@@ -35,6 +37,8 @@ import java.util.TreeMap;
  * @since 1.0.0
  */
 public class Merger {
+
+	private static final Logger log = LoggerFactory.getLogger(Merger.class);
 
 	private String outputFolder;
 	private int extension;
@@ -90,7 +94,7 @@ public class Merger {
 
 			if (!subtitlesRight.isEmpty()) {
 				for (String t : subtitlesRight.keySet()) {
-					Log.debug("Desynchronization on " + t + " "
+					log.debug("Desynchronization on " + t + " "
 							+ subtitlesRight.get(t).subtitleLines);
 					dualSrt.processDesync(t, subtitlesRight.get(t));
 				}

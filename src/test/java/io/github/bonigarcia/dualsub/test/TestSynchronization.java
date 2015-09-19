@@ -21,7 +21,6 @@ import io.github.bonigarcia.dualsub.srt.Merger;
 import io.github.bonigarcia.dualsub.srt.Srt;
 import io.github.bonigarcia.dualsub.srt.SrtUtils;
 import io.github.bonigarcia.dualsub.util.Charset;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,6 +31,8 @@ import java.util.Properties;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * TestSynchronization.
@@ -40,6 +41,9 @@ import org.junit.Test;
  * @since 1.0.0
  */
 public class TestSynchronization {
+
+	private static final Logger log = LoggerFactory
+			.getLogger(TestSynchronization.class);
 
 	private Properties properties;
 
@@ -97,7 +101,7 @@ public class TestSynchronization {
 		String mergedFileName = merger.getMergedFileName(srtLeft, srtRight);
 		dualSrt.writeSrt(mergedFileName, merger.getCharset(),
 				merger.isTranslate(), merger.isMerge());
-		Log.info(mergedFileName + " " + Charset.detect(mergedFileName));
+		log.info(mergedFileName + " " + Charset.detect(mergedFileName));
 		new File(mergedFileName).delete();
 	}
 

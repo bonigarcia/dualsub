@@ -17,7 +17,6 @@
 package io.github.bonigarcia.dualsub.test;
 
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,6 +25,8 @@ import java.util.Enumeration;
 import java.util.Locale;
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * TestLocale.
@@ -34,6 +35,8 @@ import org.junit.Test;
  * @since 1.0.0
  */
 public class TestLocale {
+
+	private static final Logger log = LoggerFactory.getLogger(TestLocale.class);
 
 	@Test
 	public void testLocale() throws IOException {
@@ -50,7 +53,7 @@ public class TestLocale {
 						&& s.contains("_")) {
 					localeStr = s.substring(s.indexOf("_") + 1, s.indexOf("."));
 					Locale locale = new Locale(localeStr);
-					Log.info(s + " " + locale);
+					log.info(s + " " + locale);
 				}
 			}
 		}

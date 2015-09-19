@@ -16,10 +16,11 @@
  */
 package io.github.bonigarcia.dualsub.srt;
 
-import io.github.bonigarcia.dualsub.util.Log;
-
 import java.util.LinkedList;
 import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Entry.
@@ -28,6 +29,8 @@ import java.util.List;
  * @since 1.0.0
  */
 public class Entry {
+
+	private static final Logger log = LoggerFactory.getLogger(Entry.class);
 
 	public List<String> subtitleLines;
 
@@ -61,7 +64,7 @@ public class Entry {
 
 	public void log() {
 		for (String s : subtitleLines) {
-			Log.info(s);
+			log.info(s);
 		}
 	}
 

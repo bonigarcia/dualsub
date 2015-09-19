@@ -17,14 +17,12 @@
 package io.github.bonigarcia.dualsub.gui;
 
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Collections;
 import java.util.Vector;
-import java.util.logging.Level;
 
 import javax.swing.BorderFactory;
 import javax.swing.ButtonGroup;
@@ -40,6 +38,9 @@ import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * PanelTranslation.
  * 
@@ -47,6 +48,9 @@ import javax.swing.border.TitledBorder;
  * @since 1.0.0
  */
 public class PanelTranslation extends JPanel {
+
+	private static final Logger log = LoggerFactory
+			.getLogger(PanelTranslation.class);
 
 	private static final long serialVersionUID = 1L;
 
@@ -190,7 +194,7 @@ public class PanelTranslation extends JPanel {
 		this.add(buttonHelpSub);
 
 		// Borders (for debug purposes)
-		if (Log.getLevel().equals(Level.FINE)) {
+		if (log.isDebugEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			fromLabel.setBorder(border);
 			toLabel.setBorder(border);

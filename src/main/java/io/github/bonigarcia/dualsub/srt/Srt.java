@@ -19,7 +19,6 @@ package io.github.bonigarcia.dualsub.srt;
 import io.github.bonigarcia.dualsub.gui.DualSub;
 import io.github.bonigarcia.dualsub.translate.Translator;
 import io.github.bonigarcia.dualsub.util.Charset;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -33,6 +32,9 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Srt.
  * 
@@ -40,6 +42,8 @@ import java.util.regex.Pattern;
  * @since 1.0.0
  */
 public class Srt {
+
+	private static final Logger log = LoggerFactory.getLogger(Merger.class);
 
 	private Map<String, Entry> subtitles;
 	private String fileName;
@@ -68,7 +72,7 @@ public class Srt {
 			Translator.getInstance().setParent(parent);
 			translatedLine = Translator.getInstance().translate(
 					lineToTranslate, fromLang, toLang, charset);
-			Log.debug("** Translate " + lineToTranslate + " ** FROM "
+			log.debug("** Translate " + lineToTranslate + " ** FROM "
 					+ fromLang + " TO " + toLang + " ** " + translatedLine);
 			translatedEntry.add(translatedLine);
 			subtitles.put(time, translatedEntry);
@@ -90,7 +94,7 @@ public class Srt {
 		InputStream isForDetection = readSrtInputStream(file);
 		InputStream isForReading = readSrtInputStream(file);
 		charset = Charset.detect(isForDetection);
-		Log.info(file + " detected charset " + charset);
+		log.info(file + " detected charset " + charset);
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(
 				isForReading, charset));
@@ -116,7 +120,7 @@ public class Srt {
 							line = removeTags(line);
 						}
 						entry.add(line);
-						Log.debug(line);
+						log.debug(line);
 					}
 					i++;
 				}
@@ -149,9 +153,9 @@ public class Srt {
 		for (String time : subtitles.keySet()) {
 			list = subtitles.get(time);
 			for (int i = 0; i < list.size(); i++) {
-				Log.info(time + " " + list.get(i) + " ");
+				log.info(time + " " + list.get(i) + " ");
 			}
-			Log.info("");
+			log.info("");
 		}
 	}
 

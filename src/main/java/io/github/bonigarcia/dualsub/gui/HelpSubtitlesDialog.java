@@ -17,13 +17,11 @@
 package io.github.bonigarcia.dualsub.gui;
 
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
-import java.util.logging.Level;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -33,6 +31,9 @@ import javax.swing.JScrollPane;
 import javax.swing.WindowConstants;
 import javax.swing.border.Border;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * HelpSubtitlesDialog.
  * 
@@ -40,6 +41,9 @@ import javax.swing.border.Border;
  * @since 1.0.0
  */
 public class HelpSubtitlesDialog extends HelpParent {
+
+	private static final Logger log = LoggerFactory
+			.getLogger(HelpSubtitlesDialog.class);
 
 	private static final long serialVersionUID = 1L;
 
@@ -101,7 +105,7 @@ public class HelpSubtitlesDialog extends HelpParent {
 		panel.add(lblContent04);
 
 		// Borders (for debug purposes)
-		if (Log.getLevel().equals(Level.FINE)) {
+		if (log.isDebugEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			lblTitle.setBorder(border);
 			lblContent01.setBorder(border);

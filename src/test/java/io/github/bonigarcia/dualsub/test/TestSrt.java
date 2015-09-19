@@ -21,7 +21,6 @@ import io.github.bonigarcia.dualsub.srt.Merger;
 import io.github.bonigarcia.dualsub.srt.Srt;
 import io.github.bonigarcia.dualsub.srt.SrtUtils;
 import io.github.bonigarcia.dualsub.util.Charset;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,6 +33,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * TestSrt.
@@ -42,6 +43,8 @@ import org.junit.Test;
  * @since 1.0.0
  */
 public class TestSrt {
+
+	private static final Logger log = LoggerFactory.getLogger(TestSrt.class);
 
 	private Srt srtEn;
 	private Srt srtEs;
@@ -56,8 +59,8 @@ public class TestSrt {
 				null);
 		srtEn = new Srt(srtEnFile);
 		srtEs = new Srt(srtEsFile);
-		Log.info(srtEn.getFileName() + " " + Charset.detect(srtEnFile));
-		Log.info(srtEs.getFileName() + " " + Charset.detect(srtEsFile));
+		log.info(srtEn.getFileName() + " " + Charset.detect(srtEnFile));
+		log.info(srtEs.getFileName() + " " + Charset.detect(srtEsFile));
 		Properties properties = new Properties();
 		InputStream inputStream = Thread.currentThread()
 				.getContextClassLoader()
@@ -70,8 +73,8 @@ public class TestSrt {
 	@Ignore
 	@Test
 	public void testReadSrt() throws IOException {
-		Log.info("srtEnFile size=" + srtEn.getSubtitles().size());
-		Log.info("srtEsFile size=" + srtEs.getSubtitles().size());
+		log.info("srtEnFile size=" + srtEn.getSubtitles().size());
+		log.info("srtEsFile size=" + srtEs.getSubtitles().size());
 
 		Assert.assertEquals(srtEn.getSubtitles().size(), srtEs.getSubtitles()
 				.size());
@@ -89,11 +92,11 @@ public class TestSrt {
 		Date end1 = SrtUtils.getEndTime(line1);
 		Date end2 = SrtUtils.getEndTime(line2);
 
-		Log.info(init1 + " " + init1.getTime());
-		Log.info(init2 + " " + init2.getTime());
-		Log.info("---");
-		Log.info(end1 + " " + end1.getTime());
-		Log.info(end2 + " " + end2.getTime());
+		log.info(init1 + " " + init1.getTime());
+		log.info(init2 + " " + init2.getTime());
+		log.info("---");
+		log.info(end1 + " " + end1.getTime());
+		log.info(end2 + " " + end2.getTime());
 
 		Assert.assertTrue(init1.getTime() > init2.getTime());
 	}
@@ -102,7 +105,7 @@ public class TestSrt {
 	@Test
 	public void testMergedFileName() {
 		String mergedFileName = merger.getMergedFileName(srtEs, srtEn);
-		Log.info(mergedFileName);
+		log.info(mergedFileName);
 		Assert.assertEquals("." + File.separator
 				+ "Game of Thrones 1x01 - Winter Is Coming.srt", mergedFileName);
 	}
@@ -113,7 +116,7 @@ public class TestSrt {
 		DualSrt dualSrt = merger.mergeSubs(srtEs, srtEn);
 		String mergedFileName = merger.getMergedFileName(srtEs, srtEn);
 		dualSrt.writeSrt(mergedFileName, Charset.ISO88591, false, true);
-		Log.info(mergedFileName + " " + Charset.detect(mergedFileName));
+		log.info(mergedFileName + " " + Charset.detect(mergedFileName));
 		new File(mergedFileName).delete();
 	}
 
@@ -123,7 +126,7 @@ public class TestSrt {
 		DualSrt dualSrt = merger.mergeSubs(srtEs, srtEn);
 		String mergedFileName = merger.getMergedFileName(srtEs, srtEn);
 		dualSrt.writeSrt(mergedFileName, Charset.UTF8, false, true);
-		Log.info(mergedFileName + " " + Charset.detect(mergedFileName));
+		log.info(mergedFileName + " " + Charset.detect(mergedFileName));
 		new File(mergedFileName).delete();
 	}
 
@@ -136,7 +139,7 @@ public class TestSrt {
 		DualSrt dualSrt = merger.mergeSubs(srtEs, srtEn);
 		String mergedFileName = merger.getMergedFileName(srtEs, srtEn);
 		dualSrt.writeSrt(mergedFileName, Charset.UTF8, false, true);
-		Log.info(mergedFileName + " " + Charset.detect(mergedFileName));
+		log.info(mergedFileName + " " + Charset.detect(mergedFileName));
 		// new File(mergedFileName).delete();
 	}
 

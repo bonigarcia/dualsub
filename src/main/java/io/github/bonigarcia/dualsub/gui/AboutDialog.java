@@ -18,7 +18,6 @@ package io.github.bonigarcia.dualsub.gui;
 
 import io.github.bonigarcia.dualsub.util.Charset;
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.awt.Dimension;
 import java.awt.Point;
@@ -42,6 +41,8 @@ import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 
 import org.markdown4j.Markdown4jProcessor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * AboutDialog.
@@ -50,6 +51,9 @@ import org.markdown4j.Markdown4jProcessor;
  * @since 1.0.0
  */
 public class AboutDialog extends JDialog {
+
+	private static final Logger log = LoggerFactory
+			.getLogger(AboutDialog.class);
 
 	private static final long serialVersionUID = 1L;
 
@@ -191,7 +195,7 @@ public class AboutDialog extends JDialog {
 
 			textArea.setText(allLines);
 		} catch (IOException e) {
-			Log.error(e);
+			log.error("Exception adding content to area", e);
 		}
 	}
 }

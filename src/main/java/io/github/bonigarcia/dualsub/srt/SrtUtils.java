@@ -16,14 +16,15 @@
  */
 package io.github.bonigarcia.dualsub.srt;
 
-import io.github.bonigarcia.dualsub.util.Log;
-
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Toolkit;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * SrtUtils.
@@ -32,6 +33,8 @@ import java.util.Date;
  * @since 1.0.0
  */
 public class SrtUtils {
+
+	private static final Logger log = LoggerFactory.getLogger(Merger.class);
 
 	private static final String SPACE = " ";
 	private static final String HARD_SPACE = "\\h";
@@ -77,7 +80,7 @@ public class SrtUtils {
 	public static void init(String maxWidth, String fontFamily, int fontSize,
 			boolean space, boolean separator, String separatorChar, int guard,
 			boolean horizontal, String leftColor, String rightColor) {
-		Log.debug("maxWidth " + maxWidth + " fontFamily " + fontFamily
+		log.debug("maxWidth " + maxWidth + " fontFamily " + fontFamily
 				+ " fontSize " + fontSize + " space " + space + " separator "
 				+ separator + " separatorChar " + separatorChar + " guard "
 				+ guard);
@@ -121,7 +124,7 @@ public class SrtUtils {
 	public static int getWidth(String message) {
 		final int width = SrtUtils.getSingleton().fontMetrics
 				.stringWidth(message);
-		Log.debug("getWidth " + message + " " + width);
+		log.debug("getWidth " + message + " " + width);
 		return width;
 	}
 

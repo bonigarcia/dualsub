@@ -17,7 +17,6 @@
 package io.github.bonigarcia.dualsub.srt;
 
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -36,6 +35,9 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.TreeMap;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * DualSrt.
  * 
@@ -43,6 +45,8 @@ import java.util.TreeMap;
  * @since 1.0.0
  */
 public class DualSrt {
+
+	private static final Logger log = LoggerFactory.getLogger(DualSrt.class);
 
 	private TreeMap<String, Entry[]> subtitles;
 
@@ -92,9 +96,9 @@ public class DualSrt {
 				right = i < subtitles.get(time)[1].size() ? subtitles.get(time)[1]
 						.get(i) : SrtUtils.getBlankLine();
 				line = left + right;
-				Log.info(time + " " + line + " " + SrtUtils.getWidth(line));
+				log.info(time + " " + line + " " + SrtUtils.getWidth(line));
 			}
-			Log.info("");
+			log.info("");
 		}
 	}
 
@@ -266,12 +270,12 @@ public class DualSrt {
 		from = top - 1 + (topOver ? 0 : 1);
 		to = down - (downOver ? 0 : 1);
 
-		Log.debug(time + " TOP " + top + " DOWN " + down + " TOPOVER "
+		log.debug(time + " TOP " + top + " DOWN " + down + " TOPOVER "
 				+ topOver + " DOWNOVER " + downOver + " SIZE "
 				+ subtitles.size() + " FROM " + from + " TO " + to + " "
 				+ desyncEntry.getSubtitleLines());
 		String mixedTime = mixTime(initTime, endTime, from, to);
-		Log.debug(mixedTime);
+		log.debug(mixedTime);
 
 		Entry newEntryLeft = new Entry();
 		Entry newEntryRight = new Entry();
@@ -441,7 +445,7 @@ public class DualSrt {
 				}
 				byteBuffer = encoder.encode(uCharBuffer);
 
-				Log.debug(new String(byteBuffer.array(), Charset
+				log.debug(new String(byteBuffer.array(), Charset
 						.forName(charsetStr)));
 
 				fileChannel.write(byteBuffer);
@@ -527,12 +531,12 @@ public class DualSrt {
 					if (tsBeforeEnd.getTime() + shiftTime < init.getTime()) {
 						newTime = SrtUtils.createSrtTime(tsBeforeInit,
 								new Date(tsBeforeEnd.getTime() + shiftTime));
-						Log.debug("Shift " + timeBefore + " to " + newTime
+						log.debug("Shift " + timeBefore + " to " + newTime
 								+ " ... extension " + shiftTime);
 					} else {
 						newTime = SrtUtils.createSrtTime(tsBeforeInit,
 								new Date(init.getTime() - gap));
-						Log.debug("Shift " + timeBefore + " to " + newTime);
+						log.debug("Shift " + timeBefore + " to " + newTime);
 					}
 					newSubtitles.put(newTime, entries);
 				}

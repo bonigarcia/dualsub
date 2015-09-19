@@ -18,12 +18,10 @@ package io.github.bonigarcia.dualsub.gui;
 
 import io.github.bonigarcia.dualsub.util.Font;
 import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.logging.Level;
 
 import javax.swing.BorderFactory;
 import javax.swing.DefaultComboBoxModel;
@@ -37,6 +35,9 @@ import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * PanelPlayer.
  * 
@@ -44,6 +45,9 @@ import javax.swing.border.TitledBorder;
  * @since 1.0.0
  */
 public class PanelPlayer extends JPanel {
+
+	private static final Logger log = LoggerFactory
+			.getLogger(PanelPlayer.class);
 
 	private static final long serialVersionUID = 1L;
 
@@ -70,7 +74,8 @@ public class PanelPlayer extends JPanel {
 		this.setBackground(parent.getBackground());
 
 		// Width
-		JLabel lblWitdh = new JLabel(I18N.getHtmlText("PanelPlayer.lblWidth.text"));
+		JLabel lblWitdh = new JLabel(
+				I18N.getHtmlText("PanelPlayer.lblWidth.text"));
 		lblWitdh.setBounds(10, 26, 140, 20);
 		this.add(lblWitdh);
 		sizePx = new JTextField();
@@ -85,7 +90,8 @@ public class PanelPlayer extends JPanel {
 		this.add(lblPx);
 
 		// Font
-		JLabel lblFont = new JLabel(I18N.getHtmlText("PanelPlayer.lblFont.text"));
+		JLabel lblFont = new JLabel(
+				I18N.getHtmlText("PanelPlayer.lblFont.text"));
 		lblFont.setBounds(10, 50, 140, 20);
 		this.add(lblFont);
 		fontComboBox = new JComboBox<String>();
@@ -102,7 +108,8 @@ public class PanelPlayer extends JPanel {
 		this.add(fontComboBox);
 
 		// Size
-		JLabel lblSize = new JLabel(I18N.getHtmlText("PanelPlayer.lblSize.text"));
+		JLabel lblSize = new JLabel(
+				I18N.getHtmlText("PanelPlayer.lblSize.text"));
 		lblSize.setBounds(10, 73, 140, 20);
 		this.add(lblSize);
 		sizeComboBox = new JComboBox<String>();
@@ -140,7 +147,7 @@ public class PanelPlayer extends JPanel {
 		this.add(buttonHelpSub);
 
 		// Borders (for debug purposes)
-		if (Log.getLevel().equals(Level.FINE)) {
+		if (log.isDebugEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			lblWitdh.setBorder(border);
 			lblFont.setBorder(border);

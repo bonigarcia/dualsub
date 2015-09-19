@@ -17,7 +17,6 @@
 package io.github.bonigarcia.dualsub.test;
 
 import io.github.bonigarcia.dualsub.util.Charset;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,6 +24,8 @@ import java.io.InputStream;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.xml.sax.SAXException;
 
 /**
@@ -34,6 +35,9 @@ import org.xml.sax.SAXException;
  * @since 1.0.0
  */
 public class TestCharset {
+
+	private static final Logger log = LoggerFactory
+			.getLogger(TestCharset.class);
 
 	@Ignore
 	@Test
@@ -46,9 +50,9 @@ public class TestCharset {
 		InputStream isEnFile = Thread.currentThread().getContextClassLoader()
 				.getResourceAsStream(gotEnFile);
 
-		Log.info(Charset.detect(isEnFile));
+		log.info(Charset.detect(isEnFile));
 		Assert.assertEquals(Charset.UTF8, Charset.detect(isEnFile));
-		Log.info(Charset.detect(isEsFile));
+		log.info(Charset.detect(isEsFile));
 		Assert.assertEquals(Charset.ISO88591, Charset.detect(isEsFile));
 	}
 
@@ -63,9 +67,9 @@ public class TestCharset {
 		InputStream isEnFile = Thread.currentThread().getContextClassLoader()
 				.getResourceAsStream(bbEn);
 
-		Log.info(Charset.detect(isEnFile));
+		log.info(Charset.detect(isEnFile));
 		Assert.assertEquals(Charset.UTF8, Charset.detect(isEnFile));
-		Log.info(Charset.detect(isEsFile));
+		log.info(Charset.detect(isEsFile));
 		Assert.assertEquals(Charset.ISO88591, Charset.detect(isEsFile));
 	}
 
@@ -75,7 +79,7 @@ public class TestCharset {
 		String fileStr1 = "Sherlock 3x01 - The Empty Hearse (English).srt";
 		String fileStr2 = "Sherlock 3x01 - The Empty Hearse (Español (España)).srt";
 
-		Log.info(Charset.detect(fileStr1));
-		Log.info(Charset.detect(fileStr2));
+		log.info(Charset.detect(fileStr1));
+		log.info(Charset.detect(fileStr2));
 	}
 }

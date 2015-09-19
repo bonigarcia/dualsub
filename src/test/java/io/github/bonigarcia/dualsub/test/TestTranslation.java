@@ -23,7 +23,6 @@ import io.github.bonigarcia.dualsub.srt.SrtUtils;
 import io.github.bonigarcia.dualsub.translate.Language;
 import io.github.bonigarcia.dualsub.translate.Translator;
 import io.github.bonigarcia.dualsub.util.Charset;
-import io.github.bonigarcia.dualsub.util.Log;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,6 +31,8 @@ import java.text.ParseException;
 import java.util.Properties;
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * TestTranslation.
@@ -41,6 +42,9 @@ import org.junit.Test;
  */
 public class TestTranslation {
 
+	private static final Logger log = LoggerFactory
+			.getLogger(TestTranslation.class);
+
 	@Test
 	public void testTranslation() {
 		Translator translate = Translator.getInstance();
@@ -48,13 +52,13 @@ public class TestTranslation {
 		String english = "Our story starts with the beginning of the universe.";
 		String spanish = translate.translate(english, Language.ENGLISH,
 				Language.SPANISH, Charset.ISO88591);
-		Log.info(english + " -- " + spanish);
+		log.info(english + " -- " + spanish);
 
 		spanish = "Y es parte esencial de la naturaleza humana querer encontrar las respuestas.";
 		String italian = translate.translate(spanish, Language.SPANISH,
 				Language.ITALIAN, Charset.ISO88591);
 
-		Log.info(spanish + " -- " + italian);
+		log.info(spanish + " -- " + italian);
 	}
 
 	@Test
@@ -85,7 +89,7 @@ public class TestTranslation {
 
 		dualSrt.writeSrt(mergedFileName, Charset.ISO88591,
 				merger.isTranslate(), merger.isMerge());
-		Log.info(mergedFileName + " " + Charset.detect(mergedFileName));
+		log.info(mergedFileName + " " + Charset.detect(mergedFileName));
 		new File(mergedFileName).delete();
 	}
 

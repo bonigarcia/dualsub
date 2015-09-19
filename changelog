@@ -5,6 +5,7 @@ dualsub (1.1.0) precise; urgency=low
   + Moved site to http://bonigarcia.github.io/dualsub/
   + Added capability of merging subtitles horizontally
   + Added capability of coloring subtitles
+  + Using slf4j for logging
 
  -- Boni Garcia <boni.gg@gmail.com>  Mon, 14 Sep 2015 19:51:00 +0200
 
