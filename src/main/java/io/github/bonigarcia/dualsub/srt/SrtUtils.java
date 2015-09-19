@@ -94,8 +94,9 @@ public class SrtUtils {
 		srtUtils.padding = space ? SrtUtils.SPACE : SrtUtils.HARD_SPACE;
 		srtUtils.usingSpace = space;
 		srtUtils.usingSeparator = separator;
-		srtUtils.separatorWidth = separator ? getWidth(srtUtils.separator) : 0;
 		srtUtils.horizontal = horizontal;
+		srtUtils.separatorWidth = separator & !horizontal ? getWidth(srtUtils.separator)
+				: 0;
 
 		// Even if hard space is used, the width of the padding is the same
 		// as the normal space

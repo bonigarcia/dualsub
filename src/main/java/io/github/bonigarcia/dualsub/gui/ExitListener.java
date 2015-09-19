@@ -115,6 +115,11 @@ public class ExitListener extends WindowAdapter {
 		parent.getPreferences().put("leftColor", leftColor);
 		parent.getPreferences().put("rightColor", rightColor);
 
+		// Layout
+		parent.getPreferences().put(
+				"horizontal",
+				String.valueOf(parent.getPanelOutput().getRdbtnHorizontal()
+						.isSelected()));
 		System.exit(0);
 	}
 }

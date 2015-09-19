@@ -57,6 +57,8 @@ public class PanelOutput extends JPanel {
 
 	private static final long serialVersionUID = 1L;
 
+	private static final int MAX_SEPARATOR = 100;
+
 	// Parent
 	private DualSub parent;
 
@@ -66,6 +68,8 @@ public class PanelOutput extends JPanel {
 	private JRadioButton rdbtnHardSpace;
 	private JRadioButton rdbtnYes;
 	private JRadioButton rdbtnNo;
+	private JRadioButton rdbtnVertical;
+	private JRadioButton rdbtnHorizontal;
 	private JTextField separator;
 
 	public PanelOutput(DualSub parent) {
@@ -85,11 +89,11 @@ public class PanelOutput extends JPanel {
 		// Charset
 		JLabel charsetLabel = new JLabel(
 				I18N.getHtmlText("PanelOutput.charset.text"));
-		charsetLabel.setBounds(10, 26, 90, 20);
+		charsetLabel.setBounds(10, 15, 90, 20);
 		this.add(charsetLabel);
 
 		charsetComboBox = new JComboBox<CharsetItem>();
-		charsetComboBox.setBounds(80, 26, 220, 20);
+		charsetComboBox.setBounds(80, 15, 220, 20);
 		charsetComboBox.setCursor(parent.getCursor());
 		this.add(charsetComboBox);
 
@@ -124,10 +128,53 @@ public class PanelOutput extends JPanel {
 			charsetComboBox.setSelectedIndex(Integer.parseInt(savedCharset));
 		}
 
+		// Layout
+		JLabel layoutLabel = new JLabel(
+				I18N.getHtmlText("PanelOutput.layout.text"));
+		layoutLabel.setBounds(10, 35, 90, 25);
+		this.add(layoutLabel);
+
+		boolean savedHorizontal = Boolean.parseBoolean(parent.getPreferences()
+				.get("horizontal",
+						parent.getProperties().getProperty("horizontal")));
+		rdbtnVertical = new JRadioButton(
+				I18N.getHtmlText("PanelOutput.layout.vertical"));
+		rdbtnVertical.setBounds(75, 35, 70, 23);
+		rdbtnVertical.setCursor(parent.getCursor());
+		rdbtnVertical.setBackground(parent.getBackground());
+		rdbtnVertical.setSelected(!savedHorizontal);
+		this.add(rdbtnVertical);
+
+		rdbtnVertical.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				setHorizontal(getRdbtnHorizontal().isSelected());
+			}
+		});
+
+		rdbtnHorizontal = new JRadioButton(
+				I18N.getHtmlText("PanelOutput.layout.horizontal"));
+		rdbtnHorizontal.setBounds(150, 35, 70, 23);
+		rdbtnHorizontal.setCursor(parent.getCursor());
+		rdbtnHorizontal.setBackground(parent.getBackground());
+		rdbtnHorizontal.setSelected(savedHorizontal);
+		this.add(rdbtnHorizontal);
+
+		ButtonGroup groupLayout = new ButtonGroup();
+		groupLayout.add(rdbtnVertical);
+		groupLayout.add(rdbtnHorizontal);
+
+		rdbtnHorizontal.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				setHorizontal(getRdbtnHorizontal().isSelected());
+			}
+		});
+
 		// Padding
 		JLabel paddingLabel = new JLabel(
 				I18N.getHtmlText("PanelOutput.padding.text"));
-		paddingLabel.setBounds(10, 50, 90, 30);
+		paddingLabel.setBounds(10, 60, 90, 25);
 		this.add(paddingLabel);
 
 		boolean savedPaddingSpace = Boolean.parseBoolean(parent
@@ -135,7 +182,7 @@ public class PanelOutput extends JPanel {
 						parent.getProperties().getProperty("paddingSpace")));
 		rdbtnSpace = new JRadioButton(
 				I18N.getHtmlText("PanelOutput.space.text"));
-		rdbtnSpace.setBounds(75, 50, 65, 30);
+		rdbtnSpace.setBounds(75, 60, 65, 25);
 		rdbtnSpace.setCursor(parent.getCursor());
 		rdbtnSpace.setBackground(parent.getBackground());
 		rdbtnSpace.setSelected(savedPaddingSpace);
@@ -143,7 +190,7 @@ public class PanelOutput extends JPanel {
 
 		rdbtnHardSpace = new JRadioButton(
 				I18N.getHtmlText("PanelOutput.hardspace.text"));
-		rdbtnHardSpace.setBounds(145, 50, 155, 30);
+		rdbtnHardSpace.setBounds(150, 60, 150, 25);
 		rdbtnHardSpace.setCursor(parent.getCursor());
 		rdbtnHardSpace.setBackground(parent.getBackground());
 		rdbtnHardSpace.setSelected(!savedPaddingSpace);
@@ -156,7 +203,7 @@ public class PanelOutput extends JPanel {
 		// Separator
 		JLabel separatorLabel = new JLabel(
 				I18N.getHtmlText("PanelOutput.separator.text"));
-		separatorLabel.setBounds(10, 80, 90, 20);
+		separatorLabel.setBounds(10, 85, 90, 20);
 		this.add(separatorLabel);
 
 		boolean savedSeparator = Boolean.parseBoolean(parent.getPreferences()
@@ -164,14 +211,14 @@ public class PanelOutput extends JPanel {
 						parent.getProperties().getProperty("separator")));
 		rdbtnYes = new JRadioButton(
 				I18N.getHtmlText("PanelTiming.rdbtnYes.text"));
-		rdbtnYes.setBounds(75, 80, 40, 23);
+		rdbtnYes.setBounds(75, 85, 40, 23);
 		rdbtnYes.setCursor(parent.getCursor());
 		rdbtnYes.setBackground(parent.getBackground());
 		rdbtnYes.setSelected(savedSeparator);
 		this.add(rdbtnYes);
 
 		separator = new JTextField();
-		separator.setBounds(115, 80, 25, 23);
+		separator.setBounds(115, 85, 50, 23);
 		String savedSeparatorCharacter = parent.getPreferences().get(
 				"separatorCharacter",
 				parent.getProperties().getProperty("separatorCharacter"));
@@ -180,7 +227,7 @@ public class PanelOutput extends JPanel {
 		this.add(separator);
 
 		rdbtnNo = new JRadioButton(I18N.getHtmlText("PanelTiming.rdbtnNo.text"));
-		rdbtnNo.setBounds(145, 80, 60, 23);
+		rdbtnNo.setBounds(170, 85, 60, 23);
 		rdbtnNo.setCursor(parent.getCursor());
 		rdbtnNo.setBackground(parent.getBackground());
 		rdbtnNo.setSelected(!savedSeparator);
@@ -193,7 +240,7 @@ public class PanelOutput extends JPanel {
 		// Help
 		JButton buttonHelpSub = new JButton(new ImageIcon(
 				ClassLoader.getSystemResource("img/help.png")));
-		buttonHelpSub.setBounds(273, 80, 22, 22);
+		buttonHelpSub.setBounds(273, 85, 22, 22);
 		buttonHelpSub.setCursor(parent.getCursor());
 		buttonHelpSub.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -206,14 +253,19 @@ public class PanelOutput extends JPanel {
 		});
 		this.add(buttonHelpSub);
 
+		setHorizontal(getRdbtnHorizontal().isSelected());
+
 		// Borders (for debug purposes)
 		if (log.isDebugEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			charsetLabel.setBorder(border);
 			paddingLabel.setBorder(border);
 			separatorLabel.setBorder(border);
+			layoutLabel.setBorder(border);
 			rdbtnNo.setBorderPainted(true);
 			rdbtnYes.setBorderPainted(true);
+			rdbtnVertical.setBorderPainted(true);
+			rdbtnHorizontal.setBorderPainted(true);
 			rdbtnSpace.setBorderPainted(true);
 			rdbtnHardSpace.setBorderPainted(true);
 		}
@@ -243,4 +295,24 @@ public class PanelOutput extends JPanel {
 		return separator;
 	}
 
+	public JRadioButton getRdbtnVertical() {
+		return rdbtnVertical;
+	}
+
+	public JRadioButton getRdbtnHorizontal() {
+		return rdbtnHorizontal;
+	}
+
+	private void setHorizontal(boolean enable) {
+		getRdbtnSpace().setEnabled(!enable);
+		getRdbtnHardSpace().setEnabled(!enable);
+		getRdbtnNo().setSelected(enable);
+		getRdbtnYes().setSelected(!enable);
+
+		int separatorMaxSize = enable ? MAX_SEPARATOR : 1;
+		String text = separator.getText();
+		separator.setDocument(new JTextFieldLimit(separatorMaxSize));
+		text = enable ? text : text.length() > 0 ? text.substring(0, 1) : text;
+		separator.setText(text);
+	}
 }

@@ -86,9 +86,6 @@ public class Worker extends SwingWorker<Integer, String> {
 				parent.getPanelTiming().getDesyncComboBox().getSelectedIndex(),
 				translate, merge);
 
-		// TODO read horizontal value, colors from GUI
-		boolean horizontal = false;
-
 		SrtUtils.init(
 				parent.getPanelPlayer().getSizePx().getText(),
 				parent.getPanelPlayer().getFontComboBox().getSelectedItem()
@@ -99,7 +96,8 @@ public class Worker extends SwingWorker<Integer, String> {
 						.getPanelOutput().getRdbtnYes().isSelected(), parent
 						.getPanelOutput().getSeparator().getText(),
 				Integer.parseInt(parent.getProperties().getProperty("guard")),
-				horizontal, SrtUtils.getLeftColor(), SrtUtils.getRightColor());
+				parent.getPanelOutput().getRdbtnHorizontal().isSelected(),
+				SrtUtils.getLeftColor(), SrtUtils.getRightColor());
 
 		Srt leftSrt = null, rightSrt = null;
 		String mergedFileName = null;
