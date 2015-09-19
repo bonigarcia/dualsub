@@ -16,6 +16,7 @@
  */
 package io.github.bonigarcia.dualsub.gui;
 
+import io.github.bonigarcia.dualsub.srt.SrtUtils;
 import io.github.bonigarcia.dualsub.util.Charset;
 import io.github.bonigarcia.dualsub.util.Font;
 import io.github.bonigarcia.dualsub.util.I18N;
@@ -190,6 +191,11 @@ public class DualSub {
 		leftSubtitles.setBorder(new TitledBorder(UIManager
 				.getBorder("TitledBorder.border"), I18N
 				.getHtmlText("Window.leftSubtitles.borderTitle")));
+		String leftColor = preferences.get("leftColor", "");
+		if (leftColor != null && !leftColor.isEmpty()) {
+			leftSubtitles.setBackground(Color.decode(leftColor));
+			SrtUtils.setLeftColor(leftColor);
+		}
 		leftSubtitlesScroll.setViewportView(leftSubtitles);
 
 		// Right subtitles
@@ -212,6 +218,11 @@ public class DualSub {
 		rightSubtitles.setBorder(new TitledBorder(UIManager
 				.getBorder("TitledBorder.border"), I18N
 				.getHtmlText("Window.rightSubtitles.borderTitle")));
+		String rightColor = preferences.get("rightColor", "");
+		if (rightColor != null && !rightColor.isEmpty()) {
+			rightSubtitles.setBackground(Color.decode(rightColor));
+			SrtUtils.setRightColor(rightColor);
+		}
 		rightSubtitlesScroll.setViewportView(rightSubtitles);
 
 		// Progress bar

@@ -16,6 +16,8 @@
  */
 package io.github.bonigarcia.dualsub.gui;
 
+import io.github.bonigarcia.dualsub.srt.SrtUtils;
+
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
@@ -104,6 +106,15 @@ public class ExitListener extends WindowAdapter {
 		// Output folder
 		parent.getPreferences().put("output",
 				parent.getOutputFolder().getText());
+
+		// Color
+		String leftColor = SrtUtils.getLeftColor() != null ? SrtUtils
+				.getLeftColor() : "";
+		String rightColor = SrtUtils.getRightColor() != null ? SrtUtils
+				.getRightColor() : "";
+		parent.getPreferences().put("leftColor", leftColor);
+		parent.getPreferences().put("rightColor", rightColor);
+
 		System.exit(0);
 	}
 }
