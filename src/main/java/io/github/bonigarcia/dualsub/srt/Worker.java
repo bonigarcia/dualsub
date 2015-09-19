@@ -88,8 +88,6 @@ public class Worker extends SwingWorker<Integer, String> {
 
 		// TODO read horizontal value, colors from GUI
 		boolean horizontal = false;
-		String leftColor = null;
-		String rightColor = null;
 
 		SrtUtils.init(
 				parent.getPanelPlayer().getSizePx().getText(),
@@ -101,7 +99,7 @@ public class Worker extends SwingWorker<Integer, String> {
 						.getPanelOutput().getRdbtnYes().isSelected(), parent
 						.getPanelOutput().getSeparator().getText(),
 				Integer.parseInt(parent.getProperties().getProperty("guard")),
-				horizontal, leftColor, rightColor);
+				horizontal, SrtUtils.getLeftColor(), SrtUtils.getRightColor());
 
 		Srt leftSrt = null, rightSrt = null;
 		String mergedFileName = null;

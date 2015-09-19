@@ -96,10 +96,6 @@ public class SrtUtils {
 		srtUtils.usingSeparator = separator;
 		srtUtils.separatorWidth = separator ? getWidth(srtUtils.separator) : 0;
 		srtUtils.horizontal = horizontal;
-		srtUtils.leftColor = leftColor != null ? String.format(FONT_INIT,
-				leftColor) + FONT_END : "%s";
-		srtUtils.rightColor = rightColor != null ? String.format(FONT_INIT,
-				rightColor) + FONT_END : "%s";
 
 		// Even if hard space is used, the width of the padding is the same
 		// as the normal space
@@ -256,8 +252,26 @@ public class SrtUtils {
 		return SrtUtils.getSingleton().leftColor;
 	}
 
+	public static String getParsedLeftColor() {
+		return getLeftColor() != null ? String
+				.format(FONT_INIT, getLeftColor()) + FONT_END : "%s";
+	}
+
 	public static String getRightColor() {
 		return SrtUtils.getSingleton().rightColor;
+	}
+
+	public static String getParsedRightColor() {
+		return getRightColor() != null ? String.format(FONT_INIT,
+				getRightColor()) + FONT_END : "%s";
+	}
+
+	public static void setLeftColor(String leftColor) {
+		SrtUtils.getSingleton().leftColor = leftColor;
+	}
+
+	public static void setRightColor(String rightColor) {
+		SrtUtils.getSingleton().rightColor = rightColor;
 	}
 
 }

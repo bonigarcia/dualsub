@@ -42,6 +42,7 @@ public class LateralButtons {
 	public LateralButtons(Cursor hand, JFrame frame, JList<File> subtitles,
 			AddFileListener fileListener, int x) {
 		this.frame = frame;
+		this.hand = hand;
 		this.subtitles = subtitles;
 		this.fileListener = fileListener;
 

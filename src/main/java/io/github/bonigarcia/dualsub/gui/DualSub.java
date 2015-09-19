@@ -249,6 +249,9 @@ public class DualSub {
 		new LateralButtons(cursor, frame, rightSubtitles, rightFileListener,
 				673);
 
+		// Color Buttons
+		new ColorButtons(cursor, frame, leftSubtitles, rightSubtitles);
+
 		// Timing panel
 		panelTiming = new PanelTiming(this);
 		frame.getContentPane().add(panelTiming);

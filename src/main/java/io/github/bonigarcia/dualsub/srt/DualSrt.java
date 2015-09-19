@@ -428,11 +428,11 @@ public class DualSrt {
 							.get(time)[1].get(i) : blankLine;
 				}
 
-				String leftColor = SrtUtils.getLeftColor();
-				if (!leftColor.isEmpty()) {
+				String leftColor = SrtUtils.getParsedLeftColor();
+				if (leftColor != null) {
 					left = String.format(leftColor, left);
 				}
-				String rightColor = SrtUtils.getRightColor();
+				String rightColor = SrtUtils.getParsedRightColor();
 				if (rightColor != null) {
 					right = String.format(rightColor, right);
 				}
