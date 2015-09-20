@@ -159,6 +159,12 @@ public class PanelTranslation extends JPanel {
 		rdbtnMerged.setCursor(parent.getCursor());
 		rdbtnMerged.setBackground(parent.getBackground());
 		rdbtnMerged.setSelected(savedMergeTranslation);
+		rdbtnMerged.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				switchButtonText(getEnableTranslation().isSelected());
+			}
+		});
 		this.add(rdbtnMerged);
 
 		rdbtnTranslated = new JRadioButton(
@@ -167,6 +173,12 @@ public class PanelTranslation extends JPanel {
 		rdbtnTranslated.setCursor(parent.getCursor());
 		rdbtnTranslated.setBackground(parent.getBackground());
 		rdbtnTranslated.setSelected(!savedMergeTranslation);
+		rdbtnTranslated.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				switchButtonText(getEnableTranslation().isSelected());
+			}
+		});
 		this.add(rdbtnTranslated);
 
 		ButtonGroup groupExtension = new ButtonGroup();
@@ -230,6 +242,23 @@ public class PanelTranslation extends JPanel {
 		getToComboBox().setEnabled(enable);
 		getRdbtnMerged().setEnabled(enable);
 		getRdbtnTranslated().setEnabled(enable);
+
+		switchButtonText(enable);
+	}
+
+	private void switchButtonText(boolean enable) {
+		if (enable) {
+			if (rdbtnTranslated.isSelected()) {
+				parent.getMergeButton().setText(
+						I18N.getHtmlText("Window.translateButton.text"));
+			} else {
+				parent.getMergeButton().setText(
+						I18N.getHtmlText("Window.mergeTranslateButton.text"));
+			}
+		} else {
+			parent.getMergeButton().setText(
+					I18N.getHtmlText("Window.mergeButton.text"));
+		}
 	}
 
 }

@@ -49,6 +49,8 @@ public class Menu {
 
 	private final DualSub parent;
 	private String locale;
+	private JMenuItem addLeftSubItem;
+	private JMenuItem addRightSubItem;
 
 	// Dialogs
 	private AboutDialog about;
@@ -64,8 +66,10 @@ public class Menu {
 		JMenu subtitleMenu = new JMenu(I18N.getHtmlText("Menu.actions.text"));
 		menuBar.add(subtitleMenu);
 
-		JMenuItem addLeftSubItem = new JMenuItem(
-				I18N.getHtmlText("Menu.leftSub.text"));
+		String addLabel1 = parent.getPanelOutput().getRdbtnHorizontal()
+				.isSelected() ? I18N.getHtmlText("Menu.topSub.text") : I18N
+				.getHtmlText("Menu.leftSub.text");
+		addLeftSubItem = new JMenuItem(addLabel1);
 		addLeftSubItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L,
 				ActionEvent.CTRL_MASK));
 		addLeftSubItem.setIcon((Icon) new ImageIcon(ClassLoader
@@ -73,8 +77,10 @@ public class Menu {
 		addLeftSubItem.addActionListener(listeners[0]);
 		subtitleMenu.add(addLeftSubItem);
 
-		JMenuItem addRightSubItem = new JMenuItem(
-				I18N.getHtmlText("Menu.rightSub.text"));
+		String addLabel2 = parent.getPanelOutput().getRdbtnHorizontal()
+				.isSelected() ? I18N.getHtmlText("Menu.downSub.text") : I18N
+				.getHtmlText("Menu.rightSub.text");
+		addRightSubItem = new JMenuItem(addLabel2);
 		addRightSubItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R,
 				ActionEvent.CTRL_MASK));
 		addRightSubItem.setIcon((Icon) new ImageIcon(ClassLoader
@@ -317,6 +323,14 @@ public class Menu {
 			otherLang.setSelected(true);
 		}
 		return otherLang;
+	}
+
+	public JMenuItem getAddLeftSubItem() {
+		return addLeftSubItem;
+	}
+
+	public JMenuItem getAddRightSubItem() {
+		return addRightSubItem;
 	}
 
 }

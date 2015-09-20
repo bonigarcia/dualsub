@@ -309,10 +309,72 @@ public class PanelOutput extends JPanel {
 		getRdbtnNo().setSelected(enable);
 		getRdbtnYes().setSelected(!enable);
 
+		parent.getPanelPlayer().getSizePx().setEnabled(!enable);
+		parent.getPanelPlayer().getFontComboBox().setEnabled(!enable);
+		parent.getPanelPlayer().getSizeComboBox().setEnabled(!enable);
+
 		int separatorMaxSize = enable ? MAX_SEPARATOR : 1;
 		String text = separator.getText();
 		separator.setDocument(new JTextFieldLimit(separatorMaxSize));
 		text = enable ? text : text.length() > 0 ? text.substring(0, 1) : text;
 		separator.setText(text);
+
+		// Texts
+		if (enable) {
+			parent.getLeftSubtitles()
+					.setBorder(
+							new TitledBorder(
+									UIManager.getBorder("TitledBorder.border"),
+									I18N.getHtmlText("Window.topSubtitles.borderTitle")));
+			parent.getRightSubtitles()
+					.setBorder(
+							new TitledBorder(
+									UIManager.getBorder("TitledBorder.border"),
+									I18N.getHtmlText("Window.downSubtitles.borderTitle")));
+			parent.getPanelTiming()
+					.getDesyncComboBox()
+					.setModel(
+							new DefaultComboBoxModel<String>(new String[] {
+									I18N.getHtmlText("PanelTiming.top.text"),
+									I18N.getHtmlText("PanelTiming.down.text"),
+									I18N.getHtmlText("PanelTiming.max.text"),
+									I18N.getHtmlText("PanelTiming.min.text") }));
+
+			if (parent.getMenu() != null) {
+				parent.getMenu().getAddLeftSubItem()
+						.setText(I18N.getHtmlText("Menu.topSub.text"));
+				parent.getMenu().getAddRightSubItem()
+						.setText(I18N.getHtmlText("Menu.downSub.text"));
+			}
+
+		} else {
+			parent.getLeftSubtitles()
+					.setBorder(
+							new TitledBorder(
+									UIManager.getBorder("TitledBorder.border"),
+									I18N.getHtmlText("Window.leftSubtitles.borderTitle")));
+			parent.getRightSubtitles()
+					.setBorder(
+							new TitledBorder(
+									UIManager.getBorder("TitledBorder.border"),
+									I18N.getHtmlText("Window.rightSubtitles.borderTitle")));
+
+			parent.getPanelTiming()
+					.getDesyncComboBox()
+					.setModel(
+							new DefaultComboBoxModel<String>(new String[] {
+									I18N.getHtmlText("PanelTiming.left.text"),
+									I18N.getHtmlText("PanelTiming.right.text"),
+									I18N.getHtmlText("PanelTiming.max.text"),
+									I18N.getHtmlText("PanelTiming.min.text") }));
+
+			if (parent.getMenu() != null) {
+				parent.getMenu().getAddLeftSubItem()
+						.setText(I18N.getHtmlText("Menu.leftSub.text"));
+				parent.getMenu().getAddRightSubItem()
+						.setText(I18N.getHtmlText("Menu.rightSub.text"));
+			}
+
+		}
 	}
 }

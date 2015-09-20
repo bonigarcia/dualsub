@@ -6,6 +6,7 @@ dualsub (1.1.0) precise; urgency=low
   + Added capability of merging subtitles horizontally
   + Added capability of coloring subtitles
   + Using slf4j for logging
+  + Improved GUI usability
 
  -- Boni Garcia <boni.gg@gmail.com>  Mon, 14 Sep 2015 19:51:00 +0200
 

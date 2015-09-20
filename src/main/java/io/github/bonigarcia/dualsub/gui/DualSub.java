@@ -37,7 +37,6 @@ import java.io.Reader;
 import java.util.Properties;
 import java.util.prefs.Preferences;
 
-import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -48,7 +47,6 @@ import javax.swing.JProgressBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
-import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 
 import org.slf4j.Logger;
@@ -84,6 +82,7 @@ public class DualSub {
 	private Menu menu;
 	private JProgressBar progressBar;
 	private Color background;
+	private JButton mergeButton;
 
 	// Panels (options)
 	private PanelTiming panelTiming;
@@ -228,10 +227,7 @@ public class DualSub {
 		// Progress bar
 		progressBar = new JProgressBar();
 		progressBar.setIndeterminate(true);
-		progressBar.setBounds(308, 120, 95, 39);
-		Border border = BorderFactory.createTitledBorder(I18N
-				.getHtmlText("Window.progress.text"));
-		progressBar.setBorder(border);
+		progressBar.setBounds(308, 110, 94, 15);
 		progressBar.setBackground(background);
 		progressBar.setVisible(false);
 		frame.getContentPane().add(progressBar);
@@ -263,6 +259,14 @@ public class DualSub {
 		// Color Buttons
 		new ColorButtons(cursor, frame, leftSubtitles, rightSubtitles);
 
+		// Merge Button
+		mergeButton = new JButton(I18N.getHtmlText("Window.mergeButton.text"));
+		mergeButtonListener = new MergeButtonListener(this);
+		mergeButton.addActionListener(mergeButtonListener);
+		mergeButton.setBounds(308, 80, 95, 29);
+		mergeButton.setCursor(cursor);
+		frame.getContentPane().add(mergeButton);
+
 		// Timing panel
 		panelTiming = new PanelTiming(this);
 		frame.getContentPane().add(panelTiming);
@@ -278,15 +282,6 @@ public class DualSub {
 		// Translation panel
 		panelTranslation = new PanelTranslation(this);
 		frame.getContentPane().add(panelTranslation);
-
-		// Merge Button
-		JButton mergeButton = new JButton(
-				I18N.getHtmlText("Window.mergeButton.text"));
-		mergeButtonListener = new MergeButtonListener(this);
-		mergeButton.addActionListener(mergeButtonListener);
-		mergeButton.setBounds(308, 80, 95, 29);
-		mergeButton.setCursor(cursor);
-		frame.getContentPane().add(mergeButton);
 
 		// Help
 		JButton buttonHelpSub = new JButton(new ImageIcon(
@@ -432,6 +427,14 @@ public class DualSub {
 
 	public void setCaptchaDialog(CaptchaDialog captchaDialog) {
 		this.captchaDialog = captchaDialog;
+	}
+
+	public Menu getMenu() {
+		return menu;
+	}
+
+	public JButton getMergeButton() {
+		return mergeButton;
 	}
 
 	/**
