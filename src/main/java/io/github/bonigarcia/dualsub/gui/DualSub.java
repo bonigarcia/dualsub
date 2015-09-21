@@ -20,6 +20,7 @@ import io.github.bonigarcia.dualsub.srt.SrtUtils;
 import io.github.bonigarcia.dualsub.util.Charset;
 import io.github.bonigarcia.dualsub.util.Font;
 import io.github.bonigarcia.dualsub.util.I18N;
+import io.github.bonigarcia.dualsub.util.Random;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -34,6 +35,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.io.StringWriter;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.Properties;
 import java.util.prefs.Preferences;
 
@@ -49,6 +53,13 @@ import javax.swing.JTextField;
 import javax.swing.UIManager;
 import javax.swing.border.TitledBorder;
 
+import org.apache.commons.io.IOUtils;
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -63,6 +74,8 @@ import com.jgoodies.plaf.plastic.Plastic3DLookAndFeel;
 public class DualSub {
 
 	private static final Logger log = LoggerFactory.getLogger(DualSub.class);
+
+	private static final int ID_LENGTH = 30;
 
 	// Preferences and Properties
 	private Preferences preferences;
@@ -138,7 +151,8 @@ public class DualSub {
 		menu = new Menu(this, locale);
 		menu.addMenu(leftFileListener, rightFileListener, folderListener,
 				mergeButtonListener);
-		showSplash();
+		checkSurvey();
+		showFrame();
 	}
 
 	public void close() {
@@ -315,10 +329,100 @@ public class DualSub {
 
 	}
 
-	private void showSplash() {
-		splash.setVisible(false);
-		frame.setVisible(true);
-		frame.requestFocus();
+	private void showFrame() {
+		if (!frame.isVisible()) {
+			splash.setVisible(false);
+			frame.setVisible(true);
+			frame.requestFocus();
+		}
+	}
+
+	private void checkSurvey() throws ClientProtocolException, IOException {
+
+		String id = preferences.get("id", null);
+		if (id == null) {
+			// First time executing DualSub on this machine
+			id = Random.createWord(ID_LENGTH);
+			log.debug("Created new id {}", id);
+			showFrame();
+			WhatsNewDialog whatsNewDialog = new WhatsNewDialog(this, true, id);
+			whatsNewDialog.setVisible();
+			preferences.put("id", id);
+			preferences.putInt("timesPosponed", 0);
+
+		} else {
+			log.debug("id {} already created ... checking survey", id);
+
+			int timesPosponed = getPreferences().getInt("timesPosponed", 0) + 1;
+			preferences.putInt("timesPosponed", timesPosponed);
+
+			String surveyUrl = this.getProperties().getProperty("surveyUrl")
+					+ "formResponse";
+			HttpClient client = HttpClientBuilder.create().build();
+
+			// Verify if form is open
+			HttpResponse firstResponse = client
+					.execute(new HttpPost(surveyUrl));
+			int responseCode = firstResponse.getStatusLine().getStatusCode();
+			if (responseCode == HttpStatus.SC_OK) {
+				log.debug("Form is open");
+
+				URL url = new URL(this.getProperties().getProperty(
+						"responsesUrl"));
+				URLConnection conn = url.openConnection();
+				InputStream is = conn.getInputStream();
+				StringWriter writer = new StringWriter();
+				IOUtils.copy(is, writer, java.nio.charset.Charset
+						.defaultCharset().name());
+				String html = writer.toString();
+
+				if (!html.contains(id)) {
+					log.debug("User has not completed the survey");
+
+					showFrame();
+					ReminderSurveyDialog reminderSurveyDialog = new ReminderSurveyDialog(
+							this, true, id, timesPosponed);
+					reminderSurveyDialog.setVisible();
+
+				} else {
+					log.debug("User has completed the survey already");
+				}
+
+			} else {
+				log.debug("Survey is closed");
+			}
+		}
+	}
+
+	public boolean isSurveyCompleted(String id) throws ClientProtocolException,
+			IOException {
+
+		boolean completed = true;
+		String surveyUrl = this.getProperties().getProperty("surveyUrl")
+				+ "formResponse";
+		HttpClient client = HttpClientBuilder.create().build();
+
+		// Verify if form is open
+		HttpResponse firstResponse = client.execute(new HttpPost(surveyUrl));
+		int responseCode = firstResponse.getStatusLine().getStatusCode();
+
+		if (responseCode == HttpStatus.SC_OK) {
+			log.debug("Form is open");
+			URL url = new URL(this.getProperties().getProperty("responsesUrl"));
+			URLConnection conn = url.openConnection();
+			InputStream is = conn.getInputStream();
+			StringWriter writer = new StringWriter();
+			IOUtils.copy(is, writer, java.nio.charset.Charset.defaultCharset()
+					.name());
+			String html = writer.toString();
+
+			completed = html.contains(id);
+
+		} else {
+			log.debug("Survey is closed");
+		}
+
+		return completed;
 	}
 
 	public JFrame getFrame() {

@@ -45,7 +45,7 @@ public class UrlOpener implements ActionListener {
 		open(uri);
 	}
 
-	private void open(String uri) {
+	public static void open(String uri) {
 		if (Desktop.isDesktopSupported()) {
 			try {
 				Desktop.getDesktop().browse(new URI(uri));

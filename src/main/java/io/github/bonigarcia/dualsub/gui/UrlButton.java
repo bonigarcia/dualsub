@@ -35,16 +35,21 @@ public class UrlButton extends JButton {
 
 	private static final long serialVersionUID = 1L;
 
-	public UrlButton(String htmlText, Cursor cursor, Color background,
-			Rectangle bounds) {
+	public UrlButton(String htmlText, String targetLink, Cursor cursor,
+			Color background, Rectangle bounds) {
 		this.setText(htmlText);
 		this.setHorizontalAlignment(SwingConstants.LEFT);
 		this.setBorderPainted(false);
 		this.setFocusPainted(false);
 		this.setOpaque(false);
-		this.addActionListener(new UrlOpener(Srt.removeTags(htmlText)));
+		this.addActionListener(new UrlOpener(Srt.removeTags(targetLink)));
 		this.setCursor(cursor);
 		this.setBackground(background);
 		this.setBounds(bounds);
+	}
+
+	public UrlButton(String htmlText, Cursor cursor, Color background,
+			Rectangle bounds) {
+		this(htmlText, htmlText, cursor, background, bounds);
 	}
 }

@@ -1,5 +1,5 @@
 /*
- * (C) Copyright 2014 Boni Garcia (http://bonigarcia.github.io/)
+ * (C) Copyright 2015 Boni Garcia (http://bonigarcia.github.io/)
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,14 +17,18 @@
 package io.github.bonigarcia.dualsub.gui;
 
 import io.github.bonigarcia.dualsub.util.I18N;
+import io.github.bonigarcia.dualsub.util.I18N.Html;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.Image;
+import java.awt.Rectangle;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -35,21 +39,25 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * HelpSubtitlesDialog.
+ * WhatsNewDialog.
  * 
  * @author Boni Garcia (boni.gg@gmail.com)
- * @since 1.0.0
+ * @since 1.1.0
  */
-public class HelpSubtitlesDialog extends HelpParent {
+public class WhatsNewDialog extends HelpParent {
 
 	private static final Logger log = LoggerFactory
-			.getLogger(HelpSubtitlesDialog.class);
+			.getLogger(WhatsNewDialog.class);
 
 	private static final long serialVersionUID = 1L;
 
-	public HelpSubtitlesDialog(DualSub parent, boolean modal) {
+	private String id;
+
+	public WhatsNewDialog(DualSub parent, boolean modal, String id) {
 		super(parent, modal);
-		parent.setHelpSubtitles(this);
+		this.id = id;
+		setWidth(600);
+		setHeight(518);
 	}
 
 	@Override
@@ -61,54 +69,55 @@ public class HelpSubtitlesDialog extends HelpParent {
 		getContentPane().setLayout(new BorderLayout());
 		JPanel panel = new JPanel();
 		panel.setLayout(null);
-		panel.setPreferredSize(new Dimension(getWidth(), getHeight() + 620));
+		panel.setPreferredSize(new Dimension(getWidth(), getHeight()));
 		panel.setBackground(parent.getBackground());
 		JScrollPane scroll = new JScrollPane(panel,
-				JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+				JScrollPane.VERTICAL_SCROLLBAR_NEVER,
 				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		getContentPane().add(scroll);
 
 		// Title
-		final String title = I18N.getHtmlText("Window.mergeButton.text");
+		final String title = I18N.getHtmlText("WhatsNewDialog.title.text");
 		setTitle(I18N.getText("Window.name.text"));
 		JLabel lblTitle = new JLabel(title);
 		lblTitle.setFont(new Font("Lucida", Font.BOLD, 20));
-		lblTitle.setBounds(marginLeft, 21, 435, 25);
+		lblTitle.setBounds(marginLeft, 11, 535, 25);
 		panel.add(lblTitle);
 
 		// Content
 		JLabel lblContent01 = new JLabel(
-				I18N.getHtmlText("HelpSubtitlesDialog.help.01"));
-		lblContent01.setBounds(marginLeft, 50, 435, 40);
+				I18N.getHtmlText("WhatsNewDialog.text.01"));
+		lblContent01.setBounds(marginLeft, 36, 535, 95);
 		panel.add(lblContent01);
 
 		ImageIcon sampleIcon = new ImageIcon(
-				ClassLoader.getSystemResource("img/vlc-1.1.11-sample.png"));
+				ClassLoader.getSystemResource("img/vlc-2.1.15-sample.png"));
+		Image image = sampleIcon.getImage();
+		Image newimg = image.getScaledInstance(362, 265,
+				java.awt.Image.SCALE_SMOOTH);
+		sampleIcon = new ImageIcon(newimg);
 		JLabel sampleLabel = new JLabel();
 		sampleLabel.setIcon(sampleIcon);
-		sampleLabel.setBounds(marginLeft, 90, 435, 334);
+		sampleLabel.setBounds(marginLeft + 90, 130, 362, 265);
 		panel.add(sampleLabel);
 
-		ImageIcon sampleIcon2 = new ImageIcon(
-				ClassLoader.getSystemResource("img/vlc-2.1.15-sample.png"));
-		JLabel sampleLabel2 = new JLabel();
-		sampleLabel2.setIcon(sampleIcon2);
-		sampleLabel2.setBounds(marginLeft, 424, 435, 318);
-		panel.add(sampleLabel2);
-
 		JLabel lblContent02 = new JLabel(
-				I18N.getHtmlText("HelpSubtitlesDialog.help.02"));
-		lblContent02.setBounds(marginLeft, 742, 435, 100);
+				I18N.getHtmlText("WhatsNewDialog.text.02"));
+		lblContent02.setBounds(marginLeft, 395, 535, 50);
 		panel.add(lblContent02);
 
-		JLabel lblContent03 = new JLabel(
-				I18N.getHtmlText("HelpSubtitlesDialog.help.03"));
-		lblContent03.setBounds(marginLeft, 842, 435, 60);
+		String surveyUrl = parent.getProperties().getProperty("surveyUrl")
+				+ "viewform?" + parent.getProperties().getProperty("idField")
+				+ "=" + id;
+		JButton lblContent03 = new UrlButton(I18N.getHtmlText(
+				"WhatsNewDialog.text.03", Html.LINK), surveyUrl,
+				parent.getCursor(), parent.getBackground(), new Rectangle(
+						marginLeft + 180, 444, 200, 15));
 		panel.add(lblContent03);
 
 		JLabel lblContent04 = new JLabel(
-				I18N.getHtmlText("HelpSubtitlesDialog.help.04"));
-		lblContent04.setBounds(marginLeft, 902, 435, 140);
+				I18N.getHtmlText("WhatsNewDialog.text.04"));
+		lblContent04.setBounds(marginLeft, 460, 535, 15);
 		panel.add(lblContent04);
 
 		// Borders (for debug purposes)

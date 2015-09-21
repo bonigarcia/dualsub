@@ -74,7 +74,7 @@ public class TranslateMessages {
 			j = MASTER_PROPERTIES.lastIndexOf(".");
 			newProperties = MASTER_PROPERTIES.substring(0, j) + "_" + lang
 					+ MASTER_PROPERTIES.substring(j);
-			newPropertiesFile = new FileOutputStream(newProperties);
+			newPropertiesFile = new FileOutputStream(newProperties, true);
 
 			log.info(newProperties);
 			for (Object propKey : properties.keySet()) {
