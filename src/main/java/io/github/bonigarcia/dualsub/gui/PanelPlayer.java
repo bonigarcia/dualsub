@@ -147,7 +147,7 @@ public class PanelPlayer extends JPanel {
 		this.add(buttonHelpSub);
 
 		// Borders (for debug purposes)
-		if (log.isDebugEnabled()) {
+		if (log.isTraceEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			lblWitdh.setBorder(border);
 			lblFont.setBorder(border);

@@ -146,7 +146,7 @@ public class HelpTimingDialog extends HelpParent {
 		panel.add(lblContent09);
 
 		// Borders (for debug purposes)
-		if (log.isDebugEnabled()) {
+		if (log.isTraceEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			lblTitle.setBorder(border);
 			lblContent01.setBorder(border);

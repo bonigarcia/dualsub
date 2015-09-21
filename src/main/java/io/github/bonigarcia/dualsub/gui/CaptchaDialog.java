@@ -142,7 +142,7 @@ public class CaptchaDialog extends HelpParent {
 		});
 
 		// Borders (for debug purposes)
-		if (log.isDebugEnabled()) {
+		if (log.isTraceEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			lblTitle.setBorder(border);
 			captchaPanel.setBorder(border);

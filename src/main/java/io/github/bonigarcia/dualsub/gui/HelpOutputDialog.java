@@ -99,7 +99,7 @@ public class HelpOutputDialog extends HelpParent {
 		panel.add(lblContent04);
 
 		// Borders (for debug purposes)
-		if (log.isDebugEnabled()) {
+		if (log.isTraceEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			lblTitle.setBorder(border);
 			lblContent01.setBorder(border);

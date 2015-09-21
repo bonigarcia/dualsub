@@ -202,7 +202,7 @@ public class PanelTiming extends JPanel {
 		this.add(buttonHelpDelay);
 
 		// Borders (for debug purposes)
-		if (log.isDebugEnabled()) {
+		if (log.isTraceEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			lblPersistence.setBorder(border);
 			lblDesync.setBorder(border);

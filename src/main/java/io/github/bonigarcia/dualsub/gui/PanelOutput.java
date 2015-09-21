@@ -256,7 +256,7 @@ public class PanelOutput extends JPanel {
 		setHorizontal(getRdbtnHorizontal().isSelected());
 
 		// Borders (for debug purposes)
-		if (log.isDebugEnabled()) {
+		if (log.isTraceEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
 			charsetLabel.setBorder(border);
 			paddingLabel.setBorder(border);
