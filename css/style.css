@@ -60,7 +60,6 @@ textarea { overflow: auto; }
 
 .flexslider ul.slides { list-style: none; list-style-position: outside; position: relative; }
 .flexslider ul.slides li { width: 950px; height: 377px; position: relative; float: left; }
-.flexslider ul.slides li img { width: 950px; height: 377px; }
 .flexslider ul.slides li .slide-cnt { position: absolute; bottom: 0; left: 0; width: 739px; padding: 21px 190px 21px 21px;  background: url(../img/slide-cnt.png) repeat 0 0;  }
 .flexslider ul.slides li .slide-cnt h3 { color: #f7f7f7; padding-bottom: 4px; }
 .flexslider ul.slides li .slide-cnt p { color: #f7f7f7; }

@@ -18,7 +18,7 @@
 *********************************/ 
 /*.flexslider {width: 100%; margin: 0; padding: 0;}*/
 .flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-/*.flexslider .slides img {max-width: 100%; display: block;}*/
+.flexslider .slides img {width: auto; display: block; margin-left: auto; margin-right: auto;}
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
