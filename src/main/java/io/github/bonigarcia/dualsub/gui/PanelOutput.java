@@ -93,7 +93,7 @@ public class PanelOutput extends JPanel {
 		this.add(charsetLabel);
 
 		charsetComboBox = new JComboBox<CharsetItem>();
-		charsetComboBox.setBounds(80, 15, 220, 20);
+		charsetComboBox.setBounds(68, 15, 234, 20);
 		charsetComboBox.setCursor(parent.getCursor());
 		this.add(charsetComboBox);
 
@@ -139,7 +139,7 @@ public class PanelOutput extends JPanel {
 						parent.getProperties().getProperty("horizontal")));
 		rdbtnVertical = new JRadioButton(
 				I18N.getHtmlText("PanelOutput.layout.vertical"));
-		rdbtnVertical.setBounds(75, 35, 70, 23);
+		rdbtnVertical.setBounds(75, 35, 75, 23);
 		rdbtnVertical.setCursor(parent.getCursor());
 		rdbtnVertical.setBackground(parent.getBackground());
 		rdbtnVertical.setSelected(!savedHorizontal);
@@ -154,7 +154,7 @@ public class PanelOutput extends JPanel {
 
 		rdbtnHorizontal = new JRadioButton(
 				I18N.getHtmlText("PanelOutput.layout.horizontal"));
-		rdbtnHorizontal.setBounds(150, 35, 70, 23);
+		rdbtnHorizontal.setBounds(150, 35, 100, 23);
 		rdbtnHorizontal.setCursor(parent.getCursor());
 		rdbtnHorizontal.setBackground(parent.getBackground());
 		rdbtnHorizontal.setSelected(savedHorizontal);

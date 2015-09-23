@@ -108,7 +108,7 @@ public class ReminderSurveyDialog extends HelpParent {
 		JButton lblContent02 = new UrlButton(I18N.getHtmlText(
 				"WhatsNewDialog.text.03", Html.LINK), surveyUrl,
 				parent.getCursor(), parent.getBackground(), new Rectangle(
-						marginLeft + 120, 95, 200, 15));
+						marginLeft + 110, 95, 250, 15));
 		panel.add(lblContent02);
 
 		JLabel lblContent03 = new JLabel(

@@ -16,12 +16,6 @@
  */
 package io.github.bonigarcia.dualsub.gui;
 
-import io.github.bonigarcia.dualsub.srt.SrtUtils;
-import io.github.bonigarcia.dualsub.util.Charset;
-import io.github.bonigarcia.dualsub.util.Font;
-import io.github.bonigarcia.dualsub.util.I18N;
-import io.github.bonigarcia.dualsub.util.Random;
-
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
@@ -64,6 +58,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.jgoodies.plaf.plastic.Plastic3DLookAndFeel;
+
+import io.github.bonigarcia.dualsub.srt.SrtUtils;
+import io.github.bonigarcia.dualsub.util.Charset;
+import io.github.bonigarcia.dualsub.util.Font;
+import io.github.bonigarcia.dualsub.util.I18N;
+import io.github.bonigarcia.dualsub.util.Random;
 
 /**
  * DualSub.
@@ -184,6 +184,14 @@ public class DualSub {
 		// Alert initialization
 		Alert.setFrame(frame);
 
+		// Progress bar
+		progressBar = new JProgressBar();
+		progressBar.setIndeterminate(true);
+		progressBar.setBounds(308, 110, 95, 15);
+		progressBar.setBackground(background);
+		progressBar.setVisible(false);
+		frame.getContentPane().add(progressBar);
+
 		// Left subtitles
 		JScrollPane leftSubtitlesScroll = new JScrollPane();
 		leftSubtitlesScroll.setBounds(46, 37, 260, 121);
@@ -237,14 +245,6 @@ public class DualSub {
 			SrtUtils.setRightColor(rightColor);
 		}
 		rightSubtitlesScroll.setViewportView(rightSubtitles);
-
-		// Progress bar
-		progressBar = new JProgressBar();
-		progressBar.setIndeterminate(true);
-		progressBar.setBounds(308, 110, 94, 15);
-		progressBar.setBackground(background);
-		progressBar.setVisible(false);
-		frame.getContentPane().add(progressBar);
 
 		// Output folder
 		JButton outputFolderButton = new JButton(

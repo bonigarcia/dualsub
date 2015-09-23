@@ -112,7 +112,7 @@ public class WhatsNewDialog extends HelpParent {
 		JButton lblContent03 = new UrlButton(I18N.getHtmlText(
 				"WhatsNewDialog.text.03", Html.LINK), surveyUrl,
 				parent.getCursor(), parent.getBackground(), new Rectangle(
-						marginLeft + 180, 444, 200, 15));
+						marginLeft + 170, 444, 250, 15));
 		panel.add(lblContent03);
 
 		JLabel lblContent04 = new JLabel(
