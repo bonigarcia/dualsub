@@ -1,2 +1,0 @@
-Maven needs to download dependencies which Launchpad doesn't allow.
-So for a PPA build you need to add a pre-compiled jar file.
