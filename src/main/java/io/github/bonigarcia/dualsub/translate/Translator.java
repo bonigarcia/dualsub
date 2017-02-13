@@ -16,6 +16,8 @@
  */
 package io.github.bonigarcia.dualsub.translate;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.prefs.Preferences;
 
 import org.slf4j.Logger;
@@ -56,9 +58,25 @@ public class Translator {
 				TranslateOption.targetLanguage(languageTo));
 
 		String translatedText = translation.getTranslatedText();
-		log.info("Translating {} [{}] to [{}] ... result={}", text,
+		log.trace("Translating {} [{}] to [{}] ... result={}", text,
 				languageFrom, languageTo, translatedText);
 		return translatedText;
+	}
+
+	public List<String> translate(List<String> text, String languageFrom,
+			String languageTo) {
+		List<Translation> translation = translate.translate(text,
+				TranslateOption.sourceLanguage(languageFrom),
+				TranslateOption.targetLanguage(languageTo));
+
+		List<String> out = new ArrayList<String>();
+		for (Translation t : translation) {
+			String translatedText = t.getTranslatedText();
+			out.add(translatedText);
+			log.trace("Translating {} [{}] to [{}] ... result={}", text,
+					languageFrom, languageTo, translatedText);
+		}
+		return out;
 	}
 
 	public void setPreferences(Preferences preferences) {

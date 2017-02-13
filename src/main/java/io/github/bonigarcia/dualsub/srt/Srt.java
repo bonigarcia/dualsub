@@ -23,7 +23,12 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Reader;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.TreeMap;
 import java.util.prefs.Preferences;
 import java.util.regex.Matcher;
@@ -57,31 +62,76 @@ public class Srt {
 	}
 
 	public Srt(Srt inputSrt, String fromLang, String toLang, String charset,
-			DualSub parent) {
+			DualSub parent) throws IOException {
 		this.subtitles = new TreeMap<String, Entry>();
 		Map<String, Entry> subtitlesToTranslate = inputSrt.getSubtitles();
 		String lineToTranslate;
-		String translatedLine;
 		Entry translatedEntry;
+
+		Preferences preferences;
+		Properties properties;
+
+		if (parent != null) {
+			preferences = parent.getPreferences();
+			properties = parent.getProperties();
+		} else {
+			preferences = Preferences.userNodeForPackage(DualSub.class);
+			Translator.getInstance().setPreferences(preferences);
+
+			properties = new Properties();
+			InputStream inputStream = Thread.currentThread()
+					.getContextClassLoader()
+					.getResourceAsStream("dualsub.properties");
+			Reader reader = new InputStreamReader(inputStream,
+					Charset.ISO88591);
+			properties.load(reader);
+		}
+
+		List<String> inputLines = new ArrayList<String>();
+
 		for (String time : subtitlesToTranslate.keySet()) {
 			lineToTranslate = "";
 			for (String line : subtitlesToTranslate.get(time)
 					.getSubtitleLines()) {
 				lineToTranslate += line + " ";
 			}
-			translatedEntry = new Entry();
-			Preferences preferences = Preferences
-					.userNodeForPackage(DualSub.class);
-			Translator.getInstance().setPreferences(preferences);
+			inputLines.add(lineToTranslate);
+		}
 
-			// TODO review this
-			translatedLine = Translator.getInstance().translate(lineToTranslate,
-					fromLang, toLang);
-			log.debug("** Translate " + lineToTranslate + " ** FROM " + fromLang
-					+ " TO " + toLang + " ** " + translatedLine);
-			translatedEntry.add(translatedLine);
+		int max = Integer
+				.parseInt(properties.getProperty("maxTranslationBatch"));
+		int size = inputLines.size();
+		int rounds = 1 + (size / max);
+		log.trace("Number of rounds {} (total lines {})", rounds, size);
+
+		List<String> translations = new ArrayList<String>();
+		for (int i = 0; i < rounds; i++) {
+			int fromIndex = i * max;
+			int toIndex = fromIndex + max;
+			if (toIndex > size) {
+				toIndex = size;
+			}
+
+			log.trace("Round {}/{} ... from {} to {}", i + 1, rounds, fromIndex,
+					toIndex);
+
+			List<String> roundTranslation = Translator.getInstance().translate(
+					inputLines.subList(fromIndex, toIndex), fromLang, toLang);
+
+			log.trace("Adding {} translation to result",
+					roundTranslation.size());
+			log.trace("Translation list {} ", roundTranslation);
+			translations.addAll(roundTranslation);
+		}
+
+		Iterator<String> iterator = translations.iterator();
+
+		for (String time : subtitlesToTranslate.keySet()) {
+			translatedEntry = new Entry();
+			translatedEntry.add(iterator.next());
 			subtitles.put(time, translatedEntry);
 		}
+
 	}
 
 	/**
