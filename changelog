@@ -2,6 +2,7 @@ dualsub (1.2.0) precise; urgency=low
 
   * DualSub 1.2.0 release:
   + Use official Google Translate API for translations
+  + Remove survey from GUI
 
  -- Boni Garcia <boni.gg@gmail.com>
 
