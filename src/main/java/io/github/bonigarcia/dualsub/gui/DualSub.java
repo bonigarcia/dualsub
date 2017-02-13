@@ -110,7 +110,6 @@ public class DualSub {
 	private HelpOutputDialog helpOutput;
 	private HelpTranslationDialog helpTranslation;
 	private HelpSubtitlesDialog helpSubtitles;
-	private CaptchaDialog captchaDialog;
 
 	/**
 	 * Create the GUI.
@@ -162,8 +161,7 @@ public class DualSub {
 	private void loadProperties() throws IOException {
 		// Load properties
 		properties = new Properties();
-		InputStream inputStream = Thread.currentThread()
-				.getContextClassLoader()
+		InputStream inputStream = Thread.currentThread().getContextClassLoader()
 				.getResourceAsStream("dualsub.properties");
 		Reader reader = new InputStreamReader(inputStream, Charset.ISO88591);
 		properties.load(reader);
@@ -209,9 +207,9 @@ public class DualSub {
 				.setTransferHandler(new ListTransferHandler(leftSubtitles));
 		leftSubtitles.setDragEnabled(true);
 		leftSubtitles.setDropMode(javax.swing.DropMode.INSERT);
-		leftSubtitles.setBorder(new TitledBorder(UIManager
-				.getBorder("TitledBorder.border"), I18N
-				.getHtmlText("Window.leftSubtitles.borderTitle")));
+		leftSubtitles.setBorder(
+				new TitledBorder(UIManager.getBorder("TitledBorder.border"),
+						I18N.getHtmlText("Window.leftSubtitles.borderTitle")));
 		String leftColor = preferences.get("leftColor", "");
 		if (leftColor != null && !leftColor.isEmpty()) {
 			leftSubtitles.setBackground(Color.decode(leftColor));
@@ -232,13 +230,13 @@ public class DualSub {
 			}
 		});
 		rightSubtitles.setCellRenderer(new FileCellRenderer());
-		rightSubtitles.setTransferHandler(new ListTransferHandler(
-				rightSubtitles));
+		rightSubtitles
+				.setTransferHandler(new ListTransferHandler(rightSubtitles));
 		rightSubtitles.setDragEnabled(true);
 		rightSubtitles.setDropMode(javax.swing.DropMode.INSERT);
-		rightSubtitles.setBorder(new TitledBorder(UIManager
-				.getBorder("TitledBorder.border"), I18N
-				.getHtmlText("Window.rightSubtitles.borderTitle")));
+		rightSubtitles.setBorder(
+				new TitledBorder(UIManager.getBorder("TitledBorder.border"),
+						I18N.getHtmlText("Window.rightSubtitles.borderTitle")));
 		String rightColor = preferences.get("rightColor", "");
 		if (rightColor != null && !rightColor.isEmpty()) {
 			rightSubtitles.setBackground(Color.decode(rightColor));
@@ -255,8 +253,8 @@ public class DualSub {
 		outputFolder = new JTextField();
 		outputFolder.setBounds(165, 181, 500, 28);
 		outputFolder.setColumns(10);
-		outputFolder.setText(preferences.get("output",
-				properties.getProperty("output")));
+		outputFolder.setText(
+				preferences.get("output", properties.getProperty("output")));
 		frame.getContentPane().add(outputFolder);
 		folderListener = new AddFolderListener(frame, outputFolder);
 		outputFolderButton.addActionListener(folderListener);
@@ -298,8 +296,8 @@ public class DualSub {
 		frame.getContentPane().add(panelTranslation);
 
 		// Help
-		JButton buttonHelpSub = new JButton(new ImageIcon(
-				ClassLoader.getSystemResource("img/help.png")));
+		JButton buttonHelpSub = new JButton(
+				new ImageIcon(ClassLoader.getSystemResource("img/help.png")));
 		buttonHelpSub.setBounds(345, 50, 22, 22);
 		buttonHelpSub.setCursor(cursor);
 		final DualSub top = this;
@@ -320,8 +318,9 @@ public class DualSub {
 		frame.setLocation((dim.width - frame.getWidth()) / 2,
 				(dim.height - frame.getHeight()) / 2);
 		frame.setResizable(false);
-		frame.setIconImage(new ImageIcon(ClassLoader
-				.getSystemResource("img/dualsub.png")).getImage());
+		frame.setIconImage(
+				new ImageIcon(ClassLoader.getSystemResource("img/dualsub.png"))
+						.getImage());
 		frame.setTitle(I18N.getText("Window.name.text"));
 		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frame.addWindowListener(new ExitListener(this));
@@ -367,13 +366,13 @@ public class DualSub {
 			if (responseCode == HttpStatus.SC_OK) {
 				log.debug("Form is open");
 
-				URL url = new URL(this.getProperties().getProperty(
-						"responsesUrl"));
+				URL url = new URL(
+						this.getProperties().getProperty("responsesUrl"));
 				URLConnection conn = url.openConnection();
 				InputStream is = conn.getInputStream();
 				StringWriter writer = new StringWriter();
-				IOUtils.copy(is, writer, java.nio.charset.Charset
-						.defaultCharset().name());
+				IOUtils.copy(is, writer,
+						java.nio.charset.Charset.defaultCharset().name());
 				String html = writer.toString();
 
 				if (!html.contains(id)) {
@@ -394,8 +393,8 @@ public class DualSub {
 		}
 	}
 
-	public boolean isSurveyCompleted(String id) throws ClientProtocolException,
-			IOException {
+	public boolean isSurveyCompleted(String id)
+			throws ClientProtocolException, IOException {
 
 		boolean completed = true;
 		String surveyUrl = this.getProperties().getProperty("surveyUrl")
@@ -412,8 +411,8 @@ public class DualSub {
 			URLConnection conn = url.openConnection();
 			InputStream is = conn.getInputStream();
 			StringWriter writer = new StringWriter();
-			IOUtils.copy(is, writer, java.nio.charset.Charset.defaultCharset()
-					.name());
+			IOUtils.copy(is, writer,
+					java.nio.charset.Charset.defaultCharset().name());
 			String html = writer.toString();
 
 			completed = html.contains(id);
@@ -505,10 +504,6 @@ public class DualSub {
 		return helpSubtitles;
 	}
 
-	public CaptchaDialog getCaptchaDialog() {
-		return captchaDialog;
-	}
-
 	public void setHelpPlayer(HelpPlayerDialog helpPlayer) {
 		this.helpPlayer = helpPlayer;
 	}
@@ -527,10 +522,6 @@ public class DualSub {
 
 	public void setHelpSubtitles(HelpSubtitlesDialog helpSubtitles) {
 		this.helpSubtitles = helpSubtitles;
-	}
-
-	public void setCaptchaDialog(CaptchaDialog captchaDialog) {
-		this.captchaDialog = captchaDialog;
 	}
 
 	public Menu getMenu() {

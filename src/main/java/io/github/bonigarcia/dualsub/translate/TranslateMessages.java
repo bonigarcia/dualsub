@@ -16,8 +16,6 @@
  */
 package io.github.bonigarcia.dualsub.translate;
 
-import io.github.bonigarcia.dualsub.util.Charset;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -28,6 +26,8 @@ import java.util.Properties;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import io.github.bonigarcia.dualsub.util.Charset;
 
 /**
  * TranslateMessages.
@@ -47,27 +47,22 @@ public class TranslateMessages {
 
 	public final static String TRANSLATE_LANG[] = { Language.ARABIC,
 			Language.CHINESE, Language.DANISH, Language.GERMAN,
-			Language.SPANISH, Language.FRENCH, Language.FINNISH,
-			Language.GREEK, Language.HINDI, Language.ICELANDIC,
-			Language.ITALIAN, Language.JAPANESE, Language.NORWEGIAN,
-			Language.PORTUGUESE, Language.RUSSIAN, Language.SWEDISH };
-	public final static String TRANSLATE_CHARSET[] = { "ISO-8859-6", "GB2312",
-			"ISO-8859-1", "ISO-8859-1", "ISO-8859-1", "ISO-8859-1",
-			"ISO-8859-1", "ISO-8859-7", "UTF-8", "ISO-8859-1", "ISO-8859-1",
-			"ISO-2022-jp", "ISO-8859-1", "ISO-8859-1", "ISO-8859-5",
-			"ISO-8859-1" };
+			Language.SPANISH, Language.FRENCH, Language.FINNISH, Language.GREEK,
+			Language.HINDI, Language.ICELANDIC, Language.ITALIAN,
+			Language.JAPANESE, Language.NORWEGIAN, Language.PORTUGUESE,
+			Language.RUSSIAN, Language.SWEDISH };
 
 	public static void main(String[] args) throws IOException {
 		Translator translate = Translator.getInstance();
 		int j;
-		String newProperties, lang, charset;
+		String newProperties, lang;
 		FileOutputStream newPropertiesFile = null;
 
 		for (int i = 0; i < TRANSLATE_LANG.length; i++) {
 			lang = TRANSLATE_LANG[i];
-			charset = TRANSLATE_CHARSET[i];
 			Properties properties = new Properties();
-			FileInputStream inputStream = new FileInputStream(MASTER_PROPERTIES);
+			FileInputStream inputStream = new FileInputStream(
+					MASTER_PROPERTIES);
 			Reader reader = new InputStreamReader(inputStream, MASTER_CHARSET);
 			properties.load(reader);
 
@@ -79,10 +74,10 @@ public class TranslateMessages {
 			log.info(newProperties);
 			for (Object propKey : properties.keySet()) {
 				if (!Arrays.asList(EXCEPTIONS).contains((String) propKey)) {
-					properties.setProperty((String) propKey, translate
-							.translate(
+					properties.setProperty((String) propKey,
+							translate.translate(
 									properties.getProperty((String) propKey),
-									Language.ENGLISH, lang, charset));
+									Language.ENGLISH, lang));
 				}
 			}
 			properties.store(newPropertiesFile,

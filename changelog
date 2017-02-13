@@ -1,3 +1,10 @@
+dualsub (1.2.0) precise; urgency=low
+
+  * DualSub 1.2.0 release:
+  + Use official Google Translate API for translations
+
+ -- Boni Garcia <boni.gg@gmail.com>
+
 dualsub (1.1.0) precise; urgency=low
 
   * DualSub 1.1.0 release:

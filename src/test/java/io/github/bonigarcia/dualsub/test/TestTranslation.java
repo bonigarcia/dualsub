@@ -16,6 +16,18 @@
  */
 package io.github.bonigarcia.dualsub.test;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.text.ParseException;
+import java.util.Properties;
+import java.util.prefs.Preferences;
+
+import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import io.github.bonigarcia.dualsub.gui.DualSub;
 import io.github.bonigarcia.dualsub.srt.DualSrt;
 import io.github.bonigarcia.dualsub.srt.Merger;
 import io.github.bonigarcia.dualsub.srt.Srt;
@@ -23,16 +35,6 @@ import io.github.bonigarcia.dualsub.srt.SrtUtils;
 import io.github.bonigarcia.dualsub.translate.Language;
 import io.github.bonigarcia.dualsub.translate.Translator;
 import io.github.bonigarcia.dualsub.util.Charset;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.text.ParseException;
-import java.util.Properties;
-
-import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * TestTranslation.
@@ -49,27 +51,30 @@ public class TestTranslation {
 	public void testTranslation() {
 		Translator translate = Translator.getInstance();
 
+		// Instantiate preferences
+		Preferences preferences = Preferences.userNodeForPackage(DualSub.class);
+		translate.setPreferences(preferences);
+
 		String english = "Our story starts with the beginning of the universe.";
 		String spanish = translate.translate(english, Language.ENGLISH,
-				Language.SPANISH, Charset.ISO88591);
+				Language.SPANISH);
 		log.info(english + " -- " + spanish);
 
 		spanish = "Y es parte esencial de la naturaleza humana querer encontrar las respuestas.";
 		String italian = translate.translate(spanish, Language.SPANISH,
-				Language.ITALIAN, Charset.ISO88591);
+				Language.ITALIAN);
 
 		log.info(spanish + " -- " + italian);
 	}
 
 	@Test
 	public void testSrtTranslation() throws IOException, ParseException {
-		String srtLeftFile = "Game of Thrones 1x01 - Winter Is Coming (English).srt";
+		String srtLeftFile = "Game of Thrones 1x01 - Winter Is Coming (English)(short).srt";
 		SrtUtils.init("720", "Tahoma", 20, true, true, ".", 50, false, null,
 				null);
 		Srt srtLeft = new Srt(srtLeftFile);
 		Properties properties = new Properties();
-		InputStream inputStream = Thread.currentThread()
-				.getContextClassLoader()
+		InputStream inputStream = Thread.currentThread().getContextClassLoader()
 				.getResourceAsStream("dualsub.properties");
 		properties.load(inputStream);
 
@@ -87,8 +92,8 @@ public class TestTranslation {
 		String mergedFileName = merger.getMergedFileName(srtLeft, srtRight);
 		DualSrt dualSrt = merger.mergeSubs(srtLeft, srtRight);
 
-		dualSrt.writeSrt(mergedFileName, Charset.ISO88591,
-				merger.isTranslate(), merger.isMerge());
+		dualSrt.writeSrt(mergedFileName, Charset.ISO88591, merger.isTranslate(),
+				merger.isMerge());
 		log.info(mergedFileName + " " + Charset.detect(mergedFileName));
 		new File(mergedFileName).delete();
 	}

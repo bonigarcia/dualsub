@@ -16,10 +16,6 @@
  */
 package io.github.bonigarcia.dualsub.srt;
 
-import io.github.bonigarcia.dualsub.gui.DualSub;
-import io.github.bonigarcia.dualsub.translate.Translator;
-import io.github.bonigarcia.dualsub.util.Charset;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -29,11 +25,16 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.prefs.Preferences;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import io.github.bonigarcia.dualsub.gui.DualSub;
+import io.github.bonigarcia.dualsub.translate.Translator;
+import io.github.bonigarcia.dualsub.util.Charset;
 
 /**
  * Srt.
@@ -69,11 +70,15 @@ public class Srt {
 				lineToTranslate += line + " ";
 			}
 			translatedEntry = new Entry();
-			Translator.getInstance().setParent(parent);
-			translatedLine = Translator.getInstance().translate(
-					lineToTranslate, fromLang, toLang, charset);
-			log.debug("** Translate " + lineToTranslate + " ** FROM "
-					+ fromLang + " TO " + toLang + " ** " + translatedLine);
+			Preferences preferences = Preferences
+					.userNodeForPackage(DualSub.class);
+			Translator.getInstance().setPreferences(preferences);
+
+			// TODO review this
+			translatedLine = Translator.getInstance().translate(lineToTranslate,
+					fromLang, toLang);
+			log.debug("** Translate " + lineToTranslate + " ** FROM " + fromLang
+					+ " TO " + toLang + " ** " + translatedLine);
 			translatedEntry.add(translatedLine);
 			subtitles.put(time, translatedEntry);
 		}
@@ -96,8 +101,8 @@ public class Srt {
 		charset = Charset.detect(isForDetection);
 		log.info(file + " detected charset " + charset);
 
-		BufferedReader br = new BufferedReader(new InputStreamReader(
-				isForReading, charset));
+		BufferedReader br = new BufferedReader(
+				new InputStreamReader(isForReading, charset));
 		try {
 			String line = br.readLine();
 			while (line != null) {
@@ -134,8 +139,8 @@ public class Srt {
 
 	public InputStream readSrtInputStream(String file)
 			throws FileNotFoundException {
-		InputStream inputStream = Thread.currentThread()
-				.getContextClassLoader().getResourceAsStream(file);
+		InputStream inputStream = Thread.currentThread().getContextClassLoader()
+				.getResourceAsStream(file);
 		if (inputStream == null) {
 			inputStream = new BufferedInputStream(new FileInputStream(file));
 		}
