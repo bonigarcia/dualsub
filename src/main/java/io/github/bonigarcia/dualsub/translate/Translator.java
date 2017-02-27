@@ -91,8 +91,10 @@ public class Translator {
 			translate = TranslateOptions.newBuilder().setApiKey(key).build()
 					.getService();
 		} else {
-			log.warn("Key for Google Translate service not defined");
-			// TODO implement dialog to user
+			// This should not happen (GUI forces the user to insert a key,
+			// otherwise translation is not allowed)
+			throw new RuntimeException(
+					"Key for Google Translate service not defined");
 		}
 	}
 }

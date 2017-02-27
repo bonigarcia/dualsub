@@ -97,6 +97,7 @@ public class DualSub {
 	private HelpOutputDialog helpOutput;
 	private HelpTranslationDialog helpTranslation;
 	private HelpSubtitlesDialog helpSubtitles;
+	private KeyTranslationDialog keyTranslationDialog;
 
 	/**
 	 * Create the GUI.
@@ -420,6 +421,15 @@ public class DualSub {
 
 	public void setHelpSubtitles(HelpSubtitlesDialog helpSubtitles) {
 		this.helpSubtitles = helpSubtitles;
+	}
+
+	public KeyTranslationDialog getKeyTranslationDialog() {
+		return keyTranslationDialog;
+	}
+
+	public void setKeyTranslationDialog(
+			KeyTranslationDialog keyTranslationDialog) {
+		this.keyTranslationDialog = keyTranslationDialog;
 	}
 
 	public Menu getMenu() {

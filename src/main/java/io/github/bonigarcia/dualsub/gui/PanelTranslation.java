@@ -16,13 +16,12 @@
  */
 package io.github.bonigarcia.dualsub.gui;
 
-import io.github.bonigarcia.dualsub.util.I18N;
-
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Collections;
 import java.util.Vector;
+import java.util.prefs.Preferences;
 
 import javax.swing.BorderFactory;
 import javax.swing.ButtonGroup;
@@ -40,6 +39,8 @@ import javax.swing.border.TitledBorder;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import io.github.bonigarcia.dualsub.util.I18N;
 
 /**
  * PanelTranslation.
@@ -71,10 +72,10 @@ public class PanelTranslation extends JPanel {
 
 	private void initialize() {
 		this.setLayout(null);
-		this.setBorder(new TitledBorder(UIManager
-				.getBorder("TitledBorder.border"), I18N
-				.getHtmlText("PanelTranslation.border.text"),
-				TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		this.setBorder(
+				new TitledBorder(UIManager.getBorder("TitledBorder.border"),
+						I18N.getHtmlText("PanelTranslation.border.text"),
+						TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		this.setBounds(360, 335, 305, 111);
 		this.setBackground(parent.getBackground());
 
@@ -84,14 +85,22 @@ public class PanelTranslation extends JPanel {
 		enableTranslation.setBounds(10, 20, 220, 20);
 		enableTranslation.setCursor(parent.getCursor());
 		enableTranslation.setBackground(parent.getBackground());
-		boolean savedTranslation = Boolean.parseBoolean(parent.getPreferences()
-				.get("translation",
+		boolean savedTranslation = Boolean
+				.parseBoolean(parent.getPreferences().get("translation",
 						parent.getProperties().getProperty("translation")));
 		enableTranslation.setSelected(savedTranslation);
+
+		final Preferences preferences = this.parent.getPreferences();
 		enableTranslation.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				switchLang(getEnableTranslation().isSelected());
+				String key = preferences.get("googleTranslateKey", "");
+				if (key != null && !key.equals("")) {
+					switchLang(getEnableTranslation().isSelected());
+				} else {
+					log.trace("Key for Google Translate service not defined");
+					openKeyDialog(key);
+				}
 			}
 		});
 		this.add(enableTranslation);
@@ -115,8 +124,8 @@ public class PanelTranslation extends JPanel {
 				.split(",");
 		Vector<LangItem> langVector = new Vector<LangItem>();
 		for (String s : languages) {
-			item = new LangItem(s, I18N.getHtmlText("PanelTranslation."
-					+ s.toLowerCase() + ".text"));
+			item = new LangItem(s, I18N.getHtmlText(
+					"PanelTranslation." + s.toLowerCase() + ".text"));
 			langVector.add(item);
 			if (s.equals(savedLangFrom)) {
 				langFrom = item;
@@ -150,9 +159,9 @@ public class PanelTranslation extends JPanel {
 		separatorLabel.setBounds(10, 73, 70, 20);
 		this.add(separatorLabel);
 
-		boolean savedMergeTranslation = Boolean
-				.parseBoolean(parent.getPreferences().get("mergeTranslation",
-						parent.getProperties().getProperty("mergeTranslation")));
+		boolean savedMergeTranslation = Boolean.parseBoolean(
+				parent.getPreferences().get("mergeTranslation", parent
+						.getProperties().getProperty("mergeTranslation")));
 		rdbtnMerged = new JRadioButton(
 				I18N.getHtmlText("PanelTranslation.merged.text"));
 		rdbtnMerged.setBounds(80, 68, 150, 20);
@@ -185,11 +194,13 @@ public class PanelTranslation extends JPanel {
 		groupExtension.add(rdbtnMerged);
 		groupExtension.add(rdbtnTranslated);
 
-		switchLang(getEnableTranslation().isSelected());
+		String key = parent.getPreferences().get("googleTranslateKey", "");
+		boolean keyWithValue = key != null && !key.equals("");
+		switchLang(getEnableTranslation().isSelected() & keyWithValue);
 
 		// Help
-		JButton buttonHelpSub = new JButton(new ImageIcon(
-				ClassLoader.getSystemResource("img/help.png")));
+		JButton buttonHelpSub = new JButton(
+				new ImageIcon(ClassLoader.getSystemResource("img/help.png")));
 		buttonHelpSub.setBounds(273, 80, 22, 22);
 		buttonHelpSub.setCursor(parent.getCursor());
 		buttonHelpSub.addActionListener(new ActionListener() {
@@ -205,6 +216,19 @@ public class PanelTranslation extends JPanel {
 		});
 		this.add(buttonHelpSub);
 
+		// Lock
+		JButton buttonLock = new JButton(
+				new ImageIcon(ClassLoader.getSystemResource("img/lock.gif")));
+		buttonLock.setBounds(273, 15, 22, 22);
+		buttonLock.setCursor(parent.getCursor());
+		buttonLock.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String key = preferences.get("googleTranslateKey", "");
+				openKeyDialog(key);
+			}
+		});
+		this.add(buttonLock);
+
 		// Borders (for debug purposes)
 		if (log.isTraceEnabled()) {
 			Border border = BorderFactory.createLineBorder(Color.black);
@@ -214,6 +238,29 @@ public class PanelTranslation extends JPanel {
 			enableTranslation.setBorderPainted(true);
 			rdbtnMerged.setBorderPainted(true);
 			rdbtnTranslated.setBorderPainted(true);
+		}
+	}
+
+	private void openKeyDialog(String key) {
+		KeyTranslationDialog keyTranslationDialog = parent
+				.getKeyTranslationDialog();
+		if (keyTranslationDialog == null) {
+			keyTranslationDialog = new KeyTranslationDialog(parent, true, key);
+		}
+
+		keyTranslationDialog.setKey(key);
+		keyTranslationDialog.setVisible();
+	}
+
+	public void updateLang() {
+		// Read key to check if has changed by user
+		String key = parent.getPreferences().get("googleTranslateKey", "");
+		if (key != null && !key.equals("")) {
+			log.trace("Key for Google Translate service: {}", key);
+			switchLang(true);
+
+		} else {
+			switchLang(false);
 		}
 	}
 
@@ -238,6 +285,7 @@ public class PanelTranslation extends JPanel {
 	}
 
 	private void switchLang(boolean enable) {
+		enableTranslation.setSelected(enable);
 		getFromComboBox().setEnabled(enable);
 		getToComboBox().setEnabled(enable);
 		getRdbtnMerged().setEnabled(enable);
@@ -256,8 +304,8 @@ public class PanelTranslation extends JPanel {
 						I18N.getHtmlText("Window.mergeTranslateButton.text"));
 			}
 		} else {
-			parent.getMergeButton().setText(
-					I18N.getHtmlText("Window.mergeButton.text"));
+			parent.getMergeButton()
+					.setText(I18N.getHtmlText("Window.mergeButton.text"));
 		}
 	}
 

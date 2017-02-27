@@ -76,7 +76,6 @@ public class Srt {
 			properties = parent.getProperties();
 		} else {
 			preferences = Preferences.userNodeForPackage(DualSub.class);
-			Translator.getInstance().setPreferences(preferences);
 
 			properties = new Properties();
 			InputStream inputStream = Thread.currentThread()
@@ -86,6 +85,8 @@ public class Srt {
 					Charset.ISO88591);
 			properties.load(reader);
 		}
+
+		Translator.getInstance().setPreferences(preferences);
 
 		List<String> inputLines = new ArrayList<String>();
 
