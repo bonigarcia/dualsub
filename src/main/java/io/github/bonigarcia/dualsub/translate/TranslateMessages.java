@@ -23,10 +23,12 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.Arrays;
 import java.util.Properties;
+import java.util.prefs.Preferences;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import io.github.bonigarcia.dualsub.gui.DualSub;
 import io.github.bonigarcia.dualsub.util.Charset;
 
 /**
@@ -43,7 +45,8 @@ public class TranslateMessages {
 	private final static String MASTER_PROPERTIES = "./src/main/resources/lang/messages.properties";
 	private final static String MASTER_CHARSET = Charset.ISO88591;
 	public final static String EXCEPTIONS[] = { "HelpOutputDialog.help.02",
-			"HelpOutputDialog.help.04", "HelpTimingDialog.help.06" };
+			"HelpOutputDialog.help.04", "HelpTimingDialog.help.06",
+			"KeyTranslation.help.03" };
 
 	public final static String TRANSLATE_LANG[] = { Language.ARABIC,
 			Language.CHINESE, Language.DANISH, Language.GERMAN,
@@ -54,6 +57,11 @@ public class TranslateMessages {
 
 	public static void main(String[] args) throws IOException {
 		Translator translate = Translator.getInstance();
+
+		// Instantiate preferences
+		Preferences preferences = Preferences.userNodeForPackage(DualSub.class);
+		translate.setPreferences(preferences);
+
 		int j;
 		String newProperties, lang;
 		FileOutputStream newPropertiesFile = null;
