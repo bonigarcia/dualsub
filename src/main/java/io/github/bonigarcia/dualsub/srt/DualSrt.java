@@ -16,8 +16,6 @@
  */
 package io.github.bonigarcia.dualsub.srt;
 
-import io.github.bonigarcia.dualsub.util.I18N;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -37,6 +35,8 @@ import java.util.TreeMap;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import io.github.bonigarcia.dualsub.util.I18N;
 
 /**
  * DualSrt.
@@ -68,10 +68,10 @@ public class DualSrt {
 
 		this.subtitles = new TreeMap<String, Entry[]>();
 
-		this.signatureGap = Integer.parseInt(properties
-				.getProperty("signatureGap")); // seconds
-		this.signatureTime = Integer.parseInt(properties
-				.getProperty("signatureTime")); // seconds
+		this.signatureGap = Integer
+				.parseInt(properties.getProperty("signatureGap")); // seconds
+		this.signatureTime = Integer
+				.parseInt(properties.getProperty("signatureTime")); // seconds
 		this.gap = Integer.parseInt(properties.getProperty("gap")); // milliseconds
 		this.desync = desync;
 	}
@@ -91,10 +91,12 @@ public class DualSrt {
 		for (String time : subtitles.keySet()) {
 			for (int i = 0; i < Math.max(subtitles.get(time)[0].size(),
 					subtitles.get(time)[1].size()); i++) {
-				left = i < subtitles.get(time)[0].size() ? subtitles.get(time)[0]
-						.get(i) : SrtUtils.getBlankLine();
-				right = i < subtitles.get(time)[1].size() ? subtitles.get(time)[1]
-						.get(i) : SrtUtils.getBlankLine();
+				left = i < subtitles.get(time)[0].size()
+						? subtitles.get(time)[0].get(i)
+						: SrtUtils.getBlankLine();
+				right = i < subtitles.get(time)[1].size()
+						? subtitles.get(time)[1].get(i)
+						: SrtUtils.getBlankLine();
 				line = left + right;
 				log.info(time + " " + line + " " + SrtUtils.getWidth(line));
 			}
@@ -217,8 +219,8 @@ public class DualSrt {
 	 */
 	private String convertLine(String line) {
 		float width = SrtUtils.getWidth(line);
-		double diff = ((SrtUtils.getHalfWidth() - width) / SrtUtils
-				.getSpaceWidth()) / 2;
+		double diff = ((SrtUtils.getHalfWidth() - width)
+				/ SrtUtils.getSpaceWidth()) / 2;
 		double rest = diff % 1;
 		int numSpaces = (int) Math.floor(diff);
 		String additional = (rest >= 0.5) ? SrtUtils.getPadding() : "";
@@ -251,6 +253,12 @@ public class DualSrt {
 		for (String t : subtitles.keySet()) {
 			inTime = SrtUtils.getInitTime(time);
 			enTime = SrtUtils.getEndTime(time);
+
+			// Added to ensure format
+			if (!t.contains("-->")) {
+				continue;
+			}
+
 			iTime = inTime != null ? SrtUtils.getInitTime(t).getTime() : 0;
 			jTime = enTime != null ? SrtUtils.getEndTime(t).getTime() : 0;
 
@@ -270,9 +278,9 @@ public class DualSrt {
 		from = top - 1 + (topOver ? 0 : 1);
 		to = down - (downOver ? 0 : 1);
 
-		log.debug(time + " TOP " + top + " DOWN " + down + " TOPOVER "
-				+ topOver + " DOWNOVER " + downOver + " SIZE "
-				+ subtitles.size() + " FROM " + from + " TO " + to + " "
+		log.debug(time + " TOP " + top + " DOWN " + down + " TOPOVER " + topOver
+				+ " DOWNOVER " + downOver + " SIZE " + subtitles.size()
+				+ " FROM " + from + " TO " + to + " "
 				+ desyncEntry.getSubtitleLines());
 		String mixedTime = mixTime(initTime, endTime, from, to);
 		log.debug(mixedTime);
@@ -291,11 +299,12 @@ public class DualSrt {
 			newSubtitles.putAll(subtitles.subMap(subtitles.firstKey(), true,
 					(String) subtitles.keySet().toArray()[top - 1], !topOver));
 		}
-		newSubtitles
-				.put(mixedTime, new Entry[] { newEntryLeft, newEntryRight });
+		newSubtitles.put(mixedTime,
+				new Entry[] { newEntryLeft, newEntryRight });
 		if (down != subtitles.size()) {
-			newSubtitles.putAll(subtitles.subMap((String) subtitles.keySet()
-					.toArray()[down], !downOver, subtitles.lastKey(), true));
+			newSubtitles.putAll(subtitles.subMap(
+					(String) subtitles.keySet().toArray()[down], !downOver,
+					subtitles.lastKey(), true));
 		}
 
 		subtitles = newSubtitles;
@@ -311,15 +320,15 @@ public class DualSrt {
 
 		if (to > 0 && to >= from) {
 			if (from < subtitles.size()) {
-				Date iTime = SrtUtils.getInitTime((String) subtitles.keySet()
-						.toArray()[from]);
+				Date iTime = SrtUtils.getInitTime(
+						(String) subtitles.keySet().toArray()[from]);
 				if (iTime != null) {
 					initFromTime = iTime.getTime();
 				}
 			}
 			if (to < subtitles.size()) {
-				Date eTime = SrtUtils.getEndTime((String) subtitles.keySet()
-						.toArray()[to]);
+				Date eTime = SrtUtils
+						.getEndTime((String) subtitles.keySet().toArray()[to]);
 				if (eTime != null) {
 					endToTime = eTime.getTime();
 				}
@@ -349,8 +358,8 @@ public class DualSrt {
 			}
 		}
 
-		return SrtUtils.createSrtTime(new Date(initCandidate), new Date(
-				endCandidate));
+		return SrtUtils.createSrtTime(new Date(initCandidate),
+				new Date(endCandidate));
 	}
 
 	/**
@@ -361,9 +370,8 @@ public class DualSrt {
 	 * @throws IOException
 	 * @throws ParseException
 	 */
-	public void writeSrt(String fileOuput, String charsetStr,
-			boolean translate, boolean merge) throws IOException,
-			ParseException {
+	public void writeSrt(String fileOuput, String charsetStr, boolean translate,
+			boolean merge) throws IOException, ParseException {
 
 		boolean horizontal = SrtUtils.isHorizontal();
 		if (!horizontal && (!translate || (translate & merge))) {
@@ -375,8 +383,8 @@ public class DualSrt {
 
 		String blankLine = horizontal ? "" : SrtUtils.getBlankLine();
 
-		FileOutputStream fileOutputStream = new FileOutputStream(new File(
-				fileOuput));
+		FileOutputStream fileOutputStream = new FileOutputStream(
+				new File(fileOuput));
 		FileChannel fileChannel = fileOutputStream.getChannel();
 
 		Charset charset = Charset.forName(charsetStr);
@@ -412,20 +420,20 @@ public class DualSrt {
 			byteBuffer = ByteBuffer.wrap((String.valueOf(j + 1) + SrtUtils.EOL)
 					.getBytes(Charset.forName(charsetStr)));
 			fileChannel.write(byteBuffer);
-			byteBuffer = ByteBuffer.wrap((time + SrtUtils.EOL).getBytes(Charset
-					.forName(charsetStr)));
+			byteBuffer = ByteBuffer.wrap((time + SrtUtils.EOL)
+					.getBytes(Charset.forName(charsetStr)));
 			fileChannel.write(byteBuffer);
 
-			int limit = subtitles.get(time).length > 1 ? Math.max(
-					subtitles.get(time)[0].size(),
-					subtitles.get(time)[1].size()) : subtitles.get(time)[0]
-					.size();
+			int limit = subtitles.get(time).length > 1
+					? Math.max(subtitles.get(time)[0].size(),
+							subtitles.get(time)[1].size())
+					: subtitles.get(time)[0].size();
 			for (int i = 0; i < limit; i++) {
-				left = i < subtitles.get(time)[0].size() ? subtitles.get(time)[0]
-						.get(i) : blankLine;
+				left = i < subtitles.get(time)[0].size()
+						? subtitles.get(time)[0].get(i) : blankLine;
 				if (subtitles.get(time).length > 1) {
-					right = i < subtitles.get(time)[1].size() ? subtitles
-							.get(time)[1].get(i) : blankLine;
+					right = i < subtitles.get(time)[1].size()
+							? subtitles.get(time)[1].get(i) : blankLine;
 				}
 
 				String leftColor = SrtUtils.getParsedLeftColor();
@@ -438,30 +446,30 @@ public class DualSrt {
 				}
 
 				if (horizontal) {
-					uCharBuffer = CharBuffer.wrap(left + horizontalSeparator
-							+ right + SrtUtils.EOL);
+					uCharBuffer = CharBuffer.wrap(
+							left + horizontalSeparator + right + SrtUtils.EOL);
 				} else {
 					uCharBuffer = CharBuffer.wrap(left + right + SrtUtils.EOL);
 				}
 				byteBuffer = encoder.encode(uCharBuffer);
 
-				log.debug(new String(byteBuffer.array(), Charset
-						.forName(charsetStr)));
+				log.debug(new String(byteBuffer.array(),
+						Charset.forName(charsetStr)));
 
 				fileChannel.write(byteBuffer);
 			}
-			byteBuffer = ByteBuffer.wrap(SrtUtils.EOL.getBytes(Charset
-					.forName(charsetStr)));
+			byteBuffer = ByteBuffer
+					.wrap(SrtUtils.EOL.getBytes(Charset.forName(charsetStr)));
 			fileChannel.write(byteBuffer);
 		}
 
 		for (String s : signature(translate, merge)) {
-			byteBuffer = ByteBuffer.wrap((s + SrtUtils.EOL).getBytes(Charset
-					.forName(charsetStr)));
+			byteBuffer = ByteBuffer.wrap(
+					(s + SrtUtils.EOL).getBytes(Charset.forName(charsetStr)));
 			fileChannel.write(byteBuffer);
 		}
-		byteBuffer = ByteBuffer.wrap(SrtUtils.EOL.getBytes(Charset
-				.forName(charsetStr)));
+		byteBuffer = ByteBuffer
+				.wrap(SrtUtils.EOL.getBytes(Charset.forName(charsetStr)));
 		fileChannel.write(byteBuffer);
 		fileChannel.close();
 
@@ -476,8 +484,8 @@ public class DualSrt {
 	 */
 	private List<String> signature(boolean translate, boolean merge)
 			throws ParseException {
-		String lastEntryTime = (String) subtitles.keySet().toArray()[subtitles
-				.keySet().size() - 1];
+		String lastEntryTime = (String) subtitles.keySet()
+				.toArray()[subtitles.keySet().size() - 1];
 		Date end = SrtUtils.getEndTime(lastEntryTime);
 		final Date newDateInit = new Date(end.getTime() + signatureGap);
 		final Date newDateEnd = new Date(end.getTime() + signatureTime);
@@ -553,8 +561,9 @@ public class DualSrt {
 		entries = subtitles.get(timeBefore);
 		if (entries != null && tsBeforeInit != null && tsBeforeEnd != null) {
 			if (progressive) {
-				extension *= entries.length > 1 ? Math.max(entries[0].size(),
-						entries[1].size()) : entries[0].size();
+				extension *= entries.length > 1
+						? Math.max(entries[0].size(), entries[1].size())
+						: entries[0].size();
 			}
 			newTime = SrtUtils.createSrtTime(tsBeforeInit,
 					new Date(tsBeforeEnd.getTime() + extension));
