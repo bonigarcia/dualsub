@@ -1,9 +1,9 @@
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-green.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![Twitter](https://img.shields.io/badge/follow-@boni_gg-green.svg)](https://twitter.com/boni_gg)
+
 [![][Logo]][Site]
 
 Copyright &copy; 2014-2017 Boni Garcia. Licensed under [GPL v3].
-
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-green.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-[![Twitter Follow](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/boni_gg)
 
 DualSub
 =======
