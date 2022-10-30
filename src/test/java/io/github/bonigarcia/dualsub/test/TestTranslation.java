@@ -33,7 +33,7 @@ import io.github.bonigarcia.dualsub.srt.Merger;
 import io.github.bonigarcia.dualsub.srt.Srt;
 import io.github.bonigarcia.dualsub.srt.SrtUtils;
 import io.github.bonigarcia.dualsub.translate.Language;
-import io.github.bonigarcia.dualsub.translate.Translator;
+import io.github.bonigarcia.dualsub.translate.TranslatorFree;
 import io.github.bonigarcia.dualsub.util.Charset;
 
 /**
@@ -49,7 +49,7 @@ public class TestTranslation {
 
 	@Test
 	public void testTranslation() {
-		Translator translate = Translator.getInstance();
+		TranslatorFree translate = TranslatorFree.getInstance();
 
 		// Instantiate preferences
 		Preferences preferences = Preferences.userNodeForPackage(DualSub.class);
