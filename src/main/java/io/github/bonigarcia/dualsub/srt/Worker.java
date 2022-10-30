@@ -46,6 +46,7 @@ public class Worker extends SwingWorker<Integer, String> {
 
 	@Override
 	protected Integer doInBackground() {
+		// Core is here
 		ListModel<File> leftSrtModel = parent.getLeftSubtitles().getModel();
 		ListModel<File> rightSrtModel = parent.getRightSubtitles().getModel();
 
@@ -128,6 +129,7 @@ public class Worker extends SwingWorker<Integer, String> {
 							rightSrt.resetSubtitles();
 						}
 					} else if (leftSrt != null && rightSrt == null) {
+						// line that translate
 						rightSrt = new Srt(leftSrt, fromLang, toLang,
 								leftSrt.getCharset(), parent);
 						if (!merge) {

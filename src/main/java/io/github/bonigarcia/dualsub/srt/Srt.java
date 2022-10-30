@@ -38,7 +38,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import io.github.bonigarcia.dualsub.gui.DualSub;
-import io.github.bonigarcia.dualsub.translate.Translator;
+import io.github.bonigarcia.dualsub.translate.TranslatorFree;
 import io.github.bonigarcia.dualsub.util.Charset;
 
 /**
@@ -55,12 +55,14 @@ public class Srt {
 	private String fileName;
 	private String charset;
 
+	// Read a srt file.
 	public Srt(String fileName) throws IOException {
 		this.fileName = fileName;
 		this.subtitles = new TreeMap<String, Entry>();
 		this.readSrt(fileName);
 	}
 
+	// Translate srt.
 	public Srt(Srt inputSrt, String fromLang, String toLang, String charset,
 			DualSub parent) throws IOException {
 		this.subtitles = new TreeMap<String, Entry>();
@@ -86,7 +88,7 @@ public class Srt {
 			properties.load(reader);
 		}
 
-		Translator.getInstance().setPreferences(preferences);
+		TranslatorFree.getInstance().setPreferences(preferences);
 
 		List<String> inputLines = new ArrayList<String>();
 
@@ -115,8 +117,8 @@ public class Srt {
 
 			log.trace("Round {}/{} ... from {} to {}", i + 1, rounds, fromIndex,
 					toIndex);
-
-			List<String> roundTranslation = Translator.getInstance().translate(
+			// Translate
+			List<String> roundTranslation = TranslatorFree.getInstance().translate(
 					inputLines.subList(fromIndex, toIndex), fromLang, toLang);
 
 			log.trace("Adding {} translation to result",

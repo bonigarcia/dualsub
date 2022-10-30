@@ -43,6 +43,12 @@ public class Validator {
 		}
 	}
 
+	public static void validateSrt(File[] files, JList<File> list) {
+		for (File file: files){
+			validateSrt(file, list);
+		}
+	}
+
 	public static void deleteSelected(JList<File> list) {
 		int[] selected = isSelected(list);
 		if (selected.length > 0) {

@@ -259,10 +259,11 @@ public class DualSub {
 		new ColorButtons(cursor, frame, leftSubtitles, rightSubtitles);
 
 		// Merge Button
+		// Button that traslate
 		mergeButton = new JButton(I18N.getHtmlText("Window.mergeButton.text"));
 		mergeButtonListener = new MergeButtonListener(this);
 		mergeButton.addActionListener(mergeButtonListener);
-		mergeButton.setBounds(308, 80, 95, 29);
+		mergeButton.setBounds(308, 80, 95, 40);
 		mergeButton.setCursor(cursor);
 		frame.getContentPane().add(mergeButton);
 

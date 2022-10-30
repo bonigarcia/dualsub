@@ -51,6 +51,7 @@ public class Translator {
 		return singleton;
 	}
 
+	// Translate
 	public String translate(String text, String languageFrom,
 			String languageTo) {
 		Translation translation = translate.translate(text,
@@ -90,6 +91,7 @@ public class Translator {
 		if (key != null && !key.equals("")) {
 			translate = TranslateOptions.newBuilder().setApiKey(key).build()
 					.getService();
+			log.info("API key : " + key);
 		} else {
 			// This should not happen (GUI forces the user to insert a key,
 			// otherwise translation is not allowed)

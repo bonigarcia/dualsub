@@ -53,7 +53,7 @@ public class TranslateMessages {
 			Language.SPANISH, Language.FRENCH, Language.FINNISH, Language.GREEK,
 			Language.HINDI, Language.ICELANDIC, Language.ITALIAN,
 			Language.JAPANESE, Language.NORWEGIAN, Language.PORTUGUESE,
-			Language.RUSSIAN, Language.SWEDISH };
+			Language.RUSSIAN, Language.SWEDISH, Language.QUECHUA };
 
 	public static void main(String[] args) throws IOException {
 		Translator translate = Translator.getInstance();

@@ -69,6 +69,7 @@ public class Language {
 	public static final String PERSIAN = "fa";
 	public static final String POLISH = "pl";
 	public static final String PORTUGUESE = "pt";
+	public static final String QUECHUA = "qu";
 	public static final String ROMANIAN = "ro";
 	public static final String RUSSIAN = "ru";
 	public static final String SERBIAN = "sr";
