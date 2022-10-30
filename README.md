@@ -31,6 +31,12 @@ Downloads
 
 Binary releases for Windows, Linux, and Mac OS X are available on [GitHub Releases].
 
+To convert in command line
+--------------------------
+Two main classes:
+All parameters and properties are taken from DualSub.java
+Worker.java is the entrypoint (it is necessary to adapt it), it takes the parameters from DualSub.java
+
 About
 -----
 
