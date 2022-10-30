@@ -47,6 +47,7 @@ public class AddFileListener implements ActionListener {
 	public void actionPerformed(ActionEvent arg0) {
 		JFileChooser fileChooser = new JFileChooser();
 		fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+		fileChooser.setMultiSelectionEnabled(true);
 
 		fileChooser.setFileFilter(new FileFilter() {
 			public boolean accept(File f) {
@@ -59,6 +60,6 @@ public class AddFileListener implements ActionListener {
 			}
 		});
 		fileChooser.showOpenDialog(frame);
-		Validator.validateSrt(fileChooser.getSelectedFile(), list);
+		Validator.validateSrt(fileChooser.getSelectedFiles(), list);
 	}
 }
